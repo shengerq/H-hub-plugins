@@ -19,3 +19,11 @@ foreach ($taskEntry in $taskIndex.plugins) {
     Write-Output "PASS $($taskEntry.id) $($taskEntry.version) $taskActualHash"
 }
 Write-Output "校验通过：$(@($taskIndex.plugins).Count) 个插件。未进行设备测试。"
+$taskCompiler = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
+$taskExecutable = Join-Path ([IO.Path]::GetTempPath()) ('Hhub.Contract-' + [Guid]::NewGuid().ToString('N') + '.exe')
+try {
+    & $taskCompiler /nologo /target:exe ("/out:" + $taskExecutable) /reference:System.Web.Extensions.dll (Join-Path $PSScriptRoot 'PluginContract.cs')
+    if ($LASTEXITCODE -ne 0) { throw '契约检查器编译失败' }
+    & $taskExecutable (Join-Path $taskRepositoryRoot 'index.json')
+    if ($LASTEXITCODE -ne 0) { throw '设备匹配或验证编码检查失败' }
+} finally { if (Test-Path -LiteralPath $taskExecutable) { Remove-Item -LiteralPath $taskExecutable } }

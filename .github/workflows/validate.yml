@@ -1,0 +1,12 @@
+name: Validate plugin catalog
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate package hashes, identity and device contracts
+        shell: pwsh
+        run: ./scripts/verify-index.ps1
