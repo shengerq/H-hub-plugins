@@ -31,6 +31,6 @@ foreach ($entry in $taskIndex.plugins) {
     $taskSums += "$($entry.sha256)  $($entry.packageUrl)"
 }
 # Preserve records for audit; records tied to old hashes no longer confer verification.
-[IO.File]::WriteAllText((Join-Path $taskRoot 'index.json'), ($taskIndex | ConvertTo-Json -Depth 32) + "`n", [Text.UTF8Encoding]::new($false))
+[IO.File]::WriteAllText((Join-Path $taskRoot 'index.json'), ($taskIndex | ConvertTo-Json -Depth 32).Replace("`r`n", "`n") + "`n", [Text.UTF8Encoding]::new($false))
 [IO.File]::WriteAllText((Join-Path $taskRoot 'SHA256SUMS.txt'), ($taskSums -join "`n") + "`n", [Text.UTF8Encoding]::new($false))
 & (Join-Path $PSScriptRoot 'verify-index.ps1')
