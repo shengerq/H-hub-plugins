@@ -63,3 +63,5 @@
 组件仅在确认安装后解包，不保存在 UI 的常驻状态里；卸载插件时清理其文件。EQ 界面与宿主一起升级，插件负责可选功能与驱动组件。
 
 驱动保持原始 INF、SYS 和微软签名目录文件，安装程序校验签名后安装。驱动源代码与许可见 [FxSound driver](https://github.com/fxsound2/fxsound-driver)；包内保留 AGPL 与 Microsoft Limited Public License 文本。Hhub 安装包装及本次宿主实现源码见 [资料源码](./资料源码/)。
+
+需要单独安装音频驱动时，可使用[独立驱动安装程序](./驱动/)。
