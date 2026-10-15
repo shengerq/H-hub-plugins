@@ -4,4 +4,4 @@
 
 | 型号 | 协议 | 包 |
 | --- | --- | --- |
-| Fater MCR-9000B [04D9-A09F] | Fater | [下载](./Fater MCR-9000B__Fater__04D9-A09F__0.1.1.hhub) |
+| Fater MCR-9000B [04D9-A09F] | Fater | [下载](./Fater%20MCR-9000B__Fater__04D9-A09F__0.1.1.hhub) |

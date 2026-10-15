@@ -4,5 +4,5 @@
 
 | 型号 | 协议 | 包 |
 | --- | --- | --- |
-| K-snake X11 [A8A4-2255] | Ksnake | [下载](./K-snake X11__Ksnake__A8A4-2255__0.1.1.hhub) |
-| K-snake X11 [A8A5-2255] | Ksnake | [下载](./K-snake X11__Ksnake__A8A5-2255__0.1.1.hhub) |
+| K-snake X11 [A8A4-2255] | Ksnake | [下载](./K-snake%20X11__Ksnake__A8A4-2255__0.1.1.hhub) |
+| K-snake X11 [A8A5-2255] | Ksnake | [下载](./K-snake%20X11__Ksnake__A8A5-2255__0.1.1.hhub) |

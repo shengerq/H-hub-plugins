@@ -4,7 +4,7 @@
 
 | 型号 | 协议 | 包 |
 | --- | --- | --- |
-| MCHOSE A5 Pro Max [2023-F019] | MchoseA5ProMax | [下载](./MCHOSE A5 Pro Max__MchoseA5ProMax__2023-F019__0.1.1.hhub) |
-| MCHOSE A5 Pro Max (1K receiver) [2023-F013] | MchoseA5ProMax | [下载](./MCHOSE A5 Pro Max (1K receiver)__MchoseA5ProMax__2023-F013__0.1.1.hhub) |
-| MCHOSE A5 Pro Max (4K receiver) [2023-F015] | MchoseA5ProMax | [下载](./MCHOSE A5 Pro Max (4K receiver)__MchoseA5ProMax__2023-F015__0.1.1.hhub) |
-| MCHOSE A7 V2 Ultra+ Receiver [3837-100B] | Mchose | [下载](./MCHOSE A7 V2 Ultra+ Receiver__Mchose__3837-100B__0.1.1.hhub) |
+| MCHOSE A5 Pro Max [2023-F019] | MchoseA5ProMax | [下载](./MCHOSE%20A5%20Pro%20Max__MchoseA5ProMax__2023-F019__0.1.1.hhub) |
+| MCHOSE A5 Pro Max (1K receiver) [2023-F013] | MchoseA5ProMax | [下载](./MCHOSE%20A5%20Pro%20Max%20%281K%20receiver%29__MchoseA5ProMax__2023-F013__0.1.1.hhub) |
+| MCHOSE A5 Pro Max (4K receiver) [2023-F015] | MchoseA5ProMax | [下载](./MCHOSE%20A5%20Pro%20Max%20%284K%20receiver%29__MchoseA5ProMax__2023-F015__0.1.1.hhub) |
+| MCHOSE A7 V2 Ultra+ Receiver [3837-100B] | Mchose | [下载](./MCHOSE%20A7%20V2%20Ultra%2B%20Receiver__Mchose__3837-100B__0.1.1.hhub) |

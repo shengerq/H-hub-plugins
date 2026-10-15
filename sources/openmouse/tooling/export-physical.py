@@ -2,6 +2,7 @@
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 import argparse, hashlib, json, shutil
+from urllib.parse import quote
 parser=argparse.ArgumentParser();parser.add_argument('repository',type=Path);args=parser.parse_args()
 root=Path(__file__).resolve().parents[1];repo=args.repository.resolve()
 def load(p):return json.loads(p.read_text(encoding='utf-8-sig'))
@@ -37,7 +38,7 @@ if not (source/'upstream/mouse-protocol/LICENSE').exists():shutil.copytree(root/
 mouse=repo/'catalog/peripherals/mouse';rows=[]
 for brand,items in sorted(by_brand.items()):
  lines=[f'# {brand} 鼠标协议包','','本文件夹直接存放正式 `.hhub` 协议包。全部未实机验证，固件未知；包含不同连接方式和接收器，不等于已验收型号数。','','| 型号 | 协议 | 包 |','| --- | --- | --- |']
- for e in items:lines.append(f"| {e['name']} | {e['protocol']} | [下载](./{Path(e['packageUrl']).name}) |")
+ for e in items:lines.append(f"| {e['name']} | {e['protocol']} | [下载](./{quote(Path(e['packageUrl']).name)}) |")
  write(mouse/brand/'README.md','\n'.join(lines)+'\n');rows.append(f'| [{brand}](./{brand}/) | {len(items)} | 未实机验证 |')
 count=len(reserve['plugins']);brands=len(by_brand)
 write(mouse/'README.md','\n'.join(['# 鼠标插件 · 品牌目录','',f'{count} 个真实设备协议包，{brands} 个品牌。按品牌建立真实文件夹；文件名为“鼠标型号__协议__VID-PID__版本.hhub”。原有雷柏插件保留原位置。','','**实机验证：没有。** 型号依据来自上游源码；未知型号和缺乏依据的 VID/PID 组合不生成包，详见[缺口清单](../../../sources/openmouse/reports/inventory.json)。','','| 品牌 | 包数 | 验证 |','| --- | ---: | --- |',*rows,'','[完整储备 ZIP](../../../downloads/OpenMouse-Physical-Plugins-0.1.1.zip) · [功能与验证说明](../../../docs/OpenMouse储备包.md)','']))
@@ -77,7 +78,8 @@ with ZipFile(archive,'w',ZIP_DEFLATED,compresslevel=6) as z:
  z.writestr('index.json',json.dumps({**feed,'plugins':reserve['plugins']},ensure_ascii=False,indent=2))
  for p in source.rglob('*'):
   if p.is_file():z.write(p,p.relative_to(repo))
- z.write(repo/'docs/OpenMouse储备包.md','README.md')
+ for p in mouse.glob('*/README.md'):z.write(p,p.relative_to(repo))
+ z.writestr('README.md',doc.replace('../catalog/','./catalog/').replace('../sources/','./sources/').replace('../downloads/OpenMouse-Physical-Plugins-0.1.1.zip','https://github.com/shengerq/H-hub-plugins/blob/main/downloads/OpenMouse-Physical-Plugins-0.1.1.zip'))
 write(Path(str(archive)+'.sha256'),hashlib.sha256(archive.read_bytes()).hexdigest()+'  '+archive.name+'\n')
 for name,digest in original.items():assert hashlib.sha256((repo/name).read_bytes()).hexdigest()==digest
 print(json.dumps({'physicalPackages':count,'brands':brands,'unchangedOriginals':len(original),'archiveBytes':archive.stat().st_size}))

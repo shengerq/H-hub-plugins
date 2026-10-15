@@ -4,5 +4,5 @@
 
 | 型号 | 协议 | 包 |
 | --- | --- | --- |
-| Zaunkoenig M3K [0483-A462] | Zaunkoenig | [下载](./Zaunkoenig M3K__Zaunkoenig__0483-A462__0.1.1.hhub) |
-| Zaunkoenig M2K [0483-A3CF] | Zaunkoenig | [下载](./Zaunkoenig M2K__Zaunkoenig__0483-A3CF__0.1.1.hhub) |
+| Zaunkoenig M3K [0483-A462] | Zaunkoenig | [下载](./Zaunkoenig%20M3K__Zaunkoenig__0483-A462__0.1.1.hhub) |
+| Zaunkoenig M2K [0483-A3CF] | Zaunkoenig | [下载](./Zaunkoenig%20M2K__Zaunkoenig__0483-A3CF__0.1.1.hhub) |

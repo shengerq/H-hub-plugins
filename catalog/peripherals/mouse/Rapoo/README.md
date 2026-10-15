@@ -4,5 +4,5 @@
 
 | 型号 | 协议 | 包 |
 | --- | --- | --- |
-| Rapoo VT9 Pro Receiver [24AE-1205] | Rapoo | [下载](./Rapoo VT9 Pro Receiver__Rapoo__24AE-1205__0.1.1.hhub) |
-| Rapoo VT9 Pro Wired [24AE-4405] | Rapoo | [下载](./Rapoo VT9 Pro Wired__Rapoo__24AE-4405__0.1.1.hhub) |
+| Rapoo VT9 Pro Receiver [24AE-1205] | Rapoo | [下载](./Rapoo%20VT9%20Pro%20Receiver__Rapoo__24AE-1205__0.1.1.hhub) |
+| Rapoo VT9 Pro Wired [24AE-4405] | Rapoo | [下载](./Rapoo%20VT9%20Pro%20Wired__Rapoo__24AE-4405__0.1.1.hhub) |

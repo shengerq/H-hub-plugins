@@ -1,6 +1,7 @@
 from pathlib import Path
 from zipfile import ZipFile
 import hashlib,json,re
+from urllib.parse import unquote
 root=Path(__file__).resolve().parents[1]
 if not (root/'index.json').exists():root=Path(__file__).resolve().parents[3]
 def load(p):return json.loads(p.read_text(encoding='utf-8-sig'))
@@ -20,7 +21,7 @@ for r in inventory['packages']:
  m=load(p);assert m['validation']['hardwareVerified'] is False
  assert m['compatibility']['firmwareVersions']==[]
  assert 'hhubVirtualBridge' not in m['ui']['content']
- assert p.name in (p.parent/'README.md').read_text(encoding='utf-8')
+ assert p.name in unquote((p.parent/'README.md').read_text(encoding='utf-8'))
 archive=root/'downloads/OpenMouse-Physical-Plugins-0.1.1.zip'
 assert hashlib.sha256(archive.read_bytes()).hexdigest()==Path(str(archive)+'.sha256').read_text().split()[0]
 with ZipFile(archive) as z:
