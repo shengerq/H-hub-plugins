@@ -6,6 +6,8 @@ const dest=path.join(root,'reports/introspection.mjs');
 await build({...options, stdin:{contents:`export * from ${JSON.stringify(upstream+'/src/drivers/registry.ts')}; export * from ${JSON.stringify(upstream+'/src/drivers/vendors.ts')};`,resolveDir:upstream,loader:'ts'},format:'esm',platform:'node',outfile:dest});
 const lib=await import('file:///'+dest.replaceAll('\\','/'));
 const filters=lib.SUPPORTED_HID_FILTERS;
+// A concrete receiver identity documented by upstream's captured MCHOSE A7 V2 tests.
+filters.push({vendorId:0x3837,productId:0x100b,usagePage:0xff01,usage:1});
 const finite=filters.filter(f=>Number.isInteger(f.vendorId)&&Number.isInteger(f.productId));
 const pages=[0xff00,0xff01,0xff02,0xff03,0xff04,0xff05,0xff0a,0xffff,0xffc1,0xff60,0x8c,0x01,0x0c];
 const groups=new Map();

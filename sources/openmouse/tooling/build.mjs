@@ -44,22 +44,33 @@ for(const d of candidates.devices){
  // A single concrete USB identity may resolve to multiple drivers. Do not silently choose one.
  const drivers=[...new Set(d.matches.map(m=>m.driverIndex))];
  if(drivers.length!==1){skipped.push({key:d.key,reason:'同一 VID/PID 存在多个驱动，需要补充实机接口信息',drivers});continue;}
- const idx=drivers[0], id='hhub.openmouse.'+d.key, version='0.1.0';
+ const idx=drivers[0], id='hhub.openmouse.'+d.key, version='0.1.1';
  if(/Keyboard|Wooting|Nape|DockHidClient|Ak820/.test(driverEntries[idx])){skipped.push({key:d.key,reason:'键盘、轨迹球或独立灯效底座，本批鼠标包不纳入',driverIndex:idx});continue;}
  const hardwareId='USB\\VID_'+d.key.slice(0,4).toUpperCase()+'&PID_'+d.key.slice(5).toUpperCase();
  const slug=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
  const label=labels.find(l=>l.productId===d.productId&&(l.vendorId===undefined||l.vendorId===d.vendorId)&&slug(l.namespace)===slug(d.brand));
  const labelText=label?(label.name.toLowerCase().startsWith(d.brand.toLowerCase())?label.name:d.brand+' '+label.name):d.name;
- const baseName=(labelText||d.brand+' HID').replace(new RegExp(' HID '+d.key+'$','i'),' HID');
+ let baseName=(labelText||d.brand+' HID').replace(new RegExp(' HID '+d.key+'$','i'),' HID');
+ const explicit={'3837-100b':'MCHOSE A7 V2 Ultra+ Receiver','24ae-1205':'Rapoo VT9 Pro Receiver','24ae-4405':'Rapoo VT9 Pro Wired','04f3-026e':'Ryunix KYU Pro MX1 Wired','04f3-026f':'Ryunix KYU Pro MX1 Receiver','1532-00e5':'Razer Viper V4 Pro','1532-00e6':'Razer Viper V4 Pro'};
+ if(explicit[d.key])baseName=explicit[d.key];
+ // Shared receivers and unknown model labels remain documented gaps, never fabricated products.
+ if(!label&&!explicit[d.key]&&/HID/i.test(baseName)){skipped.push({key:d.key,brand:d.brand,reason:'没有可确认的具体型号，未生成成品包'});continue;}
+ if(d.brand==='Glorious'&&/GloriousClassicHidClient/.test(driverEntries[idx])){
+  const allowed=d.vendorId===0x22d4?[0x1503]:d.vendorId===0x320f?[0x823a,0x821a,0x831a]:d.vendorId===0x3794?[0xa312,0xa300]:d.vendorId===0x258a?null:[];
+  if(allowed?!allowed.includes(d.productId):[0x1503,0x823a,0x821a,0x831a,0xa312,0xa300].includes(d.productId)){skipped.push({key:d.key,brand:d.brand,reason:'上游宽泛过滤器组合，缺少该 VID/PID 的型号依据'});continue;}
+ }
+ const protocol=driverEntries[idx].match(/create:.*?new (\w+)/)?.[1].replace(/HidClient$|Client$/,'')||'Unknown';
  const deviceName=baseName+' ['+d.key.toUpperCase()+']';
- const cfg={name:deviceName,brand:d.brand,vendorId:d.vendorId,productId:d.productId,version,hardwareId,commit,stripNumberedFeatureId:/VaxeeHidClient/.test(driverEntries[idx])};
+ const cfg={name:deviceName,protocol,brand:d.brand,vendorId:d.vendorId,productId:d.productId,version,hardwareId,commit,stripNumberedFeatureId:/VaxeeHidClient/.test(driverEntries[idx])};
  const compatibility={version:1,scope:'device',deviceName,hardwareId,firmwareVersions:[],mobileUi:false};
  const ids=Array.from({length:256},(_,i)=>i);
  const pages=[...new Set(d.matches.map(m=>m.usagePage))];
  const targets=pages.map(usagePage=>({vendorIds:[d.vendorId],productIds:[d.productId],usagePages:[usagePage],usages:[...new Set(d.matches.filter(m=>m.usagePage===usagePage).map(m=>m.usage))],inputReportIds:ids,outputReportIds:ids,featureReportIds:ids,maxPayload:4096}));
  const html=template(cfg,bundles.get(idx));
  const manifest={schemaVersion:1,id,name:deviceName,deviceName,author:'H hub',version,apiVersion:'1.0',kind:'mouse',group:'peripheral',category:'mouse',description:`${d.brand} HID ${d.key.toUpperCase()}：OpenMouse 协议储备包，雷柏风格页面；DPI、回报率及标准传感器开关按驱动能力开放。未实机验证；固件未知。`,permissions:['离线插件页面','USB HID 配置'],requiredHost:{id:'hhub',apiVersion:'1.0',execution:'host-only',standalone:false,features:['pluginHidV2']},updateUrl:'',ui:{type:'offline-html',role:'device',content:html},hidTargets:[],hidV2Targets:targets,compatibility,validation:{hardwareVerified:false,hostImportVerified:false,mobileUiVerified:false,firmwareVerified:false,status:'未实机验证',upstreamRecognitionOnly:true},implementation:{type:'openmouse-native-hid-v2',driverIndex:idx,settings:['dpi','pollingRate','motionSync','angleSnapping','rippleControl'],notes:'按驱动实际能力开放通用控件。专用改键、宏、RGB、配对与固件更新未接入。Report ID 权限还受宿主实际 HID 描述符约束。隐式 Feature Report 和多接口形态可能需要进一步宿主适配。'},sources:[{name:'OpenMouse mouse-protocol',url:'https://github.com/OpenMouse-Project/mouse-protocol',commit,license:'AGPL-3.0-or-later'},{name:'H hub Rapoo VT3S MAX page style',package:'Hhub-Rapoo-VT3S-MAX-0.5.2.hhub'}],license:'AGPL-3.0-or-later',licenseText:license,modificationNotice:'H hub adapter and generic Rapoo-style control page added 2026-10-15. Upstream device-protocol sources preserved in the reserve source snapshot.'};
- const filename='Hhub-OpenMouse-'+d.key.toUpperCase()+'-'+version+'.hhub';
+ const clean=s=>s.replace(/[<>:\\/?*|"\x00-\x1f]/g,'-').replace(/\s+/g,' ').trim();
+ const filename=clean(d.brand)+'/'+clean(baseName)+'__'+protocol+'__'+d.key.toUpperCase()+'__'+version+'.hhub';
+ fs.mkdirSync(path.dirname(path.join(out,filename)),{recursive:true});
  const data=JSON.stringify(manifest,null,2)+'\n';
  if(Buffer.byteLength(data)>8*1024*1024)throw Error('Package too large: '+filename);
  write(path.join(out,filename),data);
@@ -68,7 +79,7 @@ for(const d of candidates.devices){
  const canonical=pack(['hhub-contract/1','device',deviceName,hardwareId,'false']);
  entry.identityCode='HHUB1-'+hash(pack([id,'H hub',version,entry.sha256,canonical]));
  plugins.push(entry);
- summary.push({id,name:deviceName,brand:d.brand,hardwareId,package:filename,bytes:Buffer.byteLength(data),driverIndex:idx,hardwareVerified:false,firmwareVersions:[],methods:d.matches[0].methods});
+ summary.push({id,name:deviceName,brand:d.brand,protocol,hardwareId,package:filename,bytes:Buffer.byteLength(data),driverIndex:idx,hardwareVerified:false,firmwareVersions:[],methods:d.matches[0].methods});
  if(!previewed.has(d.brand)){write(path.join(root,'preview',d.brand.replace(/[^a-z0-9]/gi,'-')+'.html'),html);previewed.add(d.brand);}
 }
 write(path.join(out,'index.json'),{schemaVersion:1,name:'H hub OpenMouse 储备库（未实机验证）',plugins,verificationRecords:[],upstreamCommit:commit});

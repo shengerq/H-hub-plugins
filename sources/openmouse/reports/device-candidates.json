@@ -1,6 +1,6 @@
 {
-  "filterCount": 502,
-  "finiteFilterCount": 476,
+  "filterCount": 503,
+  "finiteFilterCount": 477,
   "driverCount": 82,
   "devices": [
     {
@@ -728198,6 +728198,69 @@
       ],
       "name": "AJAZZ HID 1a2c-9605",
       "brand": "AJAZZ"
+    },
+    {
+      "key": "3837-100b",
+      "vendorId": 14391,
+      "productId": 4107,
+      "matches": [
+        {
+          "driverIndex": 70,
+          "brand": "MCHOSE",
+          "usagePage": 65281,
+          "usage": 1,
+          "descriptorLength": 64,
+          "methods": [
+            "constructor",
+            "open",
+            "close",
+            "startNotifications",
+            "displayName",
+            "isWireless",
+            "isWired",
+            "request",
+            "nonZero",
+            "readConfigPayload",
+            "updateConfig",
+            "linkRates",
+            "readStatus",
+            "getDpiOptions",
+            "setPollingRate",
+            "setActiveDpiStage",
+            "setDpiStageValue",
+            "setProfile",
+            "writePerformance",
+            "currentLiftOffIndex",
+            "setLiftOffDistance",
+            "setMotionSync",
+            "setAngleSnapping",
+            "setRippleControl",
+            "getPowerModes",
+            "setPowerMode",
+            "setAngleTuning",
+            "setDpiStageCount",
+            "readProfileNames",
+            "labelMacros",
+            "getButtonOptions",
+            "setButtonMapping",
+            "getSleepOptions",
+            "getDebounceMaxMs",
+            "setSleepTimeout",
+            "setDebounceTime",
+            "setDpi"
+          ]
+        }
+      ],
+      "filters": [
+        {
+          "vendorId": 14391,
+          "productId": 4107,
+          "usagePage": 65281,
+          "usage": 1
+        }
+      ],
+      "name": "MCHOSE",
+      "brand": "MCHOSE"
     }
   ],
   "unmatched": [

@@ -1,4 +1,4 @@
-param()
+﻿param()
 $ErrorActionPreference = 'Stop'
 $taskRoot = Split-Path $PSScriptRoot
 $taskIndex = Get-Content (Join-Path $taskRoot 'index.json') -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -13,7 +13,7 @@ function Hash-Text([string]$value) {
 }
 $taskSums = @()
 foreach ($entry in $taskIndex.plugins) {
-    if ($entry.packageUrl -notmatch '^[^/\\:]+\.hhub$') { throw '包路径必须是根目录 .hhub 文件' }
+    if ($entry.packageUrl -notmatch '^(?!.*(?:^|/)\.\.?/)(?:[^/\\:%?#]+/)*[^/\\:%?#]+\.hhub$') { throw '包路径必须是安全的相对 .hhub 路径' }
     $path = Join-Path $taskRoot $entry.packageUrl
     $package = Get-Content $path -Raw -Encoding UTF8 | ConvertFrom-Json
     foreach ($key in @('id','name','author','version','compatibility')) {

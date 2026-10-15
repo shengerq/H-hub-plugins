@@ -73,6 +73,36 @@
   },
   {
     "namespace": "asus",
+    "productId": 6789,
+    "name": "ROG Azoth"
+  },
+  {
+    "namespace": "asus",
+    "productId": 6978,
+    "name": "ROG Azoth Extreme"
+  },
+  {
+    "namespace": "asus",
+    "productId": 7409,
+    "name": "ROG Azoth Extreme SE"
+  },
+  {
+    "namespace": "asus",
+    "productId": 6832,
+    "name": "ROG Strix Scope II 96 Wireless"
+  },
+  {
+    "namespace": "asus",
+    "productId": 7034,
+    "name": "ROG Strix Scope II 96 RX Wireless"
+  },
+  {
+    "namespace": "asus",
+    "productId": 6918,
+    "name": "ROG Falchion RX Low Profile"
+  },
+  {
+    "namespace": "asus",
     "productId": 6213,
     "name": "ROG Gladius II",
     "verified": true
@@ -124,9 +154,24 @@
     "name": "ATK ZERO"
   },
   {
+    "namespace": "coolermaster",
+    "productId": 257,
+    "name": "Cooler Master MM711"
+  },
+  {
     "namespace": "corsair",
     "productId": 6988,
     "name": "IRONCLAW RGB WIRELESS"
+  },
+  {
+    "namespace": "corsair",
+    "productId": 7014,
+    "name": "IRONCLAW RGB WIRELESS receiver"
+  },
+  {
+    "namespace": "corsair",
+    "productId": 7132,
+    "name": "SLIPSTREAM WIRELESS USB Receiver"
   },
   {
     "namespace": "corsair",
@@ -144,6 +189,21 @@
     "productId": 4372,
     "name": "TM265Dongle",
     "verified": true
+  },
+  {
+    "namespace": "delux",
+    "productId": 64096,
+    "name": "Delux M800 Mini (Wireless)"
+  },
+  {
+    "namespace": "delux",
+    "productId": 64085,
+    "name": "Delux M800 Mini (Wired)"
+  },
+  {
+    "namespace": "delux",
+    "productId": 64113,
+    "name": "Delux M600 Pro (Wired)"
   },
   {
     "namespace": "drivers",
@@ -456,6 +516,11 @@
     "name": "WG14P Yari Pro Wireless 8K Gaming Mouse"
   },
   {
+    "namespace": "fater",
+    "productId": 41119,
+    "name": "Fater MCR-9000B"
+  },
+  {
     "namespace": "gearhub",
     "productId": 2285,
     "name": "M5 Pro"
@@ -479,6 +544,26 @@
     "namespace": "glorious-core2",
     "productId": 8246,
     "name": "Model D2 Pro 4K/8K Wireless receiver"
+  },
+  {
+    "namespace": "hyperx",
+    "productId": 1,
+    "name": "Wireless"
+  },
+  {
+    "namespace": "hyperx",
+    "productId": 2,
+    "name": "Wired"
+  },
+  {
+    "namespace": "hyperx",
+    "productId": 1,
+    "name": "Low"
+  },
+  {
+    "namespace": "hyperx",
+    "productId": 2,
+    "name": "High"
   },
   {
     "namespace": "incott",
@@ -829,6 +914,46 @@
     "namespace": "keychron",
     "productId": 53289,
     "name": "Keychron Link-KM Type C"
+  },
+  {
+    "namespace": "keychron",
+    "productId": 53284,
+    "name": "CANDYSIGN Link"
+  },
+  {
+    "namespace": "keychron",
+    "productId": 53286,
+    "name": "Keychron Link-KM"
+  },
+  {
+    "namespace": "keychron",
+    "productId": 53287,
+    "name": "Keychron Receiver"
+  },
+  {
+    "namespace": "keychron",
+    "productId": 53288,
+    "name": "Keychron Ultra-Link 8K"
+  },
+  {
+    "namespace": "keychron",
+    "productId": 53289,
+    "name": "Keychron Link-KM Type C"
+  },
+  {
+    "namespace": "keychron",
+    "productId": 53296,
+    "name": "Keychron Link Type A"
+  },
+  {
+    "namespace": "keychron",
+    "productId": 53297,
+    "name": "Keychron Link Type C"
+  },
+  {
+    "namespace": "keychron",
+    "productId": 53338,
+    "name": "Keychron TurboLink 8K"
   },
   {
     "namespace": "ksnake",
@@ -3123,5 +3248,371 @@
     "namespace": "vendors",
     "productId": 43142,
     "name": "Beast Mini"
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22040,
+    "name": "HTX Ultra",
+    "verified": true
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 14420,
+    "name": "HTX Ultra",
+    "verified": true
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 21017,
+    "name": "HTS Plus Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 21528,
+    "name": "HTS Plus",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 18200,
+    "name": "Lycan",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 18201,
+    "name": "Lycan",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22041,
+    "name": "HTX Ultra",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 21529,
+    "name": "HTS Plus",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 13849,
+    "name": "Fenrir Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 10009,
+    "name": "HTX Mini",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 16921,
+    "name": "WARG",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 9753,
+    "name": "HTX Mini Asym",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 13593,
+    "name": "Fenrir Asym",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 14344,
+    "name": "HTM Plus",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 14359,
+    "name": "HTM Plus",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 26632,
+    "name": "HSK Pro 2.0",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 26647,
+    "name": "HSK Pro 2.0",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22024,
+    "name": "HTXU",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22039,
+    "name": "HTXU",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 13832,
+    "name": "Fenrir Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 13847,
+    "name": "Fenrir Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 14600,
+    "name": "VUK",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 14615,
+    "name": "VUK",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 30980,
+    "name": "HT-S2",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 30995,
+    "name": "HT-S2",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 14088,
+    "name": "Fenir Max",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 14103,
+    "name": "Fenir Max",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 21256,
+    "name": "HTS Ultra",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 21271,
+    "name": "HTS Ultra",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 30468,
+    "name": "HTR",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 30483,
+    "name": "HTR",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 13576,
+    "name": "Fenrir",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 13591,
+    "name": "Fenrir",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 30984,
+    "name": "HT-S2 Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 30999,
+    "name": "HT-S2 Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22536,
+    "name": "HSK Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22551,
+    "name": "HSK Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 9992,
+    "name": "HTX Mini",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 10007,
+    "name": "HTX Mini",
+    "verified": true
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 29188,
+    "name": "HSK Lite",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 29187,
+    "name": "HSK Lite",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22535,
+    "name": "HSK Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 21511,
+    "name": "HTS Plus",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22279,
+    "name": "HTX",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22791,
+    "name": "HSK Plus",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 21512,
+    "name": "HTS Plus",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 21527,
+    "name": "HTS Plus",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22280,
+    "name": "HTX",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22295,
+    "name": "HTX",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22792,
+    "name": "HSK Plus",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22807,
+    "name": "HSK Plus",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 30472,
+    "name": "HTR Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 30487,
+    "name": "HTR Pro",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22532,
+    "name": "HSK Pro ACE",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22531,
+    "name": "HSK Pro ACE",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 21508,
+    "name": "HTS Plus ACE",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 21507,
+    "name": "HTS Plus ACE",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22276,
+    "name": "HTX ACE",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22275,
+    "name": "HTX ACE",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22788,
+    "name": "HSK Plus ACE",
+    "verified": false
+  },
+  {
+    "namespace": "gwolves",
+    "productId": 22787,
+    "name": "HSK Plus ACE",
+    "verified": false
   }
 ]

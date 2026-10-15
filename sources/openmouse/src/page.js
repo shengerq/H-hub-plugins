@@ -2,7 +2,7 @@ import {createTransport} from './transport.js';
 export function mount(driver) {
  const cfg=window.OPENMOUSE_PLUGIN, hid=createTransport(cfg);
  const $=id=>document.getElementById(id);
- let client=null, snapshot=null, busy=false, tab='dpi', interfaces=[];
+ let client=null, snapshot=null, busy=false, tab='dpi', interfaces=[], virtual=false;
  const texts={dpi:'DPI 设置',performance:'性能设置',advanced:'高级参数',info:'设备与来源'};
  const say=(message,error=false)=>{$('status').textContent=message;$('status').dataset.error=String(error);};
  const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -21,8 +21,8 @@ export function mount(driver) {
    $('tabs').innerHTML=Object.entries(texts).map(([id,text])=>`<button data-tab="${id}" class="${id===tab?'active':''}" aria-selected="${id===tab}">${text}</button>`).join('');
    const s=snapshot||{};
    $('connection').textContent=client?`${s.connectionType||'HID'} · ${s.name||cfg.name}`:'尚未连接设备';
-   $('page').dataset.tab=tab;
-   const source=cfg.virtual?'虚拟设备状态 · 软件模拟，不代表实机验证':s.ui?.valuesVerified===false?'驱动缓存或默认值，不能作为硬件回读证据':'来自驱动状态；本插件未实机验证';
+   $('page').dataset.tab=tab;document.querySelector('.verification').textContent=virtual?'虚拟设备 · 未实机验证':'未实机验证';
+   const source=virtual?'虚拟设备状态 · 软件模拟，不代表实机验证':s.ui?.valuesVerified===false?'驱动缓存或默认值，不能作为硬件回读证据':'来自驱动状态；本插件未实机验证';
    let html='';
    if(tab==='dpi'){
      const values=dpiOptions();
@@ -54,7 +54,7 @@ export function mount(driver) {
      say('正在发送配置…');if(action==='dpi'&&typeof client.setDpi!=='function')await client.setDpiStageValue(snapshot.activeDpiStage,value);else await client[method](value);await read();
      if(snapshot.ui?.valuesVerified===false)say('命令已发送；驱动不提供独立硬件回读，尚未验证效果。');
      else if(snapshot[key]!==value)throw Error('读取值与请求值不同，请检查设备状态。');
-     else say(cfg.virtual?'虚拟设备回读一致 · 软件模拟':'驱动返回值与请求一致；本插件仍未实机验证。');
+     else say(virtual?'虚拟设备回读一致 · 软件模拟':'驱动返回值与请求一致；本插件仍未实机验证。');
    });
  }
  $('tabs').addEventListener('click',event=>{const target=event.target.closest('[data-tab]');if(target){tab=target.dataset.tab;render();}});
@@ -63,7 +63,7 @@ export function mount(driver) {
    if(!interfaces.length)throw Error('未找到此包支持的控制接口。请核对 VID/PID、连接方式及宿主 HID v2 支持。');
    const picker=$('interface');picker.replaceChildren(...interfaces.map((d,i)=>new Option(`接口 ${i+1} · ${d.usagePage.toString(16).toUpperCase()}:${d.usage.toString(16).toUpperCase()}`,i)));
    picker.hidden=interfaces.length<2;
-   client=driver.create(interfaces[0]);try{say('正在读取设备…');await client.open?.();await read();say('已连接 · 未实机验证');}catch(error){try{await client?.close?.();}catch{}client=null;snapshot=null;throw error;}
+   virtual=interfaces[0].virtual===true;client=driver.create(interfaces[0]);try{say('正在读取设备…');await client.open?.();await read();say('已连接 · 未实机验证');}catch(error){try{await client?.close?.();}catch{}client=null;snapshot=null;throw error;}
  }));
  $('interface').addEventListener('change',()=>task(async()=>{await client?.close?.();client=driver.create(interfaces[Number($('interface').value)]);snapshot=null;try{await client.open?.();await read();say('已切换接口');}catch(error){await client?.close?.().catch(()=>{});client=null;throw error;}}));
  $('disconnect').addEventListener('click',()=>task(async()=>{try{await client?.close?.();}finally{client=null;snapshot=null;await hid.reset();say('已断开');}}));

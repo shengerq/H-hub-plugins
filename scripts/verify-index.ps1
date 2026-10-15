@@ -1,4 +1,4 @@
-param()
+﻿param()
 $ErrorActionPreference = 'Stop'
 $taskRepositoryRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $taskIndex = Get-Content -LiteralPath (Join-Path $taskRepositoryRoot 'index.json') -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -8,7 +8,7 @@ foreach ($taskEntry in $taskIndex.plugins) {
     if ([string]::IsNullOrWhiteSpace($taskEntry.group) -or [string]::IsNullOrWhiteSpace($taskEntry.category)) { throw "插件需明确填写 group 和 category：$($taskEntry.id)" }
     if ($taskSeenIds.ContainsKey($taskEntry.id)) { throw "重复插件 ID: $($taskEntry.id)" }
     $taskSeenIds[$taskEntry.id] = $true
-    if ($taskEntry.packageUrl -notmatch '^[^/\\:]+\.hhub$') { throw "当前索引需使用根目录 .hhub 文件名: $($taskEntry.packageUrl)" }
+    if ($taskEntry.packageUrl -notmatch '^(?!.*(?:^|/)\.\.?/)(?:[^/\\:%?#]+/)*[^/\\:%?#]+\.hhub$') { throw "包路径必须是安全的相对 .hhub 路径: $($taskEntry.packageUrl)" }
     $taskPackagePath = Join-Path $taskRepositoryRoot $taskEntry.packageUrl
     $taskPackage = Get-Content -LiteralPath $taskPackagePath -Raw -Encoding UTF8 | ConvertFrom-Json
     foreach ($taskField in @('id', 'name', 'author', 'version')) {

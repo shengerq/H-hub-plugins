@@ -8,6 +8,9 @@ for(const folder of fs.readdirSync(path.join(upstream,'src'),{withFileTypes:true
  for(const file of ['index.ts','devices.ts','products.ts']){const source=path.join(upstream,'src',folder.name,file);if(fs.existsSync(source))modules.push({brand:folder.name,file:source});}
 }
 modules.push({brand:'vendors',file:path.join(upstream,'src/drivers/vendors.ts')});
+for(const folder of fs.readdirSync(path.join(upstream,'src/drivers'),{withFileTypes:true}).filter(d=>d.isDirectory())){
+ const source=path.join(upstream,'src/drivers',folder.name,'products.ts');if(fs.existsSync(source))modules.push({brand:folder.name,file:source});
+}
 const dest=path.join(root,'reports/catalog-modules.mjs');
 await build({...options,stdin:{contents:modules.map((m,i)=>`export * as catalog${i} from ${JSON.stringify(m.file)};`).join('\n'),loader:'ts',resolveDir:upstream},format:'esm',platform:'node',outfile:dest,logLevel:'error'});
 const lib=await import(pathToFileURL(dest).href);
@@ -15,6 +18,7 @@ const records=[];
 for(let i=0;i<modules.length;i++){
  const module=lib['catalog'+i];const seen=new Set();
  const walk=(value,key,depth=0)=>{
+  if(typeof value==='string'&&Number.isInteger(key)&&key<=65535){records.push({namespace:modules[i].brand,productId:key,name:value});return;}
   if(depth>5||!value||typeof value!=='object'||seen.has(value))return;seen.add(value);
   const name=value.model||value.name;const pid=value.productId??value.pid??(typeof key==='number'?key:undefined);
   if(typeof name==='string'&&Number.isInteger(pid))records.push({namespace:modules[i].brand,productId:pid,vendorId:value.vendorId,name,verified:value.verified});

@@ -1,6 +1,6 @@
 # H hub 插件库
 
-用于分发 H hub 外设和应用插件。原有雷柏 VT3S MAX、开发者工具、通用 EQ、手机遥控与 Windows 设置五个条目保持原位置；新增 420 个 OpenMouse 鼠标候选包和一个虚拟鼠标体验插件，沿用统一索引与原有分类结构。
+用于分发 H hub 外设和应用插件。原有雷柏 VT3S MAX、开发者工具、通用 EQ、手机遥控与 Windows 设置五个条目保持原位置；新增 329 个 OpenMouse 真实设备协议包，按 20 个品牌建立文件夹，沿用统一索引与原有分类结构。
 
 本仓库是插件分发仓库，**不包含 H hub 主程序或完整主程序源码**。`.hhub` 文件是插件包，需通过兼容的 H hub 插件管理导入；不能当作独立 Windows 程序运行。
 
@@ -25,7 +25,7 @@
 | --- | --- | --- |
 | 配置雷柏 VT3S MAX 鼠标 | [Hhub-Rapoo-VT3S-MAX-0.5.1.hhub](./Hhub-Rapoo-VT3S-MAX-0.5.1.hhub) | 面向 2.4 GHz 接收器，包含设备设置页面 |
 | 开发外设插件 | [Hhub-Developer-Tools-0.5.1.hhub](./Hhub-Developer-Tools-0.5.1.hhub) | 鼠标、键盘、音频、手柄开发工作台 |
-| 让 H hub 同步整个插件库 | [index.json](./index.json) | 软件读取的插件清单，包文件保留在仓库根目录 |
+| 让 H hub 同步整个插件库 | [index.json](./index.json) | 软件读取的插件清单，包文件按索引中的相对路径分发 |
 | 获取用户提供的原始压缩包 | [original-packages](./original-packages/) | 保留三个原始 ZIP，方便追溯；安装时需先解压 |
 
 ## 安装方式一：导入插件包
@@ -41,7 +41,7 @@
 
 ## 安装方式二：同步 GitHub 插件库
 
-部署时将 `index.json` 和索引引用的全部 `.hhub` 文件放在同一分支的根目录；原附件按 `main` 分支组织。**不能只上传三个 ZIP**，否则软件无法按根目录索引获取插件包。
+部署时在同一分支保留根目录 `index.json` 及其引用的品牌文件夹和 `.hhub` 文件；原附件按 `main` 分支组织。**不能只上传三个 ZIP**，否则软件无法按根目录索引获取插件包。
 
 本插件库地址为 [shengerq/H-hub-plugins](https://github.com/shengerq/H-hub-plugins)。在新版 Hhub 的插件市场点击标题旁的设置按钮，进入“插件库管理”，添加地址 `shengerq/H-hub-plugins`，再同步已启用的库。也可添加 HTTPS 清单直链或本地 JSON 文件。索引直链为 [index.json](https://raw.githubusercontent.com/shengerq/H-hub-plugins/main/index.json)。
 
@@ -124,14 +124,27 @@ H-hub-plugins/
 
 Windows 设置现已作为[独立宿主功能插件](./Hhub-Windows-Settings-1.0.9.hhub)加入应用插件分类，安装后显示入口；卸载清理插件数据，保留已应用的系统设置。
 
-## OpenMouse 鼠标储备与虚拟体验
+## OpenMouse 正式鼠标协议储备
 
-在原有结构上增加 **420 个 OpenMouse VID/PID 候选包，按 26 个品牌分类**。包文件和总索引继续放在根目录，分类页位于“外设插件 → 鼠标 → 品牌”。原有插件未被替换。
+在原有“外设插件 → 鼠标”结构下建立 20 个品牌文件夹，直接存放 329 个有型号依据的正式 `.hhub` 协议包。文件名包含鼠标型号、协议实现名、VID/PID 及版本；原有五个插件保持原内容和位置。根目录保留统一索引。
 
-全部设备包明确标注 **未实机验证**，固件未知。它们是协议储备包，数量包含接收器、连接方式及识别候选组合；具体能力和验收范围见说明。
+**实机验证：没有。固件：未知。** 共享接收器和不同连接方式分别计数，不能换算为已验收型号数；没有型号依据的条目未生成成品包。
 
-- [按品牌浏览与逐包下载](./catalog/peripherals/mouse/README.md)
-- [下载完整储备 ZIP](./Hhub-OpenMouse-Reserve-0.1.0.zip) · [SHA-256](./Hhub-OpenMouse-Reserve-0.1.0.zip.sha256)
-- [安装、验证与功能范围](./docs/OpenMouse储备包.md)
+- [品牌文件夹与逐包下载](./catalog/peripherals/mouse/README.md)
+- [完整正式储备 ZIP](./downloads/OpenMouse-Physical-Plugins-0.1.1.zip) · [SHA-256](./downloads/OpenMouse-Physical-Plugins-0.1.1.zip.sha256)
+- [功能、安装与验证范围](./docs/OpenMouse储备包.md)
 - [完整对应源码与构建脚本](./sources/openmouse/README.md)
-- [虚拟鼠标体验插件](./Hhub-OpenMouse-Virtual-Lab-0.1.0.hhub)：位于“应用插件 → 实验型应用”；真实 VAXEE / MCHOSE 协议配合软件模拟设备，不访问真实鼠标。
+
+虚拟设备由 H hub 宿主提供，直接连接上述正式包。本库不再分发单独的体验插件。当前虚拟设备后端覆盖 VAXEE 和 MCHOSE 两种协议，不能代替实机验证。
+## OpenMouse 正式鼠标协议储备
+
+在原有“外设插件 → 鼠标”结构下建立 20 个品牌文件夹，直接存放 329 个有型号依据的正式 `.hhub` 协议包。文件名包含鼠标型号、协议实现名、VID/PID 及版本；原有五个插件保持原内容和位置。根目录保留统一索引。
+
+**实机验证：没有。固件：未知。** 共享接收器和不同连接方式分别计数，不能换算为已验收型号数；没有型号依据的条目未生成成品包。
+
+- [品牌文件夹与逐包下载](./catalog/peripherals/mouse/README.md)
+- [完整正式储备 ZIP](./downloads/OpenMouse-Physical-Plugins-0.1.1.zip) · [SHA-256](./downloads/OpenMouse-Physical-Plugins-0.1.1.zip.sha256)
+- [功能、安装与验证范围](./docs/OpenMouse储备包.md)
+- [完整对应源码与构建脚本](./sources/openmouse/README.md)
+
+虚拟设备由 H hub 宿主提供，直接连接上述正式包。本库不再分发单独的体验插件。当前虚拟设备后端覆盖 VAXEE 和 MCHOSE 两种协议，不能代替实机验证。

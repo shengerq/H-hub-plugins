@@ -1,0 +1,16 @@
+{
+  "hardwareVerified": false,
+  "checks": [
+    "vaxee: unchanged physical package connected through real native Core IPC",
+    "vaxee: DPI 1600 encoded by upstream driver, written and read back",
+    "vaxee: polling rate written and read back",
+    "mchose: unchanged physical package connected through real native Core IPC",
+    "mchose: DPI 1600 encoded by upstream driver, written and read back",
+    "mchose: polling rate written and read back",
+    "mchose: motionSync toggle roundtrip",
+    "mchose: angleSnapping toggle roundtrip",
+    "mchose: rippleControl toggle roundtrip",
+    "Both virtual mice visible in native H hub device inventory, explicitly nonphysical",
+    "Uninstalled plugin denied native virtual device access"
+  ]
+}

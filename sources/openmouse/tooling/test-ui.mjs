@@ -17,7 +17,7 @@ await page.addInitScript(()=>{
   const m=window.hidMock,r=message.body.request;m.calls.push(r);
   const reply=(result,error)=>queueMicrotask(()=>handlers.forEach(fn=>fn({data:{type:'hhub.hid.result',token:message.token,result,error}})));
   if(r.operation==='closeAll'||r.operation==='close')return reply({transportVersion:2});
-  if(r.operation==='enumerate')return reply({transportVersion:2,devices:[{key:'test-vaxee',vendorId:0x3057,productId:0x2002,productName:'VAXEE simulated receiver',usagePage:0xff05,usage:1,inputLength:0,outputLength:0,featureLength:64,collections:[{usagePage:0xff05,usage:1,children:[],inputReports:[],outputReports:[],featureReports:[{reportId:14,items:[]}]}]}]});
+  if(r.operation==='enumerate')return reply({transportVersion:2,devices:[{key:'test-vaxee',vendorId:0x3057,productId:0x1003,productName:'VAXEE simulated receiver',usagePage:0xff05,usage:1,inputLength:0,outputLength:0,featureLength:64,collections:[{usagePage:0xff05,usage:1,children:[],inputReports:[],outputReports:[],featureReports:[{reportId:14,items:[]}]}]}]});
   if(r.operation==='open')return reply({transportVersion:2,inputAvailable:false});
   if(r.operation==='sendFeature'){
    if(m.denyNext){m.denyNext=false;return reply(null,'测试：宿主拒绝写入');}
@@ -32,7 +32,7 @@ await page.addInitScript(()=>{
   return reply(null,'Unexpected operation: '+r.operation);
  }}};
 });
-const manifest=JSON.parse(fs.readFileSync(path.join(root,'library/Hhub-OpenMouse-3057-2002-0.1.0.hhub'),'utf8'));
+const manifest=JSON.parse(fs.readFileSync(path.join(root,'library',JSON.parse(fs.readFileSync(path.join(root,'library/index.json'),'utf8')).plugins.find(e=>e.id==='hhub.openmouse.3057-1003').packageUrl),'utf8'));
 const fixture=path.join(root,'reports/e2e-vaxee.html');fs.writeFileSync(fixture,manifest.ui.content);
 await page.goto(pathToFileURL(fixture).href);await page.waitForFunction(()=>window.hhubOpenMouse);
 assert.equal(await page.evaluate(()=>window.hidMock.calls.length),0);checks.push('打开页面不枚举或写入硬件');
@@ -44,7 +44,7 @@ assert.equal(await page.evaluate(()=>window.hidMock.dpi),1600);checks.push('DPI 
 const calls=await page.evaluate(()=>window.hidMock.calls.length);
 await page.locator('#dpi').fill('1001');await page.locator('[data-action="dpi"]').click();await page.waitForFunction(()=>document.querySelector('#status').dataset.error==='true');
 assert.equal(await page.evaluate(()=>window.hidMock.calls.length),calls);checks.push('无效 DPI 在发送前拒绝');
-await page.locator('#tabs [data-tab="performance"]').click();await page.locator('#polling').selectOption('4000');await page.locator('[data-action="polling"]').click();await page.waitForFunction(()=>window.hhubOpenMouse.snapshot?.pollingRateHz===4000&&!document.querySelector('#refresh').disabled);checks.push('回报率经过协议写入和回读');
+await page.locator('#tabs [data-tab="performance"]').click();await page.locator('#polling').selectOption('500');await page.locator('[data-action="polling"]').click();await page.waitForFunction(()=>window.hhubOpenMouse.snapshot?.pollingRateHz===500&&!document.querySelector('#refresh').disabled);checks.push('回报率经过协议写入和回读');
 await page.locator('#tabs [data-tab="dpi"]').click();await page.evaluate(()=>window.hidMock.ignoreWrites=true);await page.locator('#dpi').fill('3200');await page.locator('[data-action="dpi"]').click();await page.waitForFunction(()=>document.querySelector('#status').dataset.error==='true'&&!document.querySelector('#refresh').disabled);
 assert.match(await page.locator('#status').textContent(),/persist/);checks.push('设备忽略写入时显示失败');
 await page.evaluate(()=>window.hidMock.ignoreWrites=false);await page.locator('#refresh').click();await page.waitForFunction(()=>!document.querySelector('#refresh').disabled);

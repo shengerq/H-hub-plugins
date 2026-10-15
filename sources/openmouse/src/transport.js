@@ -2,7 +2,7 @@
 export function createTransport(config) {
   let sequence=0, queue=Promise.resolve(), cached=null;
   const pending=new Map();
-  const bridge=config.virtual ? globalThis.hhubVirtualBridge : globalThis.chrome?.webview;
+  const bridge=globalThis.chrome?.webview;
   function transact(request) {
     if(!bridge) return Promise.reject(Error('请在支持 HID v2 的 H hub 中打开此插件。'));
     const run=()=>new Promise((resolve,reject)=>{
