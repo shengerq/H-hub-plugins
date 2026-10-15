@@ -1,2 +1,5 @@
 d1d5a2e7bb54dff72c4e24d70e3eea40fefade76bfb52625f8d206bdf9d010fa  Hhub-Rapoo-VT3S-MAX-0.5.2.hhub
 a1ccaaf73511186cbfe78803f898c02423ffab628af141d25212165e95b04cb0  Hhub-Developer-Tools-0.5.2.hhub
+83f735b1bf5951f3233e2742eec11cab6577ffe540dc4da599ccdadda460c35d  Hhub-EQ-1.0.3.hhub
+ee9980a5dfdbfe6cd16d8af7fb09aeb1538c988a4f57cd7930c0f290f77b66af  Hhub-Phone-Remote-1.0.9.hhub
+c87a0619555d1f6a56d5b8813f4719e7879510eaee759750cb2261e6e4f394e8  Hhub-Windows-Settings-1.0.9.hhub

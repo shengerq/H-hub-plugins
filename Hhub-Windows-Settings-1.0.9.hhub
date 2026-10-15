@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "windows",
+  "name": "Hhub Windows 设置",
+  "author": "H hub",
+  "version": "1.0.9",
+  "apiVersion": "1.0",
+  "kind": "application",
+  "description": "按需读取和调整游戏相关的 Windows 设置，逐项回读确认；开关独立加载，回传超时延迟标红。",
+  "nativePage": "windows",
+  "requiredHost": {
+    "id": "hhub",
+    "apiVersion": "1.0",
+    "execution": "host-only",
+    "standalone": false,
+    "minimumVersion": "1.0.9"
+  },
+  "permissions": [
+    "Windows 系统设置读取",
+    "Windows 游戏与输入设置修改",
+    "部分系统设置需要管理员授权"
+  ],
+  "updateUrl": "",
+  "compatibility": {
+    "version": 1,
+    "scope": "tool",
+    "deviceName": "",
+    "hardwareId": "",
+    "firmwareVersions": [],
+    "mobileUi": false
+  },
+  "implementation": {
+    "type": "host-native-feature",
+    "notes": "调用 Hhub 原生 Windows 设置页面及按需 Windows Worker；卸载清理插件数据，不重置已经应用的 Windows 系统设置。"
+  }
+}

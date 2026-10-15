@@ -1,6 +1,6 @@
 # H hub 插件库
 
-用于分发 H hub 外设插件和开发者工具。本次整理包含 **0.5.1** 版本的两个插件、插件库索引、安装与开发说明，以及用户提供的三个原始 ZIP 包。
+用于分发 H hub 外设和应用插件。当前插件库包含雷柏 VT3S MAX、开发者工具、通用 EQ、手机遥控与 Windows 设置五个条目，以及插件索引、安装说明和历史原始包。
 
 本仓库是插件分发仓库，**不包含 H hub 主程序或完整主程序源码**。`.hhub` 文件是插件包，需通过兼容的 H hub 插件管理导入；不能当作独立 Windows 程序运行。
 
@@ -9,7 +9,7 @@
 | 插件大类 | 子分类 | 当前条目 |
 | --- | --- | --- |
 | [外设插件](./catalog/peripherals/README.md) | 鼠标、键盘、耳机、手柄、其他 | 雷柏 VT3S MAX（鼠标） |
-| [应用插件](./catalog/applications/README.md) | 实验型应用、测试型应用、其他 | H hub 开发者工具（测试型应用） |
+| [应用插件](./catalog/applications/README.md) | 实验型应用、测试型应用、其他 | H hub 开发者工具（测试型应用）、通用 EQ 和手机遥控（其他） |
 
 外设插件按型号、硬件识别码和固件匹配；应用插件单独归类。没有条目的分类保留空入口。第三方提交需在索引填写 `group` 和 `category`，详见[插件分类规则](./docs/插件分类.md)。
 
@@ -43,7 +43,7 @@
 
 部署时将 `index.json` 和两个 `.hhub` 文件放在同一分支的根目录；原附件按 `main` 分支组织。**不能只上传三个 ZIP**，否则软件无法按根目录索引获取插件包。
 
-本插件库地址为 [shengerq/H-hub-plugins](https://github.com/shengerq/H-hub-plugins)。在 H hub 插件管理中填写 `shengerq/H-hub-plugins`，然后点击“同步插件库”。索引直链为 [index.json](https://raw.githubusercontent.com/shengerq/H-hub-plugins/main/index.json)。
+本插件库地址为 [shengerq/H-hub-plugins](https://github.com/shengerq/H-hub-plugins)。在新版 Hhub 的插件市场点击标题旁的设置按钮，进入“插件库管理”，添加地址 `shengerq/H-hub-plugins`，再同步已启用的库。也可添加 HTTPS 清单直链或本地 JSON 文件。索引直链为 [index.json](https://raw.githubusercontent.com/shengerq/H-hub-plugins/main/index.json)。
 
 原附件说明：软件支持按名称、设备型号、作者及标签搜索；同步后需由用户确认安装；下载时核对摘要及身份字段；断网保留最近成功同步的清单。这些主程序行为未在本次整理中运行验证。私有仓库是否能被主程序读取，需确认主程序是否支持 GitHub 身份验证。
 
@@ -117,3 +117,9 @@ H-hub-plugins/
 产品识别图来源于雷柏原厂网页驱动，版权归原作者，详见 [图片来源](./docs/图片来源.md)。附件没有提供图片公开分发授权证明，也没有提供可覆盖整个仓库的开源许可证。仓库公开可访问不代表所有内容获得开放许可；复用代码或图片时应确认相应权利和许可。
 
 此文档依据所提供的 0.5.1 插件包、索引和安装说明整理；未对全部内嵌页面代码进行安全审计，未执行硬件操作，也未核验外部固件下载链接的当前可用性。
+
+## EQ 与手机遥控
+
+插件库新增 [Hhub 通用 EQ 1.0.3](./Hhub-EQ-1.0.3.hhub) 和 [Hhub 手机遥控 1.0.9](./Hhub-Phone-Remote-1.0.9.hhub)，均归入应用插件 / 其他。它们连接 Hhub 1.0.9 起的原生功能页面与服务，不能独立运行。详见[安装及宿主要求](./docs/原生功能插件.md)。现有外设及开发者工具包保留。
+
+Windows 设置现已作为[独立宿主功能插件](./Hhub-Windows-Settings-1.0.9.hhub)加入应用插件分类，安装后显示入口；卸载清理插件数据，保留已应用的系统设置。

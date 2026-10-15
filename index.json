@@ -53,6 +53,84 @@
         "mobileUi": false
       },
       "identityCode": "HHUB1-6899352a7ca5ea62a476f351a8fbc1b740d00814f8f8e2a5bf5d860223f07562"
+    },
+    {
+      "id": "eq",
+      "name": "Hhub 通用 EQ",
+      "author": "H hub",
+      "version": "1.0.3",
+      "kind": "application",
+      "description": "按输出设备和应用调节 EQ，使用 FxSound 原厂预设与音效；虚拟音频驱动可单独安装。",
+      "compatibility": {
+        "version": 1,
+        "scope": "tool",
+        "deviceName": "",
+        "hardwareId": "",
+        "firmwareVersions": [],
+        "mobileUi": false
+      },
+      "packageUrl": "Hhub-EQ-1.0.3.hhub",
+      "sha256": "83f735b1bf5951f3233e2742eec11cab6577ffe540dc4da599ccdadda460c35d",
+      "tags": [
+        "EQ",
+        "音频",
+        "FxSound"
+      ],
+      "group": "application",
+      "category": "other",
+      "identityCode": "HHUB1-c0ed3ab7eb359f89c9552e16267162bc5eb2b1f2943f95b5276b0f84949debcb"
+    },
+    {
+      "id": "phone",
+      "name": "Hhub 手机遥控",
+      "author": "H hub",
+      "version": "1.0.9",
+      "kind": "application",
+      "description": "通过手机配对与授权，远程控制 Hhub 的场景、音频和兼容设备；支持撤销配对及细分权限。",
+      "compatibility": {
+        "version": 1,
+        "scope": "tool",
+        "deviceName": "",
+        "hardwareId": "",
+        "firmwareVersions": [],
+        "mobileUi": false
+      },
+      "packageUrl": "Hhub-Phone-Remote-1.0.9.hhub",
+      "sha256": "ee9980a5dfdbfe6cd16d8af7fb09aeb1538c988a4f57cd7930c0f290f77b66af",
+      "tags": [
+        "手机",
+        "遥控",
+        "配对"
+      ],
+      "group": "application",
+      "category": "other",
+      "identityCode": "HHUB1-5dbf6ea8c0f890face0ed58d3b23b748936450c58ecd6e050f7a55021f2c76e6"
+    },
+    {
+      "id": "windows",
+      "name": "Hhub Windows 设置",
+      "author": "H hub",
+      "version": "1.0.9",
+      "kind": "application",
+      "description": "按需读取和调整游戏相关的 Windows 设置，逐项回读确认；开关独立加载，回传超时延迟标红。",
+      "compatibility": {
+        "version": 1,
+        "scope": "tool",
+        "deviceName": "",
+        "hardwareId": "",
+        "firmwareVersions": [],
+        "mobileUi": false
+      },
+      "packageUrl": "Hhub-Windows-Settings-1.0.9.hhub",
+      "sha256": "c87a0619555d1f6a56d5b8813f4719e7879510eaee759750cb2261e6e4f394e8",
+      "tags": [
+        "Windows",
+        "游戏",
+        "系统设置"
+      ],
+      "group": "application",
+      "category": "other",
+      "identityCode": "HHUB1-0d2961c1a840a21112b6f37aa873857358858da61c3eeba2f2c42e497f77af4c"
     }
   ],
   "verificationRecords": [],
