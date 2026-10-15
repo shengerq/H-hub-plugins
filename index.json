@@ -12570,9 +12570,9 @@
       "id": "eq",
       "name": "Hhub 通用 EQ",
       "author": "H hub",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "kind": "application",
-      "description": "按输出设备和应用调节 EQ，使用 FxSound 原厂预设与音效；虚拟音频驱动可单独安装。",
+      "description": "FxSound 原厂预设与音效。插件包包含官方签名虚拟音频驱动的独立安装程序，安装前提示管理员授权及可能重启，可取消并保留曲线编辑。需要 Hhub 1.0.10。",
       "compatibility": {
         "version": 1,
         "scope": "tool",
@@ -12581,8 +12581,8 @@
         "firmwareVersions": [],
         "mobileUi": false
       },
-      "packageUrl": "应用插件/应用型/Hhub-EQ-1.0.3.hhub",
-      "sha256": "83f735b1bf5951f3233e2742eec11cab6577ffe540dc4da599ccdadda460c35d",
+      "packageUrl": "应用插件/应用型/Hhub-EQ-1.0.4.hhub",
+      "sha256": "5f9987f454bd8b1f908cd49b1b337d61d2a863f2b21aea8f6ed2ac5c821dfd12",
       "tags": [
         "EQ",
         "音频",
@@ -12596,9 +12596,9 @@
       "id": "phone",
       "name": "Hhub 手机遥控",
       "author": "H hub",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "kind": "application",
-      "description": "通过手机配对与授权，远程控制 Hhub 的场景、音频和兼容设备；支持撤销配对及细分权限。",
+      "description": "手机遥控与配对服务，插件包自带独立服务和手机网页。需要 Hhub 1.0.10。",
       "compatibility": {
         "version": 1,
         "scope": "tool",
@@ -12607,8 +12607,8 @@
         "firmwareVersions": [],
         "mobileUi": false
       },
-      "packageUrl": "应用插件/应用型/Hhub-Phone-Remote-1.0.9.hhub",
-      "sha256": "ee9980a5dfdbfe6cd16d8af7fb09aeb1538c988a4f57cd7930c0f290f77b66af",
+      "packageUrl": "应用插件/应用型/Hhub-Phone-Remote-1.0.10.hhub",
+      "sha256": "cc14a9295e50bb62235aebede9efa9390212a6843a8447ad78821d2a35646009",
       "tags": [
         "手机",
         "遥控",
@@ -12622,9 +12622,9 @@
       "id": "windows",
       "name": "Hhub Windows 设置",
       "author": "H hub",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "kind": "application",
-      "description": "按需读取和调整游戏相关的 Windows 设置，逐项回读确认；开关独立加载，回传超时延迟标红。",
+      "description": "游戏相关 Windows 设置与逐项状态回传，插件包自带设置执行组件。需要 Hhub 1.0.10。",
       "compatibility": {
         "version": 1,
         "scope": "tool",
@@ -12633,8 +12633,8 @@
         "firmwareVersions": [],
         "mobileUi": false
       },
-      "packageUrl": "应用插件/应用型/Hhub-Windows-Settings-1.0.9.hhub",
-      "sha256": "c87a0619555d1f6a56d5b8813f4719e7879510eaee759750cb2261e6e4f394e8",
+      "packageUrl": "应用插件/应用型/Hhub-Windows-Settings-1.0.10.hhub",
+      "sha256": "b29a70ab3cd127c83a00cc5274a9a574257d9af2fa2dad33624d011bd0f02cc1",
       "tags": [
         "Windows",
         "游戏",
