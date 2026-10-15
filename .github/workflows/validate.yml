@@ -10,3 +10,6 @@ jobs:
       - name: Validate package hashes, identity and device contracts
         shell: pwsh
         run: ./scripts/verify-index.ps1
+      - name: Validate OpenMouse brand catalogs, source and complete archive
+        shell: pwsh
+        run: python ./scripts/verify-openmouse.py

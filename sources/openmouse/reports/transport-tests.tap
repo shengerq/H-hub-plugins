@@ -1,0 +1,16 @@
+✔ no traffic until requested; enumeration refuses devices outside the package identity (1.925ms)
+✔ sendReport preserves subarray boundaries and uses only the opaque device token (0.3371ms)
+✔ concurrent requests remain serialized; a rejected command does not poison the queue (0.8055ms)
+✔ unnumbered feature reports remove exactly one Windows zero prefix (0.7456ms)
+✔ numbered feature prefix is retained unless payload framing is explicitly selected (0.6224ms)
+✔ input polling dispatches report payload and stops after close (72.493ms)
+✔ reset invalidates the enumeration cache (0.6287ms)
+✔ unsupported host fails with an actionable error (0.7088ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 259.8221

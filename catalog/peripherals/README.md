@@ -2,7 +2,7 @@
 
 | 分类 | 当前插件 |
 | --- | --- |
-| 鼠标 | [雷柏 VT3S MAX 0.5.2](../../Hhub-Rapoo-VT3S-MAX-0.5.2.hhub) |
+| 鼠标 | [雷柏 VT3S MAX 0.5.2](../../Hhub-Rapoo-VT3S-MAX-0.5.2.hhub)；[按品牌浏览 OpenMouse 鼠标储备包](./mouse/README.md) |
 | 键盘 | 暂无 |
 | 耳机 | 暂无 |
 | 手柄 | 暂无 |

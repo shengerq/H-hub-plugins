@@ -1,0 +1,17 @@
+{
+  "packages": 420,
+  "allPassed": true,
+  "errors": [],
+  "hardwareVerified": false,
+  "hostImportVerified": false,
+  "checks": [
+    "摘要与身份",
+    "设备契约与未知固件",
+    "未实机验证状态",
+    "AGPL 许可",
+    "内嵌 JavaScript 语法",
+    "离线资源",
+    "精确 VID/PID 与接口策略",
+    "8 MiB 包大小限制"
+  ]
+}

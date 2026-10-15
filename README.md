@@ -1,6 +1,6 @@
 # H hub 插件库
 
-用于分发 H hub 外设和应用插件。当前插件库包含雷柏 VT3S MAX、开发者工具、通用 EQ、手机遥控与 Windows 设置五个条目，以及插件索引、安装说明和历史原始包。
+用于分发 H hub 外设和应用插件。原有雷柏 VT3S MAX、开发者工具、通用 EQ、手机遥控与 Windows 设置五个条目保持原位置；新增 420 个 OpenMouse 鼠标候选包和一个虚拟鼠标体验插件，沿用统一索引与原有分类结构。
 
 本仓库是插件分发仓库，**不包含 H hub 主程序或完整主程序源码**。`.hhub` 文件是插件包，需通过兼容的 H hub 插件管理导入；不能当作独立 Windows 程序运行。
 
@@ -8,7 +8,7 @@
 
 | 插件大类 | 子分类 | 当前条目 |
 | --- | --- | --- |
-| [外设插件](./catalog/peripherals/README.md) | 鼠标、键盘、耳机、手柄、其他 | 雷柏 VT3S MAX（鼠标） |
+| [外设插件](./catalog/peripherals/README.md) | 鼠标、键盘、耳机、手柄、其他 | 雷柏 VT3S MAX；[OpenMouse 鼠标按品牌浏览](./catalog/peripherals/mouse/README.md) |
 | [应用插件](./catalog/applications/README.md) | 实验型应用、测试型应用、其他 | H hub 开发者工具（测试型应用）、通用 EQ 和手机遥控（其他） |
 
 外设插件按型号、硬件识别码和固件匹配；应用插件单独归类。没有条目的分类保留空入口。第三方提交需在索引填写 `group` 和 `category`，详见[插件分类规则](./docs/插件分类.md)。
@@ -41,7 +41,7 @@
 
 ## 安装方式二：同步 GitHub 插件库
 
-部署时将 `index.json` 和两个 `.hhub` 文件放在同一分支的根目录；原附件按 `main` 分支组织。**不能只上传三个 ZIP**，否则软件无法按根目录索引获取插件包。
+部署时将 `index.json` 和索引引用的全部 `.hhub` 文件放在同一分支的根目录；原附件按 `main` 分支组织。**不能只上传三个 ZIP**，否则软件无法按根目录索引获取插件包。
 
 本插件库地址为 [shengerq/H-hub-plugins](https://github.com/shengerq/H-hub-plugins)。在新版 Hhub 的插件市场点击标题旁的设置按钮，进入“插件库管理”，添加地址 `shengerq/H-hub-plugins`，再同步已启用的库。也可添加 HTTPS 清单直链或本地 JSON 文件。索引直链为 [index.json](https://raw.githubusercontent.com/shengerq/H-hub-plugins/main/index.json)。
 
@@ -123,3 +123,15 @@ H-hub-plugins/
 插件库新增 [Hhub 通用 EQ 1.0.3](./Hhub-EQ-1.0.3.hhub) 和 [Hhub 手机遥控 1.0.9](./Hhub-Phone-Remote-1.0.9.hhub)，均归入应用插件 / 其他。它们连接 Hhub 1.0.9 起的原生功能页面与服务，不能独立运行。详见[安装及宿主要求](./docs/原生功能插件.md)。现有外设及开发者工具包保留。
 
 Windows 设置现已作为[独立宿主功能插件](./Hhub-Windows-Settings-1.0.9.hhub)加入应用插件分类，安装后显示入口；卸载清理插件数据，保留已应用的系统设置。
+
+## OpenMouse 鼠标储备与虚拟体验
+
+在原有结构上增加 **420 个 OpenMouse VID/PID 候选包，按 26 个品牌分类**。包文件和总索引继续放在根目录，分类页位于“外设插件 → 鼠标 → 品牌”。原有插件未被替换。
+
+全部设备包明确标注 **未实机验证**，固件未知。它们是协议储备包，数量包含接收器、连接方式及识别候选组合；具体能力和验收范围见说明。
+
+- [按品牌浏览与逐包下载](./catalog/peripherals/mouse/README.md)
+- [下载完整储备 ZIP](./Hhub-OpenMouse-Reserve-0.1.0.zip) · [SHA-256](./Hhub-OpenMouse-Reserve-0.1.0.zip.sha256)
+- [安装、验证与功能范围](./docs/OpenMouse储备包.md)
+- [完整对应源码与构建脚本](./sources/openmouse/README.md)
+- [虚拟鼠标体验插件](./Hhub-OpenMouse-Virtual-Lab-0.1.0.hhub)：位于“应用插件 → 实验型应用”；真实 VAXEE / MCHOSE 协议配合软件模拟设备，不访问真实鼠标。

@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "VAXEE 虚拟设备自动连接，使用真实协议读取 800 DPI",
+    "VAXEE DPI 写入及回读",
+    "虚拟拔插和重连保留配置",
+    "MCHOSE 虚拟设备真实协议读取配置",
+    "MCHOSE DPI 写入及回读",
+    "MCHOSE 回报率写入及回读",
+    "MCHOSE motionSync 写入及回读",
+    "MCHOSE angleSnapping 写入及回读",
+    "MCHOSE rippleControl 写入及回读",
+    "模拟设备忽略写入显示失败",
+    "全程未调用宿主原生 HID",
+    "重新加载仍可启动",
+    "H hub 同等 CSP 下 iframe 与协议运行通过"
+  ],
+  "errors": [],
+  "hardwareVerified": false,
+  "nativeHidCalls": 0
+}

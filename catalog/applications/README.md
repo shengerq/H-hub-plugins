@@ -2,7 +2,7 @@
 
 | 分类 | 当前插件 |
 | --- | --- |
-| 实验型应用 | 暂无 |
+| 实验型应用 | [OpenMouse 虚拟鼠标体验 0.1.0](../../Hhub-OpenMouse-Virtual-Lab-0.1.0.hhub)（纯软件模拟，不访问真实 HID） |
 | 测试型应用 | [H hub 开发者工具 0.5.2](../../Hhub-Developer-Tools-0.5.2.hhub) |
 | 其他 | [Hhub 通用 EQ 1.0.3](../../Hhub-EQ-1.0.3.hhub)、[Hhub 手机遥控 1.0.9](../../Hhub-Phone-Remote-1.0.9.hhub)、[Hhub Windows 设置 1.0.9](../../Hhub-Windows-Settings-1.0.9.hhub) |
 
