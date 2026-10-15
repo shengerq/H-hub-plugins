@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "hhub.rog-falchion-ace-hfx",
+  "name": "ROG 魔导士 ACE HFX",
+  "deviceName": "ROG 魔导士 ACE HFX",
+  "author": "H hub",
+  "version": "0.1.0",
+  "apiVersion": "1.0",
+  "kind": "keyboard",
+  "description": "ACE HFX 有线版：触发、死区、RT、改键、Speed Tap、灯光和回报率。依据官方协议实现，待真机验收。",
+  "permissions": ["离线插件页面", "USB HID 配置"],
+  "requiredHost": {"id":"hhub", "apiVersion":"1.0", "execution":"host-only", "standalone":false, "hidTransportVersion":2},
+  "ui": {"type":"offline-html", "role":"device", "content":""},
+  "hidTargets": [{"vid":2821,"pid":7038,"usagePage":65280,"commands":[]}],
+  "hidV2Targets": [{"vendorIds":[2821],"productIds":[7038],"usagePages":[65280],"usages":[1],"inputReportIds":[0],"outputReportIds":[0],"featureReportIds":[],"maxPayload":64}],
+  "compatibility": {"version":1,"scope":"device","deviceName":"ROG 魔导士 ACE HFX","hardwareId":"USB\\VID_0B05&PID_1B7E","firmwareVersions":[],"mobileUi":false},
+  "sources": [
+    {"url":"https://gearlink.asus.com.cn/view/7038/manifest.json","usage":"官方设备身份、能力与协议研究；不分发官方网页代码"},
+    {"url":"https://rog.asus.com.cn/keyboards/keyboards/compact/rog-falchion-ace-hfx/","usage":"产品型号与功能范围"}
+  ],
+  "externalLinks": [
+    "https://rog.asus.com.cn/keyboards/keyboards/compact/rog-falchion-ace-hfx/",
+    "https://rog.asus.com.cn/keyboards/keyboards/compact/rog-falchion-ace-hfx/helpdesk_download/",
+    "https://gearlink.asus.com.cn/zh-cn",
+    "https://rog.asus.com.cn/support/faq/1054795/"
+  ]
+}

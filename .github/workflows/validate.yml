@@ -13,3 +13,8 @@ jobs:
       - name: Validate OpenMouse brand catalogs, source and complete archive
         shell: pwsh
         run: python ./scripts/verify-openmouse.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate ACE HFX source, protocol tests and reproducible package
+        run: node ./scripts/verify-ace-hfx.cjs

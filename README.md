@@ -1,6 +1,6 @@
 # H hub 插件库
 
-用于分发 H hub 外设和应用插件。原有雷柏 VT3S MAX、开发者工具、通用 EQ、手机遥控与 Windows 设置五个条目保持原位置；新增 420 个 OpenMouse 鼠标候选包和一个虚拟鼠标体验插件，沿用统一索引与原有分类结构。
+用于分发 H hub 外设和应用插件。原有雷柏 VT3S MAX、开发者工具、通用 EQ、手机遥控与 Windows 设置五个条目保持原位置；包含 420 个 OpenMouse 鼠标候选包、一个虚拟鼠标体验插件，以及 ROG 魔导士 ACE HFX 键盘开发包，沿用统一索引与原有分类结构。
 
 本仓库是插件分发仓库，**不包含 H hub 主程序或完整主程序源码**。`.hhub` 文件是插件包，需通过兼容的 H hub 插件管理导入；不能当作独立 Windows 程序运行。
 
@@ -8,7 +8,7 @@
 
 | 插件大类 | 子分类 | 当前条目 |
 | --- | --- | --- |
-| [外设插件](./catalog/peripherals/README.md) | 鼠标、键盘、耳机、手柄、其他 | 雷柏 VT3S MAX；[OpenMouse 鼠标按品牌浏览](./catalog/peripherals/mouse/README.md) |
+| [外设插件](./catalog/peripherals/README.md) | 鼠标、键盘、耳机、手柄、其他 | 雷柏 VT3S MAX；[OpenMouse 鼠标按品牌浏览](./catalog/peripherals/mouse/README.md)；[ROG 魔导士 ACE HFX](./catalog/peripherals/keyboard/README.md) |
 | [应用插件](./catalog/applications/README.md) | 实验型应用、测试型应用、其他 | H hub 开发者工具（测试型应用）、通用 EQ 和手机遥控（其他） |
 
 外设插件按型号、硬件识别码和固件匹配；应用插件单独归类。没有条目的分类保留空入口。第三方提交需在索引填写 `group` 和 `category`，详见[插件分类规则](./docs/插件分类.md)。
@@ -24,6 +24,7 @@
 | 你想做什么 | 使用哪个文件 | 说明 |
 | --- | --- | --- |
 | 配置雷柏 VT3S MAX 鼠标 | [Hhub-Rapoo-VT3S-MAX-0.5.1.hhub](./Hhub-Rapoo-VT3S-MAX-0.5.1.hhub) | 面向 2.4 GHz 接收器，包含设备设置页面 |
+| 配置 ROG 魔导士 ACE HFX 键盘 | [Hhub-ROG-Falchion-ACE-HFX-0.1.0.hhub](./Hhub-ROG-Falchion-ACE-HFX-0.1.0.hhub) | 有线版 M605；HID V2；开发版，未实机验证 |
 | 开发外设插件 | [Hhub-Developer-Tools-0.5.1.hhub](./Hhub-Developer-Tools-0.5.1.hhub) | 鼠标、键盘、音频、手柄开发工作台 |
 | 让 H hub 同步整个插件库 | [index.json](./index.json) | 软件读取的插件清单，包文件保留在仓库根目录 |
 | 获取用户提供的原始压缩包 | [original-packages](./original-packages/) | 保留三个原始 ZIP，方便追溯；安装时需先解压 |
@@ -135,3 +136,11 @@ Windows 设置现已作为[独立宿主功能插件](./Hhub-Windows-Settings-1.0
 - [安装、验证与功能范围](./docs/OpenMouse储备包.md)
 - [完整对应源码与构建脚本](./sources/openmouse/README.md)
 - [虚拟鼠标体验插件](./Hhub-OpenMouse-Virtual-Lab-0.1.0.hhub)：位于“应用插件 → 实验型应用”；真实 VAXEE / MCHOSE 协议配合软件模拟设备，不访问真实鼠标。
+
+## ROG 魔导士 ACE HFX 键盘
+
+[下载 ACE HFX 0.1.0 开发包](./Hhub-ROG-Falchion-ACE-HFX-0.1.0.hhub) · [安装与功能范围](./docs/ROG-ACE-HFX.md) · [对应源码和构建说明](./sources/ace-hfx/README.md)
+
+面向 ROG FALCHION ACE HFX / M605 有线版 `0B05:1B7E`，实现触发行程、死区、RT、主层改键、Speed Tap、三种灯效、回报率与板载保存命令。需要支持 HID V2 的 H-hub；源码也可构建独立 WebHID 页面。
+
+**当前为未实机验证的开发版。** 30 项离线测试和包契约检查已通过，尚未完成宿主导入及真实键盘验收；固件列表和硬件验证记录保持为空。官方网页源码、安装器、固件和 PDF 不随包分发，仅记录官方来源。

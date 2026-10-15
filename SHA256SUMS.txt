@@ -424,3 +424,4 @@ d9c0015121d9ada56ae2ab1a0b926b9f3f8ae667661776f151e660a3a0fbc944  Hhub-OpenMouse
 eaeebc7a1dab3d16ed4b31b1f14029e8fbb7fae485e7a02af955ab392e8a8ce6  Hhub-OpenMouse-24AE-1205-0.1.0.hhub
 edf2ba932b3a08aa9b67078e65d83edb61f3ca438f4bf5db41370ef94edc37fe  Hhub-OpenMouse-24AE-4405-0.1.0.hhub
 9349f4a96fdbb1c5859bf2f68fd896247e70e38ff256b796b7bc8b1e849f6dd2  Hhub-OpenMouse-Virtual-Lab-0.1.0.hhub
+e599b369bb8d492a9753695fca99c190deb4485728b3d667fde5a49761c0dd08  Hhub-ROG-Falchion-ACE-HFX-0.1.0.hhub
