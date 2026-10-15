@@ -5,6 +5,7 @@ $taskIndex = Get-Content -LiteralPath (Join-Path $taskRepositoryRoot 'index.json
 if ($taskIndex.schemaVersion -ne 1 -or @($taskIndex.plugins).Count -eq 0) { throw '索引版本不支持或插件列表为空' }
 $taskSeenIds = @{}
 foreach ($taskEntry in $taskIndex.plugins) {
+    if ([string]::IsNullOrWhiteSpace($taskEntry.group) -or [string]::IsNullOrWhiteSpace($taskEntry.category)) { throw "插件需明确填写 group 和 category：$($taskEntry.id)" }
     if ($taskSeenIds.ContainsKey($taskEntry.id)) { throw "重复插件 ID: $($taskEntry.id)" }
     $taskSeenIds[$taskEntry.id] = $true
     if ($taskEntry.packageUrl -notmatch '^[^/\\:]+\.hhub$') { throw "当前索引需使用根目录 .hhub 文件名: $($taskEntry.packageUrl)" }

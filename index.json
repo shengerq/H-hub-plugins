@@ -12,6 +12,8 @@
         "雷柏",
         "VT3S MAX"
       ],
+      "group": "peripheral",
+      "category": "mouse",
       "id": "hhub.rapoo-vt3s-max",
       "name": "雷柏 VT3S MAX",
       "author": "H hub",
@@ -36,6 +38,8 @@
         "插件开发",
         "外设"
       ],
+      "group": "application",
+      "category": "testing",
       "id": "hhub.developer-tools",
       "name": "H hub 开发者工具",
       "author": "H hub",
