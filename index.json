@@ -133,6 +133,42 @@
       "identityCode": "HHUB1-0d2961c1a840a21112b6f37aa873857358858da61c3eeba2f2c42e497f77af4c"
     },
     {
+      "id": "hhub.rog-falchion-ace-hfx",
+      "name": "ROG 魔导士 ACE HFX",
+      "author": "H hub",
+      "version": "0.1.0",
+      "kind": "keyboard",
+      "group": "peripheral",
+      "category": "keyboard",
+      "description": "ACE HFX 有线版：触发、死区、RT、改键、Speed Tap、灯光和回报率。依据官方协议实现，待真机验收。",
+      "packageUrl": "Hhub-ROG-Falchion-ACE-HFX-0.1.0.hhub",
+      "sha256": "e599b369bb8d492a9753695fca99c190deb4485728b3d667fde5a49761c0dd08",
+      "compatibility": {
+        "version": 1,
+        "scope": "device",
+        "deviceName": "ROG 魔导士 ACE HFX",
+        "hardwareId": "USB\\VID_0B05&PID_1B7E",
+        "firmwareVersions": [],
+        "mobileUi": false
+      },
+      "identityCode": "HHUB1-4bde9afeea30972a2902685d9e8d0454b5bb6fa3926c0096a915078465968e95",
+      "tags": [
+        "键盘",
+        "ROG",
+        "ACE HFX"
+      ],
+      "brand": "ASUS ROG",
+      "sourceCodePath": "sources/ace-hfx",
+      "releaseChannel": "development",
+      "validation": {
+        "hardwareVerified": false,
+        "hostImportVerified": false,
+        "mobileUiVerified": false,
+        "firmwareVerified": false,
+        "status": "开发版，未实机验证"
+      }
+    },
+    {
       "id": "hhub.openmouse.3057-1003",
       "name": "VAXEE XE Wireless [3057-1003]",
       "author": "H hub",

@@ -3,7 +3,7 @@
 | 分类 | 当前插件 |
 | --- | --- |
 | 鼠标 | [雷柏 VT3S MAX 0.5.2](../../Hhub-Rapoo-VT3S-MAX-0.5.2.hhub)；[按品牌浏览 OpenMouse 鼠标储备包](./mouse/README.md) |
-| 键盘 | 暂无 |
+| 键盘 | [ROG 魔导士 ACE HFX 0.1.0（开发版，未实机验证）](./keyboard/README.md) |
 | 耳机 | 暂无 |
 | 手柄 | 暂无 |
 | 其他 | 暂无 |

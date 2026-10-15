@@ -3,6 +3,7 @@ a1ccaaf73511186cbfe78803f898c02423ffab628af141d25212165e95b04cb0  Hhub-Developer
 83f735b1bf5951f3233e2742eec11cab6577ffe540dc4da599ccdadda460c35d  Hhub-EQ-1.0.3.hhub
 ee9980a5dfdbfe6cd16d8af7fb09aeb1538c988a4f57cd7930c0f290f77b66af  Hhub-Phone-Remote-1.0.9.hhub
 c87a0619555d1f6a56d5b8813f4719e7879510eaee759750cb2261e6e4f394e8  Hhub-Windows-Settings-1.0.9.hhub
+e599b369bb8d492a9753695fca99c190deb4485728b3d667fde5a49761c0dd08  Hhub-ROG-Falchion-ACE-HFX-0.1.0.hhub
 692ac05abb1cb3d2d20ece15aa24c6cef190ffd38b08af337995db05cdbf83cc  catalog/peripherals/mouse/VAXEE/VAXEE XE Wireless__Vaxee__3057-1003__0.1.1.hhub
 daff579d9c359a4975dd80971b56be63fdeed7a519331c8a3e88e2e3dcfd9f4e  catalog/peripherals/mouse/VAXEE/VAXEE NP-01S Wireless__Vaxee__3057-1004__0.1.1.hhub
 d26785bb7900a1f78faa171e11633d813837e721ad773b74d6a012cde0b6ba27  catalog/peripherals/mouse/VAXEE/VAXEE AX Wireless__Vaxee__3057-1005__0.1.1.hhub

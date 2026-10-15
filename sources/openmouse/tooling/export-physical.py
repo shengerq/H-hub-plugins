@@ -26,7 +26,7 @@ allowed_reports={'catalog-names.json','device-candidates.json','inventory.csv','
 for folder in ['src','tooling','reports']:
  for p in (root/folder).rglob('*'):
   if folder=='reports' and (p.parent!=root/'reports' or p.name not in allowed_reports):continue
-  if not p.is_file() or 'node_modules' in p.parts or p.name in ['virtual-device.js','build-demo.mjs','test-demo.mjs','patch-host.py','finish-host.py','correct-build.py','export-to-repository.py']:continue
+  if not p.is_file() or 'node_modules' in p.parts or p.name in ['virtual-device.js','build-demo.mjs','test-demo.mjs','patch-host.py','finish-host.py','correct-build.py','export-to-repository.py','finalize-repository.py','clean-source-exports.py']:continue
   if p.suffix in ['.html','.png'] or p.name in ['catalog-modules.mjs','introspection.mjs']:continue
   dest=source/p.relative_to(root);dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest)
 for name in ['LICENSE','upstream-commit.txt']:shutil.copy2(root/name,source/name)
@@ -70,7 +70,7 @@ doc=f'''# OpenMouse 正式协议储备包
 
 源码采用 AGPL-3.0-or-later，保留上游对应源码和提交号。先在 tooling 安装依赖，然后运行 catalog-names.mjs、inspect.mjs、build.mjs；export-physical.py 保留原有目录分类并导出品牌文件夹。
 '''
-write(repo/'docs/OpenMouse储备包.md',doc);write(source/'README.md',doc.replace('../catalog/','../../../catalog/').replace('../downloads/','../../../downloads/').replace('../sources/openmouse/README.md','./README.md'))
+write(repo/'docs/OpenMouse储备包.md',doc);write(source/'README.md',doc.replace('../catalog/','../../catalog/').replace('../downloads/','../../downloads/').replace('../sources/openmouse/README.md','./README.md'))
 archive=repo/'downloads/OpenMouse-Physical-Plugins-0.1.1.zip';archive.parent.mkdir(exist_ok=True)
 with ZipFile(archive,'w',ZIP_DEFLATED,compresslevel=6) as z:
  for e in reserve['plugins']:z.write(repo/e['packageUrl'],e['packageUrl'])

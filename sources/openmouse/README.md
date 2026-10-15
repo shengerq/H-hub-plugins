@@ -2,7 +2,7 @@
 
 共 329 个有型号名称依据的真实协议包，20 个品牌。包名包含鼠标型号、协议实现名、VID/PID 和版本。原有五个插件条目保持原内容与位置。所有新增包均是 HID v2 设备插件；本次发行不含体验插件。
 
-[品牌文件夹](../../../catalog/peripherals/mouse/README.md) · [完整储备 ZIP](../../../downloads/OpenMouse-Physical-Plugins-0.1.1.zip) · [对应源码](./README.md)
+[品牌文件夹](../../catalog/peripherals/mouse/README.md) · [完整储备 ZIP](../../downloads/OpenMouse-Physical-Plugins-0.1.1.zip) · [对应源码](./README.md)
 
 ## 功能范围
 
