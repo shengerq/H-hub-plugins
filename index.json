@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "name": "H hub插件库",
+  "name": "Hhub 外设插件库",
   "plugins": [
     {
       "id": "hhub.rog-falchion-ace-hfx",
@@ -12567,84 +12567,6 @@
       "protocol": "Zaunkoenig"
     },
     {
-      "id": "eq",
-      "name": "Hhub 通用 EQ",
-      "author": "H hub",
-      "version": "1.0.4",
-      "kind": "application",
-      "description": "FxSound 原厂预设与音效。插件包包含官方签名虚拟音频驱动的独立安装程序，安装前提示管理员授权及可能重启，可取消并保留曲线编辑。需要 Hhub 1.0.10。",
-      "compatibility": {
-        "version": 1,
-        "scope": "tool",
-        "deviceName": "",
-        "hardwareId": "",
-        "firmwareVersions": [],
-        "mobileUi": false
-      },
-      "packageUrl": "应用插件/应用型/Hhub-EQ-1.0.4.hhub",
-      "sha256": "5f9987f454bd8b1f908cd49b1b337d61d2a863f2b21aea8f6ed2ac5c821dfd12",
-      "tags": [
-        "EQ",
-        "音频",
-        "FxSound"
-      ],
-      "group": "application",
-      "category": "other",
-      "identityCode": "HHUB1-c0ed3ab7eb359f89c9552e16267162bc5eb2b1f2943f95b5276b0f84949debcb"
-    },
-    {
-      "id": "phone",
-      "name": "Hhub 手机遥控",
-      "author": "H hub",
-      "version": "1.0.10",
-      "kind": "application",
-      "description": "手机遥控与配对服务，插件包自带独立服务和手机网页。需要 Hhub 1.0.10。",
-      "compatibility": {
-        "version": 1,
-        "scope": "tool",
-        "deviceName": "",
-        "hardwareId": "",
-        "firmwareVersions": [],
-        "mobileUi": false
-      },
-      "packageUrl": "应用插件/应用型/Hhub-Phone-Remote-1.0.10.hhub",
-      "sha256": "cc14a9295e50bb62235aebede9efa9390212a6843a8447ad78821d2a35646009",
-      "tags": [
-        "手机",
-        "遥控",
-        "配对"
-      ],
-      "group": "application",
-      "category": "other",
-      "identityCode": "HHUB1-5dbf6ea8c0f890face0ed58d3b23b748936450c58ecd6e050f7a55021f2c76e6"
-    },
-    {
-      "id": "windows",
-      "name": "Hhub Windows 设置",
-      "author": "H hub",
-      "version": "1.0.10",
-      "kind": "application",
-      "description": "游戏相关 Windows 设置与逐项状态回传，插件包自带设置执行组件。需要 Hhub 1.0.10。",
-      "compatibility": {
-        "version": 1,
-        "scope": "tool",
-        "deviceName": "",
-        "hardwareId": "",
-        "firmwareVersions": [],
-        "mobileUi": false
-      },
-      "packageUrl": "应用插件/应用型/Hhub-Windows-Settings-1.0.10.hhub",
-      "sha256": "b29a70ab3cd127c83a00cc5274a9a574257d9af2fa2dad33624d011bd0f02cc1",
-      "tags": [
-        "Windows",
-        "游戏",
-        "系统设置"
-      ],
-      "group": "application",
-      "category": "other",
-      "identityCode": "HHUB1-0d2961c1a840a21112b6f37aa873857358858da61c3eeba2f2c42e497f77af4c"
-    },
-    {
       "packageUrl": "应用插件/测试型/Hhub-Developer-Tools-0.5.2.hhub",
       "kind": "developer-tools",
       "description": "鼠标、键盘、音频及手柄插件开发工作台，独立安装。",
@@ -12672,5 +12594,12 @@
     }
   ],
   "verificationRecords": [],
-  "hostRepository": "https://github.com/shengerq/H-hub"
+  "hostRepository": "https://github.com/shengerq/H-hub",
+  "relatedLibraries": [
+    {
+      "name": "Hhub 应用插件库",
+      "repository": "shengerq/H-hub-app-plugins",
+      "indexUrl": "https://raw.githubusercontent.com/shengerq/H-hub-app-plugins/main/index.json"
+    }
+  ]
 }
