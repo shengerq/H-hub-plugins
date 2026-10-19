@@ -11,7 +11,7 @@
       "group": "peripheral",
       "category": "keyboard",
       "description": "ACE HFX 有线版：触发、死区、RT、改键、Speed Tap、灯光和回报率。依据官方协议实现，待真机验收。",
-      "packageUrl": "外设插件/键盘/ASUS ROG/Hhub-ROG-Falchion-ACE-HFX-0.1.0.hhub",
+      "packageUrl": "键盘/ASUS ROG/Hhub-ROG-Falchion-ACE-HFX-0.1.0.hhub",
       "sha256": "e599b369bb8d492a9753695fca99c190deb4485728b3d667fde5a49761c0dd08",
       "compatibility": {
         "version": 1,
@@ -63,7 +63,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ07 MC PRO__Ajazz__A8A4-2177__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ07 MC PRO__Ajazz__A8A4-2177__0.1.1.hhub",
       "sha256": "785866af795587d736456cadd39d78141af9bafe58ce7e6179d7a32886d2a69d",
       "tags": [
         "鼠标",
@@ -101,7 +101,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ07 MC PRO__Ajazz__A8A5-2177__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ07 MC PRO__Ajazz__A8A5-2177__0.1.1.hhub",
       "sha256": "b9cbc0544eb008f466c67b0ea96454932a6b99057685392b41565520faa9324d",
       "tags": [
         "鼠标",
@@ -139,7 +139,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ07 MC__Ajazz__A8A4-2167__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ07 MC__Ajazz__A8A4-2167__0.1.1.hhub",
       "sha256": "b5ac496fab89f09456a668e01a490eca383fa2b649877d002852b3cd8dbdd6d2",
       "tags": [
         "鼠标",
@@ -177,7 +177,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ07 MC__Ajazz__A8A5-2167__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ07 MC__Ajazz__A8A5-2167__0.1.1.hhub",
       "sha256": "02f31f9576b4206d5bda504ccfaf44819a020de88ef0b41a34e8cbc63aa0a487",
       "tags": [
         "鼠标",
@@ -215,7 +215,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ07__Ajazz__A8A4-2157__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ07__Ajazz__A8A4-2157__0.1.1.hhub",
       "sha256": "02306b2b38d9f49a148d5a3139f84f4c72f9f1b751aec704904ea0086a9c7a3c",
       "tags": [
         "鼠标",
@@ -253,7 +253,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ07__Ajazz__A8A5-2157__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ07__Ajazz__A8A5-2157__0.1.1.hhub",
       "sha256": "5ab0cbe816ea2bb55f5edee220707e225c4731ca727d29aeae9faac150f3fa09",
       "tags": [
         "鼠标",
@@ -291,7 +291,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ08 MC PRO__Ajazz__A8A4-2178__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ08 MC PRO__Ajazz__A8A4-2178__0.1.1.hhub",
       "sha256": "afb2d470136caceb46a9168f38ca91a2e5c2fef1d9ab0593fad316f48e4eecb4",
       "tags": [
         "鼠标",
@@ -329,7 +329,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ08 MC PRO__Ajazz__A8A5-2178__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ08 MC PRO__Ajazz__A8A5-2178__0.1.1.hhub",
       "sha256": "a49ab8772d06ae332249cfc294ebecfbc615de177c361469dca459347cc31874",
       "tags": [
         "鼠标",
@@ -367,7 +367,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ08 MC__Ajazz__A8A4-2168__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ08 MC__Ajazz__A8A4-2168__0.1.1.hhub",
       "sha256": "1985d705d399423414c4bdb636689f6d57a66c64232fe17f8ed86c9f5ad337d9",
       "tags": [
         "鼠标",
@@ -405,7 +405,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ08 MC__Ajazz__A8A5-2168__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ08 MC__Ajazz__A8A5-2168__0.1.1.hhub",
       "sha256": "48a56a0b2fe4a921e3ada4b80ac1969dd84efd01d5ba8e302ef5989599186db7",
       "tags": [
         "鼠标",
@@ -443,7 +443,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ08__Ajazz__A8A4-2158__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ08__Ajazz__A8A4-2158__0.1.1.hhub",
       "sha256": "f294f2eb72728d1d10724e76dfb994ce655d7af6f335239ec63e6b951badcf7f",
       "tags": [
         "鼠标",
@@ -481,7 +481,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/AJAZZ/AJAZZ NJ08__Ajazz__A8A5-2158__0.1.1.hhub",
+      "packageUrl": "鼠标/AJAZZ/AJAZZ NJ08__Ajazz__A8A5-2158__0.1.1.hhub",
       "sha256": "74231ec51d32355f4b0d93c72d09fb2822a10dcd01312702b4cd1134fcddd344",
       "tags": [
         "鼠标",
@@ -519,7 +519,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ASUS/ASUS ROG Gladius II Core__Asus__0B05-18DD__0.1.1.hhub",
+      "packageUrl": "鼠标/ASUS/ASUS ROG Gladius II Core__Asus__0B05-18DD__0.1.1.hhub",
       "sha256": "cec34b7fcd9c013d3281c685ab972ccf4d15d46ee41c7bd524eac77bd7ec226f",
       "tags": [
         "鼠标",
@@ -557,7 +557,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ASUS/ASUS ROG Gladius II__Asus__0B05-1845__0.1.1.hhub",
+      "packageUrl": "鼠标/ASUS/ASUS ROG Gladius II__Asus__0B05-1845__0.1.1.hhub",
       "sha256": "9a09addc94ebaf8c960c459acf32c447f28260c58d56b7a405e7ce3df4bb3176",
       "tags": [
         "鼠标",
@@ -595,7 +595,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ASUS/ASUS ROG Harpe Ace Aim Lab Edition__Asus__0B05-1A92__0.1.1.hhub",
+      "packageUrl": "鼠标/ASUS/ASUS ROG Harpe Ace Aim Lab Edition__Asus__0B05-1A92__0.1.1.hhub",
       "sha256": "14febfa84e1228dd2340012f6d25f7cd71b639a414ac010ae18f91af0ccf81e6",
       "tags": [
         "鼠标",
@@ -633,7 +633,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ASUS/ASUS ROG Harpe Ace Aim Lab Edition__Asus__0B05-1A94__0.1.1.hhub",
+      "packageUrl": "鼠标/ASUS/ASUS ROG Harpe Ace Aim Lab Edition__Asus__0B05-1A94__0.1.1.hhub",
       "sha256": "4553fb5a733e848c7dceba40daf6555c3c119d3f47779b66996a350a5ee1b582",
       "tags": [
         "鼠标",
@@ -671,7 +671,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ASUS/ASUS ROG Strix Impact III__Asus__0B05-1A88__0.1.1.hhub",
+      "packageUrl": "鼠标/ASUS/ASUS ROG Strix Impact III__Asus__0B05-1A88__0.1.1.hhub",
       "sha256": "c04aa899c9c5bb2566a883312d0cdcb772907504da7c1a784ffa85ca5abe9f40",
       "tags": [
         "鼠标",
@@ -709,7 +709,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ASUS/ASUS TUF Gaming M3__Asus__0B05-1910__0.1.1.hhub",
+      "packageUrl": "鼠标/ASUS/ASUS TUF Gaming M3__Asus__0B05-1910__0.1.1.hhub",
       "sha256": "775af223c3c5339845bb56bc4ab86dcd57cbd75ab62a40baa44a9a59ac7a7d0a",
       "tags": [
         "鼠标",
@@ -747,7 +747,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ASUS/ASUS TUF Gaming M5__Asus__0B05-1898__0.1.1.hhub",
+      "packageUrl": "鼠标/ASUS/ASUS TUF Gaming M5__Asus__0B05-1898__0.1.1.hhub",
       "sha256": "8a7a0284b87a33b20569ecdc704e676c2127bb7cebcff39c03d97c808ac0aeeb",
       "tags": [
         "鼠标",
@@ -785,7 +785,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ATK/ATK ZERO__AtkBitmouse__373B-1154__0.1.1.hhub",
+      "packageUrl": "鼠标/ATK/ATK ZERO__AtkBitmouse__373B-1154__0.1.1.hhub",
       "sha256": "f84f6268d4a920b2b70d968afdacba80f2116181149f98d2abc651146d25a344",
       "tags": [
         "鼠标",
@@ -823,7 +823,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ATK/ATK ZERO__AtkBitmouse__373B-1155__0.1.1.hhub",
+      "packageUrl": "鼠标/ATK/ATK ZERO__AtkBitmouse__373B-1155__0.1.1.hhub",
       "sha256": "95be4f60e2dbd0b9eba422ead90bf5d333f49a0717f3ad91b867c5bdc84683fc",
       "tags": [
         "鼠标",
@@ -861,7 +861,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ATK/ATK__Atk__3554-F58A__0.1.1.hhub",
+      "packageUrl": "鼠标/ATK/ATK__Atk__3554-F58A__0.1.1.hhub",
       "sha256": "730e716999853327325edda0f28c498f74812a0b6677cffa914b84985fab801c",
       "tags": [
         "鼠标",
@@ -899,7 +899,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ATK/ATK__Atk__3554-F58C__0.1.1.hhub",
+      "packageUrl": "鼠标/ATK/ATK__Atk__3554-F58C__0.1.1.hhub",
       "sha256": "e43bed8177afaeaaf1b15c2d5fdf9f28a04cd42f7392b79e916d39cb4367b381",
       "tags": [
         "鼠标",
@@ -937,7 +937,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ATK/ATK__Atk__3554-F58E__0.1.1.hhub",
+      "packageUrl": "鼠标/ATK/ATK__Atk__3554-F58E__0.1.1.hhub",
       "sha256": "7826a430f650ba1aef9f6551562550502aee825fcc59380cd7fb9d3ef2c0e072",
       "tags": [
         "鼠标",
@@ -975,7 +975,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/ATK/ATK__Atk__3554-F58F__0.1.1.hhub",
+      "packageUrl": "鼠标/ATK/ATK__Atk__3554-F58F__0.1.1.hhub",
       "sha256": "c374c9d86db40d6e6d6471f1b1392148aea8cd470d99b8ac26ec22502aa1a1c2",
       "tags": [
         "鼠标",
@@ -1013,7 +1013,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Corsair/Corsair IRONCLAW RGB WIRELESS receiver__CorsairBragi__1B1C-1B66__0.1.1.hhub",
+      "packageUrl": "鼠标/Corsair/Corsair IRONCLAW RGB WIRELESS receiver__CorsairBragi__1B1C-1B66__0.1.1.hhub",
       "sha256": "db9467b52590568206e77f89a23f6c351f1a245df99459160b1d77831b6bdbe4",
       "tags": [
         "鼠标",
@@ -1051,7 +1051,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Corsair/Corsair IRONCLAW RGB WIRELESS__CorsairBragi__1B1C-1B4C__0.1.1.hhub",
+      "packageUrl": "鼠标/Corsair/Corsair IRONCLAW RGB WIRELESS__CorsairBragi__1B1C-1B4C__0.1.1.hhub",
       "sha256": "f32b4f25ad839daf27fe99d7367df4432a62dd67df4b6817f7bc9bd8f9b9596d",
       "tags": [
         "鼠标",
@@ -1089,7 +1089,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Corsair/Corsair NIGHTSWORD RGB__Corsair__1B1C-1B5C__0.1.1.hhub",
+      "packageUrl": "鼠标/Corsair/Corsair NIGHTSWORD RGB__Corsair__1B1C-1B5C__0.1.1.hhub",
       "sha256": "e2160ae24c0a259107f6facb9629b3e0c0e209727c57e23e85fa3e11c3c03785",
       "tags": [
         "鼠标",
@@ -1127,7 +1127,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Corsair/Corsair SLIPSTREAM WIRELESS USB Receiver__CorsairBragi__1B1C-1BDC__0.1.1.hhub",
+      "packageUrl": "鼠标/Corsair/Corsair SLIPSTREAM WIRELESS USB Receiver__CorsairBragi__1B1C-1BDC__0.1.1.hhub",
       "sha256": "98569c9f900c83716132560ef045c6906f96c06f169b093883b37bca4d431087",
       "tags": [
         "鼠标",
@@ -1165,7 +1165,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Fater/Fater MCR-9000B__Fater__04D9-A09F__0.1.1.hhub",
+      "packageUrl": "鼠标/Fater/Fater MCR-9000B__Fater__04D9-A09F__0.1.1.hhub",
       "sha256": "e4fdf69112896cfa1dc17be4c31963f206db102c3d1b1e4d2f31e79ed13f7dec",
       "tags": [
         "鼠标",
@@ -1203,7 +1203,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Finalmouse/Finalmouse Starlight X__Finalmouse__361D-0300__0.1.1.hhub",
+      "packageUrl": "鼠标/Finalmouse/Finalmouse Starlight X__Finalmouse__361D-0300__0.1.1.hhub",
       "sha256": "aa15760377ec5fc00a668f8d41aab3ef8467ae909f231dbf9c26fe6f20648bdc",
       "tags": [
         "鼠标",
@@ -1241,7 +1241,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Finalmouse/Finalmouse Starlight X__Finalmouse__361D-0301__0.1.1.hhub",
+      "packageUrl": "鼠标/Finalmouse/Finalmouse Starlight X__Finalmouse__361D-0301__0.1.1.hhub",
       "sha256": "f3c09007f1ef5f70e05615810366f597f512589654d324ef264c8afce20a97ec",
       "tags": [
         "鼠标",
@@ -1279,7 +1279,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Finalmouse/Finalmouse UltralightX__Finalmouse__361D-0100__0.1.1.hhub",
+      "packageUrl": "鼠标/Finalmouse/Finalmouse UltralightX__Finalmouse__361D-0100__0.1.1.hhub",
       "sha256": "f2952453b9183d78a05b06ce7fd83617b588cde3b35117e1b37278b9c48fc68d",
       "tags": [
         "鼠标",
@@ -1317,7 +1317,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves Fenir Max__GWolvesXvi__33E4-3708__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves Fenir Max__GWolvesXvi__33E4-3708__0.1.1.hhub",
       "sha256": "a04bd342c6154c5c423660e1ce52d138690ea23fc6d8d7388127921582338ff6",
       "tags": [
         "鼠标",
@@ -1355,7 +1355,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves Fenir Max__GWolvesXvi__33E4-3717__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves Fenir Max__GWolvesXvi__33E4-3717__0.1.1.hhub",
       "sha256": "ae96f3b330d45a6890897f4e859dd80ddccbb993a8b083b876418019ee1980a0",
       "tags": [
         "鼠标",
@@ -1393,7 +1393,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves Fenrir Asym__GWolves__33E4-3519__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves Fenrir Asym__GWolves__33E4-3519__0.1.1.hhub",
       "sha256": "ff407e741fdcb7efc6850c3aadffe5f2562d76e2c4cda4688f2dec5821202145",
       "tags": [
         "鼠标",
@@ -1431,7 +1431,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves Fenrir Pro__GWolves__33E4-3619__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves Fenrir Pro__GWolves__33E4-3619__0.1.1.hhub",
       "sha256": "9f4a65c320cb0b691b0e4c11937760543e18939166f483d3abab913a6b5b8b00",
       "tags": [
         "鼠标",
@@ -1469,7 +1469,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves Fenrir Pro__GWolvesXviNew__33E4-3608__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves Fenrir Pro__GWolvesXviNew__33E4-3608__0.1.1.hhub",
       "sha256": "91768e9358422bbc9b96f4c0e80bc1ee12676baa1eb776826c57ba5ba003a4b7",
       "tags": [
         "鼠标",
@@ -1507,7 +1507,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves Fenrir Pro__GWolvesXviNew__33E4-3617__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves Fenrir Pro__GWolvesXviNew__33E4-3617__0.1.1.hhub",
       "sha256": "a0c3be6cbd2e1be55836d77e76dbabbe28365cbdca9d13f2ec1f3216dbd3c51b",
       "tags": [
         "鼠标",
@@ -1545,7 +1545,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves Fenrir__GWolvesXvi__33E4-3508__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves Fenrir__GWolvesXvi__33E4-3508__0.1.1.hhub",
       "sha256": "384d40da26bc3384e5b6ca20f2b41cf104bc5acd258756ec2c5b067e91954924",
       "tags": [
         "鼠标",
@@ -1583,7 +1583,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves Fenrir__GWolvesXvi__33E4-3517__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves Fenrir__GWolvesXvi__33E4-3517__0.1.1.hhub",
       "sha256": "a0d03abc137d05566eca64b28883a8f9de3782cff7283080667cb18a16777093",
       "tags": [
         "鼠标",
@@ -1621,7 +1621,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Lite__GWolvesXvi__33E4-7203__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Lite__GWolvesXvi__33E4-7203__0.1.1.hhub",
       "sha256": "e0e66c9fdbb4a80b3238993a045319e6eeb95783a67bc27bb73fe50e9092b544",
       "tags": [
         "鼠标",
@@ -1659,7 +1659,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Lite__GWolvesXvi__33E4-7204__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Lite__GWolvesXvi__33E4-7204__0.1.1.hhub",
       "sha256": "f15804d623ea4ed411b0036f9848bdb63e6ca893e14670d888bdd6f0648d4b67",
       "tags": [
         "鼠标",
@@ -1697,7 +1697,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Plus ACE__GWolvesXvi__33E4-5903__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Plus ACE__GWolvesXvi__33E4-5903__0.1.1.hhub",
       "sha256": "f18464b19dc34382e5fe591308408bacfdabdbe14f7963d501ad801a62c096c1",
       "tags": [
         "鼠标",
@@ -1735,7 +1735,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Plus ACE__GWolvesXvi__33E4-5904__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Plus ACE__GWolvesXvi__33E4-5904__0.1.1.hhub",
       "sha256": "8a5e2c2d4cfb7fa4bd902d7bc48c51383b7fade80acaeeaef679a25e32baf1e2",
       "tags": [
         "鼠标",
@@ -1773,7 +1773,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Plus__GWolvesXvi__33E4-5907__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Plus__GWolvesXvi__33E4-5907__0.1.1.hhub",
       "sha256": "69e92488855e3ae36d358d14c873cc9a9585faa24ea49659497a3a86c008cf8f",
       "tags": [
         "鼠标",
@@ -1811,7 +1811,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Plus__GWolvesXvi__33E4-5908__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Plus__GWolvesXvi__33E4-5908__0.1.1.hhub",
       "sha256": "4438ba710bc8c587958b64bcc07984bd065e7d1b33cd497c5dc81ccea06bad4c",
       "tags": [
         "鼠标",
@@ -1849,7 +1849,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Plus__GWolvesXvi__33E4-5917__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Plus__GWolvesXvi__33E4-5917__0.1.1.hhub",
       "sha256": "a8932454552de198194cf62148f43b84ae647c2c5595343aefac8d23833ab89f",
       "tags": [
         "鼠标",
@@ -1887,7 +1887,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Pro 2.0__GWolvesXviNew__33E4-6808__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Pro 2.0__GWolvesXviNew__33E4-6808__0.1.1.hhub",
       "sha256": "7edbb5f99ad62a6d434d328a3b02ecfc7fde69a152e1f33514a4285a80be7c95",
       "tags": [
         "鼠标",
@@ -1925,7 +1925,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Pro 2.0__GWolvesXviNew__33E4-6817__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Pro 2.0__GWolvesXviNew__33E4-6817__0.1.1.hhub",
       "sha256": "f0d0113ef000e91f03dcc76d0cb1ae162974bb9aa43aa553c5219f5c55814947",
       "tags": [
         "鼠标",
@@ -1963,7 +1963,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Pro ACE__GWolvesXvi__33E4-5803__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Pro ACE__GWolvesXvi__33E4-5803__0.1.1.hhub",
       "sha256": "18a4bc2f5d18b987359bfbfbf4c382363e3d9c2bc9e4b5b63e40b114ceef2c74",
       "tags": [
         "鼠标",
@@ -2001,7 +2001,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Pro ACE__GWolvesXvi__33E4-5804__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Pro ACE__GWolvesXvi__33E4-5804__0.1.1.hhub",
       "sha256": "36768c822f6b0dcbae40d49a7a2cf692693e5251e65307399a2404a354ac9e6a",
       "tags": [
         "鼠标",
@@ -2039,7 +2039,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Pro__GWolvesXvi__33E4-5807__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Pro__GWolvesXvi__33E4-5807__0.1.1.hhub",
       "sha256": "881840dac95d8e6609ba6cefc95211d03e7b7a710b6aab60e6d3bc90a9121132",
       "tags": [
         "鼠标",
@@ -2077,7 +2077,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Pro__GWolvesXvi__33E4-5808__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Pro__GWolvesXvi__33E4-5808__0.1.1.hhub",
       "sha256": "2105e79643eb475d9c91c1191fff389f96bc36eb9d34af9c9546ba10202fcde0",
       "tags": [
         "鼠标",
@@ -2115,7 +2115,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HSK Pro__GWolvesXvi__33E4-5817__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HSK Pro__GWolvesXvi__33E4-5817__0.1.1.hhub",
       "sha256": "669cc943489e011a41af2d26ee0249c0e3c6e2a084e74e854cbcf6fd87daa8bb",
       "tags": [
         "鼠标",
@@ -2153,7 +2153,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HT-S2 Pro__GWolvesXvi__33E4-7908__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HT-S2 Pro__GWolvesXvi__33E4-7908__0.1.1.hhub",
       "sha256": "a92e1a93aa06389653888539e6bea719908cf28a0ce56728e72aa5b426f6c057",
       "tags": [
         "鼠标",
@@ -2191,7 +2191,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HT-S2 Pro__GWolvesXvi__33E4-7917__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HT-S2 Pro__GWolvesXvi__33E4-7917__0.1.1.hhub",
       "sha256": "fd84fb5789d15d0dcff236a4f08f6b9b9f890bc0d04a9432ddf554173b4db224",
       "tags": [
         "鼠标",
@@ -2229,7 +2229,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HT-S2__GWolvesXvi__33E4-7904__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HT-S2__GWolvesXvi__33E4-7904__0.1.1.hhub",
       "sha256": "138cea49e3d213e77f071fc250df60d8037346d03d02b0bd0d653fb3ed307e57",
       "tags": [
         "鼠标",
@@ -2267,7 +2267,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HT-S2__GWolvesXvi__33E4-7913__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HT-S2__GWolvesXvi__33E4-7913__0.1.1.hhub",
       "sha256": "6142dc6ace54d24c375c7f8b8ded423591ccadd79d0b6662d56eebcd6edfcdcb",
       "tags": [
         "鼠标",
@@ -2305,7 +2305,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTM Plus__GWolvesXviNew__33E4-3808__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTM Plus__GWolvesXviNew__33E4-3808__0.1.1.hhub",
       "sha256": "12eda87348da661382c5b90caf9902dd6c213df7c8f74c690cc5cec66ed968fc",
       "tags": [
         "鼠标",
@@ -2343,7 +2343,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTM Plus__GWolvesXviNew__33E4-3817__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTM Plus__GWolvesXviNew__33E4-3817__0.1.1.hhub",
       "sha256": "b7192e441fb8d3a313a8888bc386d8b8b5981bf9d1274d7f906e509a70251906",
       "tags": [
         "鼠标",
@@ -2381,7 +2381,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTR Pro__GWolvesXvi__33E4-7708__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTR Pro__GWolvesXvi__33E4-7708__0.1.1.hhub",
       "sha256": "bebbcf3f2ae2248bdb17662386fcbd7a941d159ff9647480193280998fa5d316",
       "tags": [
         "鼠标",
@@ -2419,7 +2419,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTR Pro__GWolvesXvi__33E4-7717__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTR Pro__GWolvesXvi__33E4-7717__0.1.1.hhub",
       "sha256": "fe07339f14c94106848b8c51faf216fefe31b6b5bd1608fad708368f30cc268d",
       "tags": [
         "鼠标",
@@ -2457,7 +2457,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTR__GWolvesXvi__33E4-7704__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTR__GWolvesXvi__33E4-7704__0.1.1.hhub",
       "sha256": "e29eef7d3c8bafaf7e6cc93fcabf2380ce47b89569cb65038129c1c84e8bec55",
       "tags": [
         "鼠标",
@@ -2495,7 +2495,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTR__GWolvesXvi__33E4-7713__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTR__GWolvesXvi__33E4-7713__0.1.1.hhub",
       "sha256": "0272759c623094289b55263170d3a03d41655155b81df0d2c2543fce3bb08cb8",
       "tags": [
         "鼠标",
@@ -2533,7 +2533,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTS Plus ACE__GWolvesXvi__33E4-5403__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTS Plus ACE__GWolvesXvi__33E4-5403__0.1.1.hhub",
       "sha256": "a2c6799b45e796c6840c63f5e65d1023ef8362fb537a9529b76512fc92cc8347",
       "tags": [
         "鼠标",
@@ -2571,7 +2571,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTS Plus ACE__GWolvesXvi__33E4-5404__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTS Plus ACE__GWolvesXvi__33E4-5404__0.1.1.hhub",
       "sha256": "08d94541dd3de2195545e61795bbbbcdcf08d9ec16a426637ea811cf103460eb",
       "tags": [
         "鼠标",
@@ -2609,7 +2609,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTS Plus Pro__GWolves__33E4-5219__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTS Plus Pro__GWolves__33E4-5219__0.1.1.hhub",
       "sha256": "895bf4edaad2da1d2835fac8b6950232c9799019fed034a86531fb0181972b86",
       "tags": [
         "鼠标",
@@ -2647,7 +2647,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTS Plus__GWolves__33E4-5418__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTS Plus__GWolves__33E4-5418__0.1.1.hhub",
       "sha256": "e9b0de7007cace383575110c8b6a7170313dd23b2fb90e5dc60bccac1c8f960c",
       "tags": [
         "鼠标",
@@ -2685,7 +2685,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTS Plus__GWolves__33E4-5419__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTS Plus__GWolves__33E4-5419__0.1.1.hhub",
       "sha256": "cba64b3c55669207406c71b71515efd8e749e7462268f881896cce8a2e39deeb",
       "tags": [
         "鼠标",
@@ -2723,7 +2723,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTS Plus__GWolvesXvi__33E4-5407__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTS Plus__GWolvesXvi__33E4-5407__0.1.1.hhub",
       "sha256": "5dfcdec81e3a608c2de50a57ed92de11df880285908ebe0b28c6bb26c4faf970",
       "tags": [
         "鼠标",
@@ -2761,7 +2761,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTS Plus__GWolvesXvi__33E4-5408__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTS Plus__GWolvesXvi__33E4-5408__0.1.1.hhub",
       "sha256": "eecaeb679f24447a994dabc49cb729d779eee12945549c9a795e49eaaa009252",
       "tags": [
         "鼠标",
@@ -2799,7 +2799,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTS Plus__GWolvesXvi__33E4-5417__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTS Plus__GWolvesXvi__33E4-5417__0.1.1.hhub",
       "sha256": "3a86b2363e85066ebf9627d9975f123b32d346f00476862b530eba811ddb4d18",
       "tags": [
         "鼠标",
@@ -2837,7 +2837,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTS Ultra__GWolvesXvi__33E4-5308__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTS Ultra__GWolvesXvi__33E4-5308__0.1.1.hhub",
       "sha256": "3b073396671c66ea08acf543732ba144dea3ce2d92ef932d9ceb5b85c40fdba8",
       "tags": [
         "鼠标",
@@ -2875,7 +2875,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTS Ultra__GWolvesXvi__33E4-5317__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTS Ultra__GWolvesXvi__33E4-5317__0.1.1.hhub",
       "sha256": "8fd915976003760fd69a68cd9660055a0a44a64099e6d524190f0d03dbc0293d",
       "tags": [
         "鼠标",
@@ -2913,7 +2913,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX ACE__GWolvesXvi__33E4-5703__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX ACE__GWolvesXvi__33E4-5703__0.1.1.hhub",
       "sha256": "209a62c749c74f29812c2fd50e28668aec4d19ca2ec357c52b0b64b7d99d6881",
       "tags": [
         "鼠标",
@@ -2951,7 +2951,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX ACE__GWolvesXvi__33E4-5704__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX ACE__GWolvesXvi__33E4-5704__0.1.1.hhub",
       "sha256": "dfb29b164d24dcf7bba77566ac386a1152c01f83c8f356fe562864ea0718de03",
       "tags": [
         "鼠标",
@@ -2989,7 +2989,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX Mini Asym__GWolves__33E4-2619__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX Mini Asym__GWolves__33E4-2619__0.1.1.hhub",
       "sha256": "add9bcf3bbc4aa7dbd244c390b7326e5ea70a0cb8ea7322ce5f9316071e9fe99",
       "tags": [
         "鼠标",
@@ -3027,7 +3027,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX Mini__GWolves__33E4-2719__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX Mini__GWolves__33E4-2719__0.1.1.hhub",
       "sha256": "7f8daf319544691e43c5265187eb8d050c2172b56e7cd9f3052f83cf105845cd",
       "tags": [
         "鼠标",
@@ -3065,7 +3065,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX Mini__GWolvesXvi__33E4-2708__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX Mini__GWolvesXvi__33E4-2708__0.1.1.hhub",
       "sha256": "bfb8fe2e5b7861513c9596a4702d91bf1fed073b6a45b8a2583b225d88d0b9a2",
       "tags": [
         "鼠标",
@@ -3103,7 +3103,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX Mini__GWolvesXvi__33E4-2717__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX Mini__GWolvesXvi__33E4-2717__0.1.1.hhub",
       "sha256": "fa19b6c34bd2cdaac622b5970a6fced41136eda0ab48147ebba400cda4887499",
       "tags": [
         "鼠标",
@@ -3141,7 +3141,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX Ultra__GWolves__33E4-3854__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX Ultra__GWolves__33E4-3854__0.1.1.hhub",
       "sha256": "4db6dce80a1e7531e1bee8dc1c6b8b0d2a70356c0295cf6a688ad6bbc25d3c67",
       "tags": [
         "鼠标",
@@ -3179,7 +3179,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX Ultra__GWolves__33E4-5618__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX Ultra__GWolves__33E4-5618__0.1.1.hhub",
       "sha256": "b718ab788cc6cf0e810403cc4f60a83d9506b3533e1c2dcf87b062ddcbe51937",
       "tags": [
         "鼠标",
@@ -3217,7 +3217,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX Ultra__GWolves__33E4-5619__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX Ultra__GWolves__33E4-5619__0.1.1.hhub",
       "sha256": "f71a100c972b9b59d5c7267c7d23ad5fd147b21a359d1de3a98716351a02f399",
       "tags": [
         "鼠标",
@@ -3255,7 +3255,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX__GWolvesXvi__33E4-5707__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX__GWolvesXvi__33E4-5707__0.1.1.hhub",
       "sha256": "ed6b3f02c11735d56b78daff0ea1770b0a6d95751b523644f3f1d1f85c2aff86",
       "tags": [
         "鼠标",
@@ -3293,7 +3293,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX__GWolvesXvi__33E4-5708__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX__GWolvesXvi__33E4-5708__0.1.1.hhub",
       "sha256": "5bd2a1dec5244863c9c51803841338278a9d4232bf234f1bfe978027bd0411a6",
       "tags": [
         "鼠标",
@@ -3331,7 +3331,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTX__GWolvesXvi__33E4-5717__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTX__GWolvesXvi__33E4-5717__0.1.1.hhub",
       "sha256": "a91e962cafb86402255f3b0a45a5f638816cebd8dbb34bd95804d5f6b0895a71",
       "tags": [
         "鼠标",
@@ -3369,7 +3369,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTXU__GWolvesXviNew__33E4-5608__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTXU__GWolvesXviNew__33E4-5608__0.1.1.hhub",
       "sha256": "7164ea09f856a3cca1342fd92da03d7bd94f836cbd6e5159a46d439861876dc0",
       "tags": [
         "鼠标",
@@ -3407,7 +3407,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves HTXU__GWolvesXviNew__33E4-5617__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves HTXU__GWolvesXviNew__33E4-5617__0.1.1.hhub",
       "sha256": "aa0d66dae9282b9d113f8655869a0acabd0b63536e0b8d9a39ef33ec5a7d6d79",
       "tags": [
         "鼠标",
@@ -3445,7 +3445,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves Lycan__GWolves__33E4-4718__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves Lycan__GWolves__33E4-4718__0.1.1.hhub",
       "sha256": "3969e19acd8c6a22c81ffb94ecfeac70340e9341959e532bdc565d0c366d2efa",
       "tags": [
         "鼠标",
@@ -3483,7 +3483,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves Lycan__GWolves__33E4-4719__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves Lycan__GWolves__33E4-4719__0.1.1.hhub",
       "sha256": "32a3258fa3a936a1432e683ebf7ff89db4d59f3bfa7ff112ed5f0c4041117fae",
       "tags": [
         "鼠标",
@@ -3521,7 +3521,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves VUK__GWolvesXvi__33E4-3908__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves VUK__GWolvesXvi__33E4-3908__0.1.1.hhub",
       "sha256": "63d503eebf0649a45ab67e01b7af17fa61ad64102a00de25f60306e20be3ddd4",
       "tags": [
         "鼠标",
@@ -3559,7 +3559,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves VUK__GWolvesXvi__33E4-3917__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves VUK__GWolvesXvi__33E4-3917__0.1.1.hhub",
       "sha256": "bf262c4051d058229e65eeb6c032e3276c11bd3294d20a8a5202b2f2b684de93",
       "tags": [
         "鼠标",
@@ -3597,7 +3597,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/G-Wolves/G-Wolves WARG__GWolves__33E4-4219__0.1.1.hhub",
+      "packageUrl": "鼠标/G-Wolves/G-Wolves WARG__GWolves__33E4-4219__0.1.1.hhub",
       "sha256": "cb0ddb998fa9f79885f1b65a40d3a55a5b70a8f9445c4a3d0e7c91fc068a732b",
       "tags": [
         "鼠标",
@@ -3635,7 +3635,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model D 2 PRO Wireless receiver__GloriousClassic__258A-2034__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model D 2 PRO Wireless receiver__GloriousClassic__258A-2034__0.1.1.hhub",
       "sha256": "2bcb50600eb9e0fa04deebcb62e61a05701fc171ab99e39d874814145d56a193",
       "tags": [
         "鼠标",
@@ -3673,7 +3673,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model D 2 PRO__GloriousClassic__258A-201A__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model D 2 PRO__GloriousClassic__258A-201A__0.1.1.hhub",
       "sha256": "5033d2222f5c209a75879a99601cc4b8c790680962288cf9e4a090bee8feb8c9",
       "tags": [
         "鼠标",
@@ -3711,7 +3711,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model D Wireless__GloriousClassic__258A-2012__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model D Wireless__GloriousClassic__258A-2012__0.1.1.hhub",
       "sha256": "c8ff5dbd61429915d783d0c11186a45bbffe9c3391932a3e72be7b4500fe7d81",
       "tags": [
         "鼠标",
@@ -3749,7 +3749,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model D Wireless__GloriousClassic__258A-2023__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model D Wireless__GloriousClassic__258A-2023__0.1.1.hhub",
       "sha256": "6117cdd837153fa7fe2efcbe283000bfb46b7a9df8c5d69ab69534f9b6f5ea7b",
       "tags": [
         "鼠标",
@@ -3787,7 +3787,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model D- Wireless__GloriousClassic__258A-2014__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model D- Wireless__GloriousClassic__258A-2014__0.1.1.hhub",
       "sha256": "55d3b8a919d060d4c7c95db6554238c8661b3d61977d97f6b8dca369c74fd6f8",
       "tags": [
         "鼠标",
@@ -3825,7 +3825,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model D- Wireless__GloriousClassic__258A-2025__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model D- Wireless__GloriousClassic__258A-2025__0.1.1.hhub",
       "sha256": "4f169e95163cf359cdae6012ca412c79f93014efac69bc75243feb235ab379ee",
       "tags": [
         "鼠标",
@@ -3863,7 +3863,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model D2 Pro 4K-8K Wireless receiver__GloriousCore2__258A-2036__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model D2 Pro 4K-8K Wireless receiver__GloriousCore2__258A-2036__0.1.1.hhub",
       "sha256": "7821a92b1166fa5edb059e2b4c64d2bdae0608b94d5944b80747347aa41f8899",
       "tags": [
         "鼠标",
@@ -3901,7 +3901,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model D2 Pro 4K-8K__GloriousCore2__258A-201C__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model D2 Pro 4K-8K__GloriousCore2__258A-201C__0.1.1.hhub",
       "sha256": "93798b973f347cdd04fa6715683909a62945940c38986dfce76e57f2f15f5a92",
       "tags": [
         "鼠标",
@@ -3939,7 +3939,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model I 2 Wired__GloriousClassic__320F-831A__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model I 2 Wired__GloriousClassic__320F-831A__0.1.1.hhub",
       "sha256": "c61f29c6ccc864a053951bf12415c5e8da6d4c6e673fe425ca8cf68aa977c278",
       "tags": [
         "鼠标",
@@ -3977,7 +3977,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model I 2 Wireless__GloriousClassic__320F-821A__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model I 2 Wireless__GloriousClassic__320F-821A__0.1.1.hhub",
       "sha256": "8583197bb83b1b440b3697e57e07a27640f8b953e8c06afbb0f5e20868e4836b",
       "tags": [
         "鼠标",
@@ -4015,7 +4015,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model I__GloriousClassic__22D4-1503__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model I__GloriousClassic__22D4-1503__0.1.1.hhub",
       "sha256": "554dec8aa1cf06bd54f393a0db8de20edaca72d4e76e571fc3be395cca6712fd",
       "tags": [
         "鼠标",
@@ -4053,7 +4053,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O 2 PRO Wireless receiver__GloriousClassic__258A-2033__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O 2 PRO Wireless receiver__GloriousClassic__258A-2033__0.1.1.hhub",
       "sha256": "fcd08e4e71a2d7c69ec9fa6c4f14223a25fae79a7b2a6a52e3faaad5f5137df6",
       "tags": [
         "鼠标",
@@ -4091,7 +4091,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O 2 PRO__GloriousClassic__258A-2019__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O 2 PRO__GloriousClassic__258A-2019__0.1.1.hhub",
       "sha256": "a4c8bfd296c950a6be4ab3e0460e5201818c2861204ae1499abd6e536fa2c2a6",
       "tags": [
         "鼠标",
@@ -4129,7 +4129,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O Pro Wireless receiver__GloriousClassic__258A-2027__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O Pro Wireless receiver__GloriousClassic__258A-2027__0.1.1.hhub",
       "sha256": "3b93959267bd766dd53a8c5c83b86ad459e16ec8a2d2c65ec9db0063b31a745e",
       "tags": [
         "鼠标",
@@ -4167,7 +4167,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O Pro__GloriousClassic__258A-2015__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O Pro__GloriousClassic__258A-2015__0.1.1.hhub",
       "sha256": "295166aa59e2bfabe43e4f7bd68df4036fbe1b9e881e0780ab7f10cdfe11c164",
       "tags": [
         "鼠标",
@@ -4205,7 +4205,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O V2 Wired__GloriousClassic__320F-823A__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O V2 Wired__GloriousClassic__320F-823A__0.1.1.hhub",
       "sha256": "aff0c28d6f20502697dcd83df40927bffbe9e9048407127c46c2ec6ce871f4a9",
       "tags": [
         "鼠标",
@@ -4243,7 +4243,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O Wireless__GloriousClassic__258A-2011__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O Wireless__GloriousClassic__258A-2011__0.1.1.hhub",
       "sha256": "6dc2316e911b099a059de796fc7556fed52f772a740870b3ae17ec97a50dd115",
       "tags": [
         "鼠标",
@@ -4281,7 +4281,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O Wireless__GloriousClassic__258A-2022__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O Wireless__GloriousClassic__258A-2022__0.1.1.hhub",
       "sha256": "0f849db07a194fb16c255f04cf64a9514edfb04daaca5f4d1ac4a7de64b67d13",
       "tags": [
         "鼠标",
@@ -4319,7 +4319,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O- Wireless receiver__GloriousClassic__258A-2024__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O- Wireless receiver__GloriousClassic__258A-2024__0.1.1.hhub",
       "sha256": "d6347ff9818c4e598b648e13449c2125651d59eb47716c08fa2777abd0589be3",
       "tags": [
         "鼠标",
@@ -4357,7 +4357,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O- Wireless__GloriousClassic__258A-2013__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O- Wireless__GloriousClassic__258A-2013__0.1.1.hhub",
       "sha256": "68bc9ed5738a5731b237cfdb847aa4a785ad640a0db12174a5e83ab70e4fa353",
       "tags": [
         "鼠标",
@@ -4395,7 +4395,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O2 Pro 4K-8K Wireless receiver__GloriousCore2__258A-2035__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O2 Pro 4K-8K Wireless receiver__GloriousCore2__258A-2035__0.1.1.hhub",
       "sha256": "75e433a6a48e2a4aee0466b363572a4d4e6de949489efb780a1f811424c55f67",
       "tags": [
         "鼠标",
@@ -4433,7 +4433,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O2 Pro 4K-8K__GloriousCore2__258A-201B__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O2 Pro 4K-8K__GloriousCore2__258A-201B__0.1.1.hhub",
       "sha256": "4afaf4fea861f5081f5539a048cc5d5b03964cab034368d5716261f48bcc1783",
       "tags": [
         "鼠标",
@@ -4471,7 +4471,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O3 Wireless receiver__GloriousClassic__3794-A300__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O3 Wireless receiver__GloriousClassic__3794-A300__0.1.1.hhub",
       "sha256": "4a4aa867a027dc21d61c46a4b8f24f0fb04849128631030f0b14edad390e4051",
       "tags": [
         "鼠标",
@@ -4509,7 +4509,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Model O3 Wireless__GloriousClassic__3794-A312__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Model O3 Wireless__GloriousClassic__3794-A312__0.1.1.hhub",
       "sha256": "3a450f3dc9b80e83860c16ffc995efd792eec354b0eefc294fd8d4f4cfa9e02a",
       "tags": [
         "鼠标",
@@ -4547,7 +4547,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Series 2 PRO Wireless receiver__GloriousClassic__258A-2039__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Series 2 PRO Wireless receiver__GloriousClassic__258A-2039__0.1.1.hhub",
       "sha256": "da6e5c815c22e40d3116f1f1dc6d66186245261ae1b5e10d01c627a61bf2cf10",
       "tags": [
         "鼠标",
@@ -4585,7 +4585,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Series 2 PRO__GloriousClassic__258A-201D__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Series 2 PRO__GloriousClassic__258A-201D__0.1.1.hhub",
       "sha256": "3a298ed835f81f4cd4ac087fecfb1f0e22bb74aee3875bb879b31e064d722c42",
       "tags": [
         "鼠标",
@@ -4623,7 +4623,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Series One Pro Wireless receiver__GloriousClassic__258A-2031__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Series One Pro Wireless receiver__GloriousClassic__258A-2031__0.1.1.hhub",
       "sha256": "e99bb52fe63652bb53b41ac323dbc63715b5630fc44366e58cb8feb7675dc56e",
       "tags": [
         "鼠标",
@@ -4661,7 +4661,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Glorious/Series One Pro__GloriousClassic__258A-2018__0.1.1.hhub",
+      "packageUrl": "鼠标/Glorious/Series One Pro__GloriousClassic__258A-2018__0.1.1.hhub",
       "sha256": "845ed62276df50f37cffb90b63bf23422669ba017ff4f20cb1b3799ab86672ef",
       "tags": [
         "鼠标",
@@ -4699,7 +4699,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/K-snake/K-snake X11__Ksnake__A8A4-2255__0.1.1.hhub",
+      "packageUrl": "鼠标/K-snake/K-snake X11__Ksnake__A8A4-2255__0.1.1.hhub",
       "sha256": "b88c050efc8706556b6e3e734385beb8a9388604c2399fb1ac6bc44d7eba2bb7",
       "tags": [
         "鼠标",
@@ -4737,7 +4737,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/K-snake/K-snake X11__Ksnake__A8A5-2255__0.1.1.hhub",
+      "packageUrl": "鼠标/K-snake/K-snake X11__Ksnake__A8A5-2255__0.1.1.hhub",
       "sha256": "668f863497eee4fdabaf590c24f998dadbc4b39959cba0c7e45a8036a909314a",
       "tags": [
         "鼠标",
@@ -4775,7 +4775,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Lamzu/Lamzu Inca 8K__Lamzu__37B0-0009__0.1.1.hhub",
+      "packageUrl": "鼠标/Lamzu/Lamzu Inca 8K__Lamzu__37B0-0009__0.1.1.hhub",
       "sha256": "d95490745b12ad9692ae8beded9b564976d48ac1c3239de7c084b4c026f9d32c",
       "tags": [
         "鼠标",
@@ -4813,7 +4813,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Lamzu/Lamzu Inca 8K__Lamzu__37B0-000F__0.1.1.hhub",
+      "packageUrl": "鼠标/Lamzu/Lamzu Inca 8K__Lamzu__37B0-000F__0.1.1.hhub",
       "sha256": "c10e0a6db81b2e92190d4a597ab72f867c10b2eb07fdae32467cf92bf7d30f0c",
       "tags": [
         "鼠标",
@@ -4851,7 +4851,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Lamzu/Lamzu Inca 8K__Lamzu__37B0-0010__0.1.1.hhub",
+      "packageUrl": "鼠标/Lamzu/Lamzu Inca 8K__Lamzu__37B0-0010__0.1.1.hhub",
       "sha256": "b23e02547013a955ee7fbae4305519c7bc3a3ec7eb94e0dce9e2f85e849a54dc",
       "tags": [
         "鼠标",
@@ -4889,7 +4889,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Lamzu/Lamzu Paro Aurora__Lamzu__37B0-0007__0.1.1.hhub",
+      "packageUrl": "鼠标/Lamzu/Lamzu Paro Aurora__Lamzu__37B0-0007__0.1.1.hhub",
       "sha256": "04264ea8a43c202e3d0017469eb1054c49a9277d836e66a1c274f8b91663c505",
       "tags": [
         "鼠标",
@@ -4927,7 +4927,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Lamzu/Lamzu Paro Aurora__Lamzu__37B0-000D__0.1.1.hhub",
+      "packageUrl": "鼠标/Lamzu/Lamzu Paro Aurora__Lamzu__37B0-000D__0.1.1.hhub",
       "sha256": "ef4c2a80bc8a743e3dcfad4abe54f909b72833350e4d68d1d1781d43a9556d53",
       "tags": [
         "鼠标",
@@ -4965,7 +4965,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Lamzu/Lamzu Paro Aurora__Lamzu__37B0-000E__0.1.1.hhub",
+      "packageUrl": "鼠标/Lamzu/Lamzu Paro Aurora__Lamzu__37B0-000E__0.1.1.hhub",
       "sha256": "2599fd9a2d323e44798f8fca22f046ebda60bed2c7544f0a7e098040a7e54699",
       "tags": [
         "鼠标",
@@ -5003,7 +5003,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/MCHOSE/MCHOSE A5 Pro Max (1K receiver)__MchoseA5ProMax__2023-F013__0.1.1.hhub",
+      "packageUrl": "鼠标/MCHOSE/MCHOSE A5 Pro Max (1K receiver)__MchoseA5ProMax__2023-F013__0.1.1.hhub",
       "sha256": "a1c101be2285ee6deea0bfa97d0c7bd087ab5f305be62bd1f3f7114a5f314d4e",
       "tags": [
         "鼠标",
@@ -5041,7 +5041,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/MCHOSE/MCHOSE A5 Pro Max (4K receiver)__MchoseA5ProMax__2023-F015__0.1.1.hhub",
+      "packageUrl": "鼠标/MCHOSE/MCHOSE A5 Pro Max (4K receiver)__MchoseA5ProMax__2023-F015__0.1.1.hhub",
       "sha256": "9985bb80fce2f35a2845364c8262f68f5aa5079a99169a512cd95f693c94134d",
       "tags": [
         "鼠标",
@@ -5079,7 +5079,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/MCHOSE/MCHOSE A5 Pro Max__MchoseA5ProMax__2023-F019__0.1.1.hhub",
+      "packageUrl": "鼠标/MCHOSE/MCHOSE A5 Pro Max__MchoseA5ProMax__2023-F019__0.1.1.hhub",
       "sha256": "93e38df93a2493f44bb21c80b9e87e0f5af97a615df5701268bc9a4eadfca491",
       "tags": [
         "鼠标",
@@ -5117,7 +5117,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/MCHOSE/MCHOSE A7 V2 Ultra+ Receiver__Mchose__3837-100B__0.1.1.hhub",
+      "packageUrl": "鼠标/MCHOSE/MCHOSE A7 V2 Ultra+ Receiver__Mchose__3837-100B__0.1.1.hhub",
       "sha256": "c0420fde1c16589f14a34ba6143187efd78ce502883cc9280392b66e2a8ac471",
       "tags": [
         "鼠标",
@@ -5155,7 +5155,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE11__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE11__0.1.1.hhub",
       "sha256": "e92ee8966acbe790ecee1863597f1cfba825e4f8672aa2b4da0d4d4179076ef1",
       "tags": [
         "鼠标",
@@ -5193,7 +5193,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE12__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE12__0.1.1.hhub",
       "sha256": "1a8befbba66ef2987ac4f7a7fb7733eea1383f7d6a2f8a34a1150ee5bd2c6848",
       "tags": [
         "鼠标",
@@ -5231,7 +5231,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE13__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE13__0.1.1.hhub",
       "sha256": "28111a1760a0deb56cde0ee233bbb1bd5cc4e503143e9f14c3ccc531898072c9",
       "tags": [
         "鼠标",
@@ -5269,7 +5269,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE14__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE14__0.1.1.hhub",
       "sha256": "89cf80cfd0f8ef7eb7724cac464d14001dc9ea716bdb2e1ac2b639a5c05be53b",
       "tags": [
         "鼠标",
@@ -5307,7 +5307,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE15__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE15__0.1.1.hhub",
       "sha256": "a11fe6b488bd1c2dec34a2dfa98f60420ff71ec59146aa49298c0acbfc677f94",
       "tags": [
         "鼠标",
@@ -5345,7 +5345,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE16__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE16__0.1.1.hhub",
       "sha256": "46b0e991d93215dbecf6b34bc3f275984443d1d3cba45663f597669932b20a37",
       "tags": [
         "鼠标",
@@ -5383,7 +5383,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE1C__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE1C__0.1.1.hhub",
       "sha256": "3687d72e85adf6066b3f0b9a95e3bbab1854c583ec6fc21f3db3c7a169f2bc9d",
       "tags": [
         "鼠标",
@@ -5421,7 +5421,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE8A__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE8A__0.1.1.hhub",
       "sha256": "a8c3edc5feb24832992332bb38285a9cb8c6ccef057f45fdfe9cf12596dc47c9",
       "tags": [
         "鼠标",
@@ -5459,7 +5459,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE8C__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V2__Ninjutso__1915-AE8C__0.1.1.hhub",
       "sha256": "8af2b13524fba26b7e2d9c03d2546cd3c210f580c86a997be607b570f540001c",
       "tags": [
         "鼠标",
@@ -5497,7 +5497,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V3__Ninjutso__093A-E010__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V3__Ninjutso__093A-E010__0.1.1.hhub",
       "sha256": "ee11e85b78acb854124b97ac085d12b9eef47d64919167f042c6791580aae97d",
       "tags": [
         "鼠标",
@@ -5535,7 +5535,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso Sora V3__Ninjutso__093A-EB02__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso Sora V3__Ninjutso__093A-EB02__0.1.1.hhub",
       "sha256": "334ba57d5dd6e66c82a39d3ace0efaae7e256709cb093c2041790a1a78b29bf2",
       "tags": [
         "鼠标",
@@ -5573,7 +5573,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso TEN - TEN AIR__Ninjutso__093A-E020__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso TEN - TEN AIR__Ninjutso__093A-E020__0.1.1.hhub",
       "sha256": "f940b45dd1caae9570c1659c6eed9d93a0cf6990d9082a36ca2550183751bd7c",
       "tags": [
         "鼠标",
@@ -5611,7 +5611,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso TEN - TEN AIR__Ninjutso__093A-EA01__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso TEN - TEN AIR__Ninjutso__093A-EA01__0.1.1.hhub",
       "sha256": "b2fbadf85d3c8a07d5563a7716209c0a6348d60e82c1458ef4d72e27fe8eafb8",
       "tags": [
         "鼠标",
@@ -5649,7 +5649,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ninjutso/Ninjutso TEN - TEN AIR__Ninjutso__093A-EB01__0.1.1.hhub",
+      "packageUrl": "鼠标/Ninjutso/Ninjutso TEN - TEN AIR__Ninjutso__093A-EB01__0.1.1.hhub",
       "sha256": "4b0c1b6b2b737723723fae6a777a1880a54f6811c687c478e9801e072702688e",
       "tags": [
         "鼠标",
@@ -5663,7 +5663,7 @@
       "protocol": "Ninjutso"
     },
     {
-      "packageUrl": "外设插件/鼠标/Rapoo/Hhub-Rapoo-VT3S-MAX-0.5.2.hhub",
+      "packageUrl": "鼠标/Rapoo/Hhub-Rapoo-VT3S-MAX-0.5.2.hhub",
       "kind": "mouse",
       "description": "雷柏 VT3S MAX：七档 DPI、改键、参数自动同步及电量上报。固件刷写尚未开放。",
       "sha256": "d1d5a2e7bb54dff72c4e24d70e3eea40fefade76bfb52625f8d206bdf9d010fa",
@@ -5713,7 +5713,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Rapoo/Rapoo VT9 Pro Receiver__Rapoo__24AE-1205__0.1.1.hhub",
+      "packageUrl": "鼠标/Rapoo/Rapoo VT9 Pro Receiver__Rapoo__24AE-1205__0.1.1.hhub",
       "sha256": "00f06bf7a00936b49301482ecacc8169d85b0acf105630f19bfc7ac5c3662144",
       "tags": [
         "鼠标",
@@ -5751,7 +5751,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Rapoo/Rapoo VT9 Pro Wired__Rapoo__24AE-4405__0.1.1.hhub",
+      "packageUrl": "鼠标/Rapoo/Rapoo VT9 Pro Wired__Rapoo__24AE-4405__0.1.1.hhub",
       "sha256": "ba7e791c4646920b012184df424d8828b5783470ab4dd0cec61d9e64d91384a1",
       "tags": [
         "鼠标",
@@ -5789,7 +5789,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM 8K receiver__Rawm__1915-232B__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM 8K receiver__Rawm__1915-232B__0.1.1.hhub",
       "sha256": "cac68f2571a2a1fec48f0da37f4d58907fb773dccdff31fc467043052eadd87a",
       "tags": [
         "鼠标",
@@ -5827,7 +5827,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM 8K receiver__Rawm__1915-2335__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM 8K receiver__Rawm__1915-2335__0.1.1.hhub",
       "sha256": "a4c584a550465fd221cee4558a142ab926c31dbba481b4fde4b47e27b77c07f0",
       "tags": [
         "鼠标",
@@ -5865,7 +5865,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM Blade 1__Rawm__1915-2328__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM Blade 1__Rawm__1915-2328__0.1.1.hhub",
       "sha256": "4b96a5142065a429997880627cbc7575492b203f232e13bb11a6a767ae2ec275",
       "tags": [
         "鼠标",
@@ -5903,7 +5903,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM DH8 receiver__Rawm__1915-2336__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM DH8 receiver__Rawm__1915-2336__0.1.1.hhub",
       "sha256": "8ad8342237e92b98d0d2156ec9af79873e3b5f8115c39117c1ef1953b67bf6fe",
       "tags": [
         "鼠标",
@@ -5941,7 +5941,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM ER21 Pro__Rawm__1915-2338__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM ER21 Pro__Rawm__1915-2338__0.1.1.hhub",
       "sha256": "88d28c8630c96e626857747f2ca804261038b293ed0327c4de85d1af157d552f",
       "tags": [
         "鼠标",
@@ -5979,7 +5979,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM ER21M__Rawm__1915-2339__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM ER21M__Rawm__1915-2339__0.1.1.hhub",
       "sha256": "b17f007b50eb84897d7d169957c5f84533b96542e1b211665f14024506d08879",
       "tags": [
         "鼠标",
@@ -6017,7 +6017,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM ES21 Pro__Rawm__1915-2334__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM ES21 Pro__Rawm__1915-2334__0.1.1.hhub",
       "sha256": "a99374a24034264c00c6cab50ee30b56a6aab368aa1976b929f75d1ecdd7300c",
       "tags": [
         "鼠标",
@@ -6055,7 +6055,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM ES21__Rawm__1915-2333__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM ES21__Rawm__1915-2333__0.1.1.hhub",
       "sha256": "5124dfc788ff5616250de338833223667820ae4b182876143032d0dcd16a7e0c",
       "tags": [
         "鼠标",
@@ -6093,7 +6093,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM ES21M__Rawm__1915-2337__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM ES21M__Rawm__1915-2337__0.1.1.hhub",
       "sha256": "12a0f59786697b2e785792399933c7a1acce69aba551862457f9a635dac2e010",
       "tags": [
         "鼠标",
@@ -6131,7 +6131,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM MH01 Pro__Rawm__1915-2331__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM MH01 Pro__Rawm__1915-2331__0.1.1.hhub",
       "sha256": "6aaf8655bd3611eb7678a27bd9b777b00b20696a3c9645d8334e702b8d1e8848",
       "tags": [
         "鼠标",
@@ -6169,7 +6169,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM MH01__Rawm__1915-232C__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM MH01__Rawm__1915-232C__0.1.1.hhub",
       "sha256": "82fcfecad8acfc32775a71ce20ffe9146c84213f108f7229c265acfce399dbf7",
       "tags": [
         "鼠标",
@@ -6207,7 +6207,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM ML01__Rawm__1915-2329__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM ML01__Rawm__1915-2329__0.1.1.hhub",
       "sha256": "e8c115c65d240835a5a28751fe1d2a532008854563674101fa43c163a9f98df5",
       "tags": [
         "鼠标",
@@ -6245,7 +6245,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM receiver__Rawm__1915-232A__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM receiver__Rawm__1915-232A__0.1.1.hhub",
       "sha256": "3645c402a8351ca5877b19a86b76b7bb022dd5dbbc96ff5158f64ee989fd2c09",
       "tags": [
         "鼠标",
@@ -6283,7 +6283,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM SH01 Pro__Rawm__1915-2330__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM SH01 Pro__Rawm__1915-2330__0.1.1.hhub",
       "sha256": "e8f84e5cb52d76dccfbde6187a1c3f4d6ac0f312b5343025b21ef510fe241a27",
       "tags": [
         "鼠标",
@@ -6321,7 +6321,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM SH01 Pro__Rawm__1915-2332__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM SH01 Pro__Rawm__1915-2332__0.1.1.hhub",
       "sha256": "9be6fc394383dcd9cdf5394b14cd6c983740c4d11d11ec4e8a47c13dcfdc8283",
       "tags": [
         "鼠标",
@@ -6359,7 +6359,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM SH01__Rawm__1915-232E__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM SH01__Rawm__1915-232E__0.1.1.hhub",
       "sha256": "334cded753d17833b7144d6215abe38527053591c9778fcc0cd186780439b7d1",
       "tags": [
         "鼠标",
@@ -6397,7 +6397,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM SH01__Rawm__1915-232F__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM SH01__Rawm__1915-232F__0.1.1.hhub",
       "sha256": "cf19cfadaa4966bd7be46a1a5b78de0c3650bbabaf5da9a72fbf10c00e241144",
       "tags": [
         "鼠标",
@@ -6435,7 +6435,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/RAWM/RAWM SL01__Rawm__1915-232D__0.1.1.hhub",
+      "packageUrl": "鼠标/RAWM/RAWM SL01__Rawm__1915-232D__0.1.1.hhub",
       "sha256": "26ffa8bcca13f75e0f48eba292c3340f07dda3b2a6811959f6f6cc185db4503a",
       "tags": [
         "鼠标",
@@ -6473,7 +6473,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Abyssus 1800__Razer__1532-0020__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Abyssus 1800__Razer__1532-0020__0.1.1.hhub",
       "sha256": "c9c631d85f0e8743b3c5bdae770d41f20e712812eee99026f85269616bfb6ce4",
       "tags": [
         "鼠标",
@@ -6511,7 +6511,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Abyssus 2000__Razer__1532-005E__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Abyssus 2000__Razer__1532-005E__0.1.1.hhub",
       "sha256": "fc943b25baed0c440da4890fcd42959752b0a568ebb65ca3804c935e9630678e",
       "tags": [
         "鼠标",
@@ -6549,7 +6549,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Abyssus 2014__Razer__1532-0042__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Abyssus 2014__Razer__1532-0042__0.1.1.hhub",
       "sha256": "0752b844603334cb3141d8e5021b98d20ee655fa5686bc50e39952cd7b47a93b",
       "tags": [
         "鼠标",
@@ -6587,7 +6587,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Abyssus Elite (D.Va Edition)__Razer__1532-006A__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Abyssus Elite (D.Va Edition)__Razer__1532-006A__0.1.1.hhub",
       "sha256": "b5940234ec183f6261079360d7a0716d173ca741ac748b8af4eeaecd2308d457",
       "tags": [
         "鼠标",
@@ -6625,7 +6625,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Abyssus Essential__Razer__1532-006B__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Abyssus Essential__Razer__1532-006B__0.1.1.hhub",
       "sha256": "546a18044706075ee83466a3ce8006c22c8ccaee7718dea3ef75325980a68cd3",
       "tags": [
         "鼠标",
@@ -6663,7 +6663,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Abyssus V2__Razer__1532-005B__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Abyssus V2__Razer__1532-005B__0.1.1.hhub",
       "sha256": "6e6b9c5f1e38bebc60168ad805dfaf9ed518069d63b2f0ee859446abc4b3b4d9",
       "tags": [
         "鼠标",
@@ -6701,7 +6701,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Atheris__Razer__1532-0062__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Atheris__Razer__1532-0062__0.1.1.hhub",
       "sha256": "9bb2fda1bc0143a3affb1a962b1d6212c8ec287ae2bc76b0f9f199dd10a3da0c",
       "tags": [
         "鼠标",
@@ -6739,7 +6739,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk Essential__Razer__1532-0065__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk Essential__Razer__1532-0065__0.1.1.hhub",
       "sha256": "800ad402b6f1ce3c0ca59217bee0fd2c76b765b5e853e7ee07c3e48c8dda21ff",
       "tags": [
         "鼠标",
@@ -6777,7 +6777,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk Mobile (Wired)__Razer__1532-00D3__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk Mobile (Wired)__Razer__1532-00D3__0.1.1.hhub",
       "sha256": "4eee1bed59c806d18324826458ca980372af90bbf9f9f62070598b64cd20736e",
       "tags": [
         "鼠标",
@@ -6815,7 +6815,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk Mobile__Razer__1532-00D4__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk Mobile__Razer__1532-00D4__0.1.1.hhub",
       "sha256": "a8d743c200c2a4686d3a66c8b6f817f5fea5adae49602b5a5c92200ad0f21e3a",
       "tags": [
         "鼠标",
@@ -6853,7 +6853,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk Ultimate (Wired)__Razer__1532-0086__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk Ultimate (Wired)__Razer__1532-0086__0.1.1.hhub",
       "sha256": "f60253c18efbe621abe7c1c5b13939192e8a1c4ec13989c5b8d1d40681ff7ed5",
       "tags": [
         "鼠标",
@@ -6891,7 +6891,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk Ultimate__Razer__1532-0088__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk Ultimate__Razer__1532-0088__0.1.1.hhub",
       "sha256": "46ac643ee78d051455c31f5e9c4afbb907a1096ae5ec4ee06972fbff0ec8a855",
       "tags": [
         "鼠标",
@@ -6929,7 +6929,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk V2__Razer__1532-0085__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk V2__Razer__1532-0085__0.1.1.hhub",
       "sha256": "3b89c9456174922529adf67673c1af8aa6a314fc6e420b9e90a8f90c6172bbe0",
       "tags": [
         "鼠标",
@@ -6967,7 +6967,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk V3 35K__Razer__1532-00CB__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk V3 35K__Razer__1532-00CB__0.1.1.hhub",
       "sha256": "6315bee5dc7a69e6ac944ed06ba80e4f3d35ff57f05fd06c48f89a6835f1d197",
       "tags": [
         "鼠标",
@@ -7005,7 +7005,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk V3 Pro (Wired)__Razer__1532-00AA__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk V3 Pro (Wired)__Razer__1532-00AA__0.1.1.hhub",
       "sha256": "713f0d4f1d6d2ce7ce477284558d3a4822248f8b15d7ed3a085cc5355e37fea9",
       "tags": [
         "鼠标",
@@ -7043,7 +7043,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk V3 Pro 35K (Wired)__Razer__1532-00CC__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk V3 Pro 35K (Wired)__Razer__1532-00CC__0.1.1.hhub",
       "sha256": "28824f3bbc6b6d3d4f87aba43f8b73c297e98b13caf404cfa2cfbcbf27b53b17",
       "tags": [
         "鼠标",
@@ -7081,7 +7081,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk V3 Pro 35K Phantom Green (Wired)__Razer__1532-00D6__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk V3 Pro 35K Phantom Green (Wired)__Razer__1532-00D6__0.1.1.hhub",
       "sha256": "27f4b0c88b31125e47b714de929ebfc706c6ef9b93e6c06f03f04e1b7754666b",
       "tags": [
         "鼠标",
@@ -7119,7 +7119,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk V3 Pro 35K Phantom Green__Razer__1532-00D7__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk V3 Pro 35K Phantom Green__Razer__1532-00D7__0.1.1.hhub",
       "sha256": "e26b3cafd5f0481fa4626233255ae1e019ac11c9222f3e9ebe9fe111748561b7",
       "tags": [
         "鼠标",
@@ -7157,7 +7157,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk V3 Pro 35K__Razer__1532-00CD__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk V3 Pro 35K__Razer__1532-00CD__0.1.1.hhub",
       "sha256": "09cb559c0a8235700e1e98bb375181039b23080be5672806f73b1b5f7c1fdd3e",
       "tags": [
         "鼠标",
@@ -7195,7 +7195,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk V3 Pro__Razer__1532-00AB__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk V3 Pro__Razer__1532-00AB__0.1.1.hhub",
       "sha256": "d0aff13c0be707222209b2d7c451e6697037bc674149606b4db76d9e14794bcc",
       "tags": [
         "鼠标",
@@ -7233,7 +7233,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk V3 X HyperSpeed__Razer__1532-00B9__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk V3 X HyperSpeed__Razer__1532-00B9__0.1.1.hhub",
       "sha256": "88cbbfe2280c8769642df51f9ade90fd01ba918a1267f5d20e7adb2471d3bcdd",
       "tags": [
         "鼠标",
@@ -7271,7 +7271,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk V3__Razer__1532-0099__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk V3__Razer__1532-0099__0.1.1.hhub",
       "sha256": "a4fb7e02973b323f3604b565dc632ca207adba51f13924567624bd59719d4052",
       "tags": [
         "鼠标",
@@ -7309,7 +7309,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk X HyperSpeed__Razer__1532-0083__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk X HyperSpeed__Razer__1532-0083__0.1.1.hhub",
       "sha256": "603ffddc0696321c895ace6d7db312e7a43ad3fbf10d42ccdcee857786fdd9a3",
       "tags": [
         "鼠标",
@@ -7347,7 +7347,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Basilisk__Razer__1532-0064__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Basilisk__Razer__1532-0064__0.1.1.hhub",
       "sha256": "0ba9cc73b1918ddb456ea9e28a871eabb327f6fb95a54ce147a56d9f2dc06695",
       "tags": [
         "鼠标",
@@ -7385,7 +7385,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Cobra Pro (Wired)__Razer__1532-00AF__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Cobra Pro (Wired)__Razer__1532-00AF__0.1.1.hhub",
       "sha256": "6d4be7ef5be8b29202c87458c6cb76a03c223b9b156aa7b6a9d2120d2072c971",
       "tags": [
         "鼠标",
@@ -7423,7 +7423,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Cobra Pro__Razer__1532-00B0__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Cobra Pro__Razer__1532-00B0__0.1.1.hhub",
       "sha256": "69057e78efecb1f4ffc6134c155600eb4906f49f2a1f1c47ef62123dfb56887a",
       "tags": [
         "鼠标",
@@ -7461,7 +7461,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Cobra__RazerCobra__1532-00A3__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Cobra__RazerCobra__1532-00A3__0.1.1.hhub",
       "sha256": "fddf7d81ef8f363a57647d87e4abdc35b5da1394bef7ae20dc35507965ea5e24",
       "tags": [
         "鼠标",
@@ -7499,7 +7499,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder 1800__Razer__1532-0038__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder 1800__Razer__1532-0038__0.1.1.hhub",
       "sha256": "2185afefaa92d9b31558b0e150c1835d21a298df92316c8e00054f6881285ae9",
       "tags": [
         "鼠标",
@@ -7537,7 +7537,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder 2000__Razer__1532-004F__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder 2000__Razer__1532-004F__0.1.1.hhub",
       "sha256": "458f4e06e1dba1ea53c3795a279f25685b679c3565bef9c36d09def5b3e84441",
       "tags": [
         "鼠标",
@@ -7575,7 +7575,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder 2013__Razer__1532-0037__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder 2013__Razer__1532-0037__0.1.1.hhub",
       "sha256": "1cf8052224993a50bd6aa0a89f5232768244ec1b45e1e323d15b059f3695f1c2",
       "tags": [
         "鼠标",
@@ -7613,7 +7613,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder 3500__Razer__1532-0054__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder 3500__Razer__1532-0054__0.1.1.hhub",
       "sha256": "fbbcb8d9226b3838a4cc842f6a9fd85baf27f7e5a0501e50b39a8434e530ee12",
       "tags": [
         "鼠标",
@@ -7651,7 +7651,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder Chroma__Razer__1532-0043__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder Chroma__Razer__1532-0043__0.1.1.hhub",
       "sha256": "8af35c876c8fa2f81e16771f396298383f8dd6e1ac9807428099c8c891be9de7",
       "tags": [
         "鼠标",
@@ -7689,7 +7689,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder Elite__Razer__1532-005C__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder Elite__Razer__1532-005C__0.1.1.hhub",
       "sha256": "f9c5a78b47d9d2c43c215d97172aa8319aa8a44f99a6cfd354ebcad76cf75e10",
       "tags": [
         "鼠标",
@@ -7727,7 +7727,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder Essential (2021)__Razer__1532-0098__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder Essential (2021)__Razer__1532-0098__0.1.1.hhub",
       "sha256": "b2b5a649602fe7cfc22f63971df87b874d8e4490d8d0b38da3e5675582ade2c2",
       "tags": [
         "鼠标",
@@ -7765,7 +7765,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder Essential White Edition__Razer__1532-0071__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder Essential White Edition__Razer__1532-0071__0.1.1.hhub",
       "sha256": "0cfe33deed3f15e829d2ead49bd024c5c1da7c816225a079f20cc364bfb1375d",
       "tags": [
         "鼠标",
@@ -7803,7 +7803,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder Essential__Razer__1532-006E__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder Essential__Razer__1532-006E__0.1.1.hhub",
       "sha256": "082a3919f15db0021da9aeb27df832fc0ecefb0a05c49ab25e70370ca11518e4",
       "tags": [
         "鼠标",
@@ -7841,7 +7841,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V2 Lite__Razer__1532-00A1__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V2 Lite__Razer__1532-00A1__0.1.1.hhub",
       "sha256": "ebdc93d9dfc59f266177d5ef82b74230d009850fabc0249e5eb22704f39e99dc",
       "tags": [
         "鼠标",
@@ -7879,7 +7879,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V2 Mini__Razer__1532-008C__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V2 Mini__Razer__1532-008C__0.1.1.hhub",
       "sha256": "956aee40ed10ff36f98389856b1268383ff8cf1d152344fe44b0c875663888a1",
       "tags": [
         "鼠标",
@@ -7917,7 +7917,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V2 Pro (Wired)__Razer__1532-007C__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V2 Pro (Wired)__Razer__1532-007C__0.1.1.hhub",
       "sha256": "682e5f6847321fd825891ee77008c997bd26787abe353d098c3c173843f842cb",
       "tags": [
         "鼠标",
@@ -7955,7 +7955,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V2 Pro__Razer__1532-007D__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V2 Pro__Razer__1532-007D__0.1.1.hhub",
       "sha256": "3963635741da114bb12ac518d479034f665551ee3e842f66b4860c3dd39ecd76",
       "tags": [
         "鼠标",
@@ -7993,7 +7993,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V2 X HyperSpeed__Razer__1532-009C__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V2 X HyperSpeed__Razer__1532-009C__0.1.1.hhub",
       "sha256": "944194529e93867c5d4720802747af871897d76d6132a4ec0dba6137025429de",
       "tags": [
         "鼠标",
@@ -8031,7 +8031,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V2__Razer__1532-0084__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V2__Razer__1532-0084__0.1.1.hhub",
       "sha256": "5e2b676b4fc575cbf93bf55e26e72dfea5d9b7d6c5a97019b56b832802d300a9",
       "tags": [
         "鼠标",
@@ -8069,7 +8069,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V3 HyperSpeed (Wired)__Razer__1532-00C4__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V3 HyperSpeed (Wired)__Razer__1532-00C4__0.1.1.hhub",
       "sha256": "b76e89769844d6be864a2b0350e7945341689ca78880c49b821693634a8a8589",
       "tags": [
         "鼠标",
@@ -8107,7 +8107,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V3 HyperSpeed__Razer__1532-00C5__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V3 HyperSpeed__Razer__1532-00C5__0.1.1.hhub",
       "sha256": "2f3c3772ce1e3c23aa79eaeecc4c010fe4793856f9dbed0f30b78ef7c660db32",
       "tags": [
         "鼠标",
@@ -8145,7 +8145,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V3 Pro (Wired)__Razer__1532-00B6__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V3 Pro (Wired)__Razer__1532-00B6__0.1.1.hhub",
       "sha256": "e8185918dc3b2070374facdf6b9b90e7395494f4987c7d562aa486f15483357f",
       "tags": [
         "鼠标",
@@ -8183,7 +8183,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V3 Pro (Wired)__Razer__1532-00C2__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V3 Pro (Wired)__Razer__1532-00C2__0.1.1.hhub",
       "sha256": "f28a60214a1fdd548e3ce0674e2750a6939c04fd743e5cf90cba869161e3f602",
       "tags": [
         "鼠标",
@@ -8221,7 +8221,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V3 Pro__Razer__1532-00B7__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V3 Pro__Razer__1532-00B7__0.1.1.hhub",
       "sha256": "4d2b39cd723e6d7e42d3ba5dfd8f2e04add0ffe4a55dffd6b604c007d3d6e36d",
       "tags": [
         "鼠标",
@@ -8259,7 +8259,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V3 Pro__Razer__1532-00C3__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V3 Pro__Razer__1532-00C3__0.1.1.hhub",
       "sha256": "b775e223a78971e2f58dde86e5533bfd36e738bde713a1755a33e1d01ff28839",
       "tags": [
         "鼠标",
@@ -8297,7 +8297,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V3__Razer__1532-00B2__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V3__Razer__1532-00B2__0.1.1.hhub",
       "sha256": "59e8a56c6ee33e5b6b0eba2e57cf45b3b07d642a8c5dc94ef1a2f96c2976c14f",
       "tags": [
         "鼠标",
@@ -8335,7 +8335,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V4 Pro (Wired)__Razer__1532-00BE__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V4 Pro (Wired)__Razer__1532-00BE__0.1.1.hhub",
       "sha256": "4cc1ae0c3df11fdb059e75abcb11e43b699391b56edce77d4aca7a8ae16afa42",
       "tags": [
         "鼠标",
@@ -8373,7 +8373,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V4 Pro Carbon Fiber Edition (Wired)__Razer__1532-00EF__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V4 Pro Carbon Fiber Edition (Wired)__Razer__1532-00EF__0.1.1.hhub",
       "sha256": "0aae8b6cb34da39b1c461d5529e270787cad790920aef50d783fb6decab506f9",
       "tags": [
         "鼠标",
@@ -8411,7 +8411,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V4 Pro Carbon Fiber Edition__Razer__1532-00F0__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V4 Pro Carbon Fiber Edition__Razer__1532-00F0__0.1.1.hhub",
       "sha256": "fdf270764b21c12a8f6b5b557af90bfa5cb7f600a07535c74dff466b53b2507e",
       "tags": [
         "鼠标",
@@ -8449,7 +8449,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer DeathAdder V4 Pro__Razer__1532-00BF__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer DeathAdder V4 Pro__Razer__1532-00BF__0.1.1.hhub",
       "sha256": "842fc158fe8c5019ff0bc097b355bfb5c3612055bea942a6703d4354d2b33f56",
       "tags": [
         "鼠标",
@@ -8487,7 +8487,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Diamondback Chroma__Razer__1532-004C__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Diamondback Chroma__Razer__1532-004C__0.1.1.hhub",
       "sha256": "c4d2b4080ae9a68f9b5410ea1482152de0b3aebeacc1c63bee8a36b586d3a31d",
       "tags": [
         "鼠标",
@@ -8525,7 +8525,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer HyperPolling Wireless Dongle__Razer__1532-00B3__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer HyperPolling Wireless Dongle__Razer__1532-00B3__0.1.1.hhub",
       "sha256": "b45338d67165f1302d40ec1c3d83e3291ae37dadf961fd036868359c57d81c9d",
       "tags": [
         "鼠标",
@@ -8563,7 +8563,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Imperator 2012__Razer__1532-002F__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Imperator 2012__Razer__1532-002F__0.1.1.hhub",
       "sha256": "860a7d21a90151bf3eb6d3fea1a0892d0928b324616fbcdbcedcc25f9a656409",
       "tags": [
         "鼠标",
@@ -8601,7 +8601,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Lancehead (Wired)__Razer__1532-0059__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Lancehead (Wired)__Razer__1532-0059__0.1.1.hhub",
       "sha256": "1a450418374f131816ad5c96dad6bbfe4861141446f62c3303a8930a005226c5",
       "tags": [
         "鼠标",
@@ -8639,7 +8639,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Lancehead Tournament Edition__Razer__1532-0060__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Lancehead Tournament Edition__Razer__1532-0060__0.1.1.hhub",
       "sha256": "a993531eebf740895389402c14b6de76a8c9239702aa958eb0fc55569c453965",
       "tags": [
         "鼠标",
@@ -8677,7 +8677,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Lancehead Wireless (Wired)__Razer__1532-0070__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Lancehead Wireless (Wired)__Razer__1532-0070__0.1.1.hhub",
       "sha256": "301b93a3cc6c0a5cf8fb58ebaa276c5da9f178f1b3c90e4e063045854678e9bb",
       "tags": [
         "鼠标",
@@ -8715,7 +8715,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Lancehead Wireless__Razer__1532-006F__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Lancehead Wireless__Razer__1532-006F__0.1.1.hhub",
       "sha256": "557159192425260177e8abc2e850edec2263398c36ba3d2134cbce8858a394a9",
       "tags": [
         "鼠标",
@@ -8753,7 +8753,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Lancehead__Razer__1532-005A__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Lancehead__Razer__1532-005A__0.1.1.hhub",
       "sha256": "cb807f2f5b9a7a4dcc18c4e054b42b0e3116d6496ab449b6d255d990c9b50d52",
       "tags": [
         "鼠标",
@@ -8791,7 +8791,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Mamba (Wired)__Razer__1532-0044__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Mamba (Wired)__Razer__1532-0044__0.1.1.hhub",
       "sha256": "2493f0038b33603c9c391c7c7e62044966697782a2d468669c022d90978a5473",
       "tags": [
         "鼠标",
@@ -8829,7 +8829,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Mamba 2012 (Wired)__Razer__1532-0024__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Mamba 2012 (Wired)__Razer__1532-0024__0.1.1.hhub",
       "sha256": "7ddb2b23fb44b162e0cc192a3aef5ae49b7355455ec2b57ec563a917e56ee2b8",
       "tags": [
         "鼠标",
@@ -8867,7 +8867,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Mamba 2012__Razer__1532-0025__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Mamba 2012__Razer__1532-0025__0.1.1.hhub",
       "sha256": "fb30f88ed70a459120674a11204fe8e0e09f9ba0d436a608b9b676831325bb3d",
       "tags": [
         "鼠标",
@@ -8905,7 +8905,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Mamba Elite__Razer__1532-006C__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Mamba Elite__Razer__1532-006C__0.1.1.hhub",
       "sha256": "b9cd2da815b91204d35a0fb7ac139bcf0d832670eaab217c792f04c240b4013d",
       "tags": [
         "鼠标",
@@ -8943,7 +8943,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Mamba Tournament Edition__Razer__1532-0046__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Mamba Tournament Edition__Razer__1532-0046__0.1.1.hhub",
       "sha256": "bc039e3cbcb13ebb9744e3dd7e28cbc4c8dada02685a8069a3e99670c87322bf",
       "tags": [
         "鼠标",
@@ -8981,7 +8981,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Mamba Wireless (Wired)__Razer__1532-0073__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Mamba Wireless (Wired)__Razer__1532-0073__0.1.1.hhub",
       "sha256": "9037aa8f0dc6306913abf665abaa353df1c3f682c574e6575a48df220ce1a2f4",
       "tags": [
         "鼠标",
@@ -9019,7 +9019,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Mamba Wireless__Razer__1532-0072__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Mamba Wireless__Razer__1532-0072__0.1.1.hhub",
       "sha256": "23b1f885a04db21985707dea5328f40c4913a78b9d85eee7cacee8862206901c",
       "tags": [
         "鼠标",
@@ -9057,7 +9057,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Mamba__Razer__1532-0045__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Mamba__Razer__1532-0045__0.1.1.hhub",
       "sha256": "06d03087c2ebd672e2389147a5f84ea052d8c95d07ad4383d70d2f5e9d748e93",
       "tags": [
         "鼠标",
@@ -9095,7 +9095,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Mouse Dock Pro__Razer__1532-00A4__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Mouse Dock Pro__Razer__1532-00A4__0.1.1.hhub",
       "sha256": "9364e42ae4a2e16e0e0257069971333a90ca31bbf2e33b05d29a7159e548f0c1",
       "tags": [
         "鼠标",
@@ -9133,7 +9133,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga 2012__Razer__1532-002E__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga 2012__Razer__1532-002E__0.1.1.hhub",
       "sha256": "f91120a1154a1775f23d9e28048119d0218dd0ef142861e8735e6d57306c24dc",
       "tags": [
         "鼠标",
@@ -9171,7 +9171,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga 2014__Razer__1532-0040__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga 2014__Razer__1532-0040__0.1.1.hhub",
       "sha256": "bf7b1c2242ec568ba3a07cd8aca1dc15a8551e6cdbc6237e36b513107365c8e3",
       "tags": [
         "鼠标",
@@ -9209,7 +9209,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Chroma__Razer__1532-0053__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Chroma__Razer__1532-0053__0.1.1.hhub",
       "sha256": "df865187f9140c5966bb733882b062c7350613fb24b19c1fb55c75a43d37b752",
       "tags": [
         "鼠标",
@@ -9247,7 +9247,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Epic Chroma (Wired)__Razer__1532-003E__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Epic Chroma (Wired)__Razer__1532-003E__0.1.1.hhub",
       "sha256": "4987322a6038aaf9c9cdac9a924845ea4fe1ad8e52941955019d0ab6c52c1526",
       "tags": [
         "鼠标",
@@ -9285,7 +9285,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Epic Chroma__Razer__1532-003F__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Epic Chroma__Razer__1532-003F__0.1.1.hhub",
       "sha256": "d20a7fba8cb2af0918231621d36d4aaf51b0359572f1877eaf1a5115f76a0837",
       "tags": [
         "鼠标",
@@ -9323,7 +9323,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Epic__Razer__1532-001F__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Epic__Razer__1532-001F__0.1.1.hhub",
       "sha256": "5387eb8659c0bc43d1aadf57e7d1497d7fb6644cf1c494b63685df9cc2ed3384",
       "tags": [
         "鼠标",
@@ -9361,7 +9361,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Hex (Red)__Razer__1532-0036__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Hex (Red)__Razer__1532-0036__0.1.1.hhub",
       "sha256": "75421aeed614f4e56147134843b8147094253d7b72a1cb4a53478a62f137a2c8",
       "tags": [
         "鼠标",
@@ -9399,7 +9399,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Hex V2__Razer__1532-0050__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Hex V2__Razer__1532-0050__0.1.1.hhub",
       "sha256": "51c2d869ca9428f13df8fc661543163e78b9b55d00ed6f7b08daaf012414ca40",
       "tags": [
         "鼠标",
@@ -9437,7 +9437,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Hex__Razer__1532-0041__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Hex__Razer__1532-0041__0.1.1.hhub",
       "sha256": "ab9138c0a8d98fac09019baa69c3c3f990a65a790781e228ab88cd82f1337b8b",
       "tags": [
         "鼠标",
@@ -9475,7 +9475,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Left-Handed Edition 2020__Razer__1532-008D__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Left-Handed Edition 2020__Razer__1532-008D__0.1.1.hhub",
       "sha256": "063792d43f8f5f1ef272e3aa6862d7d8bac2a623e4a9cc02c0848245c4737d3f",
       "tags": [
         "鼠标",
@@ -9513,7 +9513,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Pro (Wired)__Razer__1532-008F__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Pro (Wired)__Razer__1532-008F__0.1.1.hhub",
       "sha256": "031c12631b73cf96a57293a72b3c7b7655c6e27ecdfb099aa6f8fb3e9328f28c",
       "tags": [
         "鼠标",
@@ -9551,7 +9551,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Pro__Razer__1532-0090__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Pro__Razer__1532-0090__0.1.1.hhub",
       "sha256": "4a2a8d25d5e176bc4635a5fbe79a93699b77d2e41f2577a6d98ebfd63c7ff848",
       "tags": [
         "鼠标",
@@ -9589,7 +9589,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga Trinity__Razer__1532-0067__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga Trinity__Razer__1532-0067__0.1.1.hhub",
       "sha256": "b5b48a69d12d4590dde6f3bca02755a421ac1e92d8f8cfb6716f4ef9707a05a1",
       "tags": [
         "鼠标",
@@ -9627,7 +9627,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga V2 HyperSpeed__Razer__1532-00B4__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga V2 HyperSpeed__Razer__1532-00B4__0.1.1.hhub",
       "sha256": "56ae2b6b15e657844bd0a0fbe7915171faa62bf4db5a06eb18b49953ff950426",
       "tags": [
         "鼠标",
@@ -9665,7 +9665,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga V2 Pro (Wired)__Razer__1532-00A7__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga V2 Pro (Wired)__Razer__1532-00A7__0.1.1.hhub",
       "sha256": "c6ce69d40e60cbab0b3b49ce56f55cecdc2b698c219161c7e168b896cb3e3091",
       "tags": [
         "鼠标",
@@ -9703,7 +9703,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga V2 Pro__Razer__1532-00A8__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga V2 Pro__Razer__1532-00A8__0.1.1.hhub",
       "sha256": "78182bf83094af1c37822f4e3c1c019382e0e07fc58290c4801f233d33d73988",
       "tags": [
         "鼠标",
@@ -9741,7 +9741,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga X__Razer__1532-0096__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga X__Razer__1532-0096__0.1.1.hhub",
       "sha256": "17756b3b2742672309a8ee974b2946e3393c23d9413260af21cb423842e1573d",
       "tags": [
         "鼠标",
@@ -9779,7 +9779,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Naga__Razer__1532-0015__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Naga__Razer__1532-0015__0.1.1.hhub",
       "sha256": "b14570c6e39b8c70b87a3746c14ac30059941f58dcd2b01a1def189399b9d6b2",
       "tags": [
         "鼠标",
@@ -9817,7 +9817,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Orochi (Wired)__Razer__1532-0048__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Orochi (Wired)__Razer__1532-0048__0.1.1.hhub",
       "sha256": "5a3fee6fe1d22ac0d4205e7636e8541277d6c6c9aed235f4499d245ded5b53b8",
       "tags": [
         "鼠标",
@@ -9855,7 +9855,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Orochi 2013__Razer__1532-0039__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Orochi 2013__Razer__1532-0039__0.1.1.hhub",
       "sha256": "dd462b7d776cf0726caf6c69f4a25e455f60b286c5d4bc34a2029f58b280d169",
       "tags": [
         "鼠标",
@@ -9893,7 +9893,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Orochi V2__Razer__1532-0094__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Orochi V2__Razer__1532-0094__0.1.1.hhub",
       "sha256": "eb771d54f96af62b95e3970dd986889f52dcb023d730670bc1da2e76e18c1645",
       "tags": [
         "鼠标",
@@ -9931,7 +9931,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Ouroboros 2012__Razer__1532-0032__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Ouroboros 2012__Razer__1532-0032__0.1.1.hhub",
       "sha256": "691def0ce02e85dba753a5cc49984f5e6c701d8915ddebb972f693ae9716fbb5",
       "tags": [
         "鼠标",
@@ -9969,7 +9969,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Pro Click (Wired)__Razer__1532-0080__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Pro Click (Wired)__Razer__1532-0080__0.1.1.hhub",
       "sha256": "0210403341740bc1408a9b630fe72fcccd55ad9d4c32751d95b95bd69760e2c8",
       "tags": [
         "鼠标",
@@ -10007,7 +10007,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Pro Click Mini__Razer__1532-009A__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Pro Click Mini__Razer__1532-009A__0.1.1.hhub",
       "sha256": "5557275824428d8a59072f32c915c11c75a8e88d6e3bc589727c2c397d840a58",
       "tags": [
         "鼠标",
@@ -10045,7 +10045,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Pro Click V2 (Wired)__Razer__1532-00D0__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Pro Click V2 (Wired)__Razer__1532-00D0__0.1.1.hhub",
       "sha256": "948da1e140967f2aca7acb7b6dad4381f401a2efcbd71b07d93191e9bc48ff71",
       "tags": [
         "鼠标",
@@ -10083,7 +10083,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Pro Click V2 Vertical Edition (Wired)__Razer__1532-00C7__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Pro Click V2 Vertical Edition (Wired)__Razer__1532-00C7__0.1.1.hhub",
       "sha256": "c2bd808fc78545906ccf9d621e4491e70e22d79e721f72e8daac5d79590b81b0",
       "tags": [
         "鼠标",
@@ -10121,7 +10121,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Pro Click V2 Vertical Edition__Razer__1532-00C8__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Pro Click V2 Vertical Edition__Razer__1532-00C8__0.1.1.hhub",
       "sha256": "274632a4af865ebcf6ed505dbd2117353f983a50436e4b0961a15c50df481b21",
       "tags": [
         "鼠标",
@@ -10159,7 +10159,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Pro Click V2__Razer__1532-00D1__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Pro Click V2__Razer__1532-00D1__0.1.1.hhub",
       "sha256": "1093d032fc439cbe52e9f9d96658ae7e40818e12b17ab50da72cc0ab998c27a1",
       "tags": [
         "鼠标",
@@ -10197,7 +10197,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Pro Click__Razer__1532-0077__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Pro Click__Razer__1532-0077__0.1.1.hhub",
       "sha256": "c61d4d1ca8b69a1b9d9603f75b1cc8c15bab6a361b99536b0f4231a78104bdc6",
       "tags": [
         "鼠标",
@@ -10235,7 +10235,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Taipan__Razer__1532-0034__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Taipan__Razer__1532-0034__0.1.1.hhub",
       "sha256": "b2a717720ca234012138ddb4d026817d0a691bf033b74871835fe25b65260450",
       "tags": [
         "鼠标",
@@ -10273,7 +10273,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper 8KHz__Razer__1532-0091__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper 8KHz__Razer__1532-0091__0.1.1.hhub",
       "sha256": "8bbef9fcedf82d444c95dbe260cd995e4273f7e0720eb83e4e1f73e3fcb8c30b",
       "tags": [
         "鼠标",
@@ -10311,7 +10311,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper Mini Signature Edition (Wired)__Razer__1532-009E__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper Mini Signature Edition (Wired)__Razer__1532-009E__0.1.1.hhub",
       "sha256": "d057f22cde09008a3df6b7b19e8b669d3115e8c70920dff863a9c9cc990354d6",
       "tags": [
         "鼠标",
@@ -10349,7 +10349,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper Mini Signature Edition__Razer__1532-009F__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper Mini Signature Edition__Razer__1532-009F__0.1.1.hhub",
       "sha256": "44d24432454ca87048ac4daebbf5cc4da8a8b23455897d41d75c753dd64532e6",
       "tags": [
         "鼠标",
@@ -10387,7 +10387,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper Mini__RazerViperMini__1532-008A__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper Mini__RazerViperMini__1532-008A__0.1.1.hhub",
       "sha256": "594405c93b2d4489ddd903bea7d43fd035547e5a68cc4f36787fd897cddae76a",
       "tags": [
         "鼠标",
@@ -10425,7 +10425,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper Ultimate (Wired)__Razer__1532-007A__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper Ultimate (Wired)__Razer__1532-007A__0.1.1.hhub",
       "sha256": "4a53c95d0e384c47f6d3eda63db5a37f2cccc15e5507113e530240b706725e0e",
       "tags": [
         "鼠标",
@@ -10463,7 +10463,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper V2 Pro__Razer__1532-00A5__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper V2 Pro__Razer__1532-00A5__0.1.1.hhub",
       "sha256": "69859a472aa3a06ee2bf44d5841fdfbd18439bd48091c7040fd20dd7513ea0a7",
       "tags": [
         "鼠标",
@@ -10501,7 +10501,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper V2 Pro__Razer__1532-00A6__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper V2 Pro__Razer__1532-00A6__0.1.1.hhub",
       "sha256": "1d14e17ca8e42f5d4ee1dda569a3fa9fb54e0b79e76c36cc6f6d88c6bf5f60b4",
       "tags": [
         "鼠标",
@@ -10539,7 +10539,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper V3 HyperSpeed__Razer__1532-00B8__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper V3 HyperSpeed__Razer__1532-00B8__0.1.1.hhub",
       "sha256": "8f050a8ceac8b999221aac641f7066b4df3e7c1d3db61ac1d580172fbefc4eb2",
       "tags": [
         "鼠标",
@@ -10577,7 +10577,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper V3 Pro SE (Wired)__Razer__1532-00DE__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper V3 Pro SE (Wired)__Razer__1532-00DE__0.1.1.hhub",
       "sha256": "bc88acdf66ff80767510cce96817114ed8e9f2242b488776025c5987dc77e5d0",
       "tags": [
         "鼠标",
@@ -10615,7 +10615,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper V3 Pro SE__Razer__1532-00DF__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper V3 Pro SE__Razer__1532-00DF__0.1.1.hhub",
       "sha256": "6a82ed3f1a3d0758c7295d787608c463873ed1ef06473579db2b46db5ca34185",
       "tags": [
         "鼠标",
@@ -10653,7 +10653,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper V3 Pro__Razer__1532-00C0__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper V3 Pro__Razer__1532-00C0__0.1.1.hhub",
       "sha256": "cf6aabf062510d489fe0fbdf2acc66f29757622df830b2ef957cecf2257ee4fb",
       "tags": [
         "鼠标",
@@ -10691,7 +10691,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper V3 Pro__Razer__1532-00C1__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper V3 Pro__Razer__1532-00C1__0.1.1.hhub",
       "sha256": "2343c30b888594d7a49ca5788a2921dd427db1f47c6a9e5476c73f26bf7e1462",
       "tags": [
         "鼠标",
@@ -10729,7 +10729,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper V4 Pro__RazerViperV4Pro__1532-00E5__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper V4 Pro__RazerViperV4Pro__1532-00E5__0.1.1.hhub",
       "sha256": "753eb6bd8d23f4119c7334c97a54257732cb25c9b283aa29f0bc81410a895df4",
       "tags": [
         "鼠标",
@@ -10767,7 +10767,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper V4 Pro__RazerViperV4Pro__1532-00E6__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper V4 Pro__RazerViperV4Pro__1532-00E6__0.1.1.hhub",
       "sha256": "863ea13de0ead4a04fa4af3e0da7f500dac79eccf0c179e04db3c5ce9817bc4d",
       "tags": [
         "鼠标",
@@ -10805,7 +10805,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Razer/Razer Viper__RazerViper__1532-0078__0.1.1.hhub",
+      "packageUrl": "鼠标/Razer/Razer Viper__RazerViper__1532-0078__0.1.1.hhub",
       "sha256": "e49b402684724957992ab82610f80ac6074fd0a2c902f75406818853b52dcd84",
       "tags": [
         "鼠标",
@@ -10843,7 +10843,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Redragon/Redragon M612__Redragon__04D9-FC61__0.1.1.hhub",
+      "packageUrl": "鼠标/Redragon/Redragon M612__Redragon__04D9-FC61__0.1.1.hhub",
       "sha256": "06aaa91c59b81bb7bcef94d1d1c9c240d34fb29062c4d5d1c76f90bbdcca4dbc",
       "tags": [
         "鼠标",
@@ -10881,7 +10881,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Redragon/Redragon M690 PRO__RedragonM690Pro__258A-002E__0.1.1.hhub",
+      "packageUrl": "鼠标/Redragon/Redragon M690 PRO__RedragonM690Pro__258A-002E__0.1.1.hhub",
       "sha256": "af91af8085fdc1a75420a79f884e6ea1e8ccfcf717dfa6332d68c7c33ce7a4ba",
       "tags": [
         "鼠标",
@@ -10919,7 +10919,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Redragon/Redragon M690 PRO__RedragonM690Pro__258A-002F__0.1.1.hhub",
+      "packageUrl": "鼠标/Redragon/Redragon M690 PRO__RedragonM690Pro__258A-002F__0.1.1.hhub",
       "sha256": "2ca813fa638445173e680f47320b2f025944071cb5334918434db2c6f7ae294d",
       "tags": [
         "鼠标",
@@ -10957,7 +10957,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Redragon/Redragon M724__Redragon__04D9-FC7A__0.1.1.hhub",
+      "packageUrl": "鼠标/Redragon/Redragon M724__Redragon__04D9-FC7A__0.1.1.hhub",
       "sha256": "5b2b1ff1086288f34710abc912bd8e8a45aeae3f124bd239f0f15928c50d14e3",
       "tags": [
         "鼠标",
@@ -10995,7 +10995,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ryunix/Ryunix KYU Pro MX1 Receiver__KyuProMx1__04F3-026F__0.1.1.hhub",
+      "packageUrl": "鼠标/Ryunix/Ryunix KYU Pro MX1 Receiver__KyuProMx1__04F3-026F__0.1.1.hhub",
       "sha256": "c1b0749b940bf76fd70df70b527efd20f07da051ad75d0f69a5a6cf6ba0049dd",
       "tags": [
         "鼠标",
@@ -11033,7 +11033,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Ryunix/Ryunix KYU Pro MX1 Wired__KyuProMx1__04F3-026E__0.1.1.hhub",
+      "packageUrl": "鼠标/Ryunix/Ryunix KYU Pro MX1 Wired__KyuProMx1__04F3-026E__0.1.1.hhub",
       "sha256": "0629420282f51e1c260b74cf456786bc161dc69f807209f87bcda97cf7e18a73",
       "tags": [
         "鼠标",
@@ -11071,7 +11071,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 3__SteelSeriesAerox3__1038-1836__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 3__SteelSeriesAerox3__1038-1836__0.1.1.hhub",
       "sha256": "3c5664f862fa704b5e87aac5092a6f58a988ae03b9fb831ce8d60c62be4b6c0b",
       "tags": [
         "鼠标",
@@ -11109,7 +11109,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 5 Wireless (2.4 GHz mode)__SteelSeriesAerox5Wireless__1038-1852__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 5 Wireless (2.4 GHz mode)__SteelSeriesAerox5Wireless__1038-1852__0.1.1.hhub",
       "sha256": "4d8c755933857ecc72bd3851b3b66af576bfb2ae07cae6164e2951e97bdb3ea1",
       "tags": [
         "鼠标",
@@ -11147,7 +11147,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 5 Wireless (wired mode)__SteelSeriesAerox5Wireless__1038-1854__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 5 Wireless (wired mode)__SteelSeriesAerox5Wireless__1038-1854__0.1.1.hhub",
       "sha256": "a449135782c30957e4149dfbce70081c2557e80a2b8cde7d1d6c54a1803b0abe",
       "tags": [
         "鼠标",
@@ -11185,7 +11185,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 5 Wireless Destiny 2 Edition (2.4 GHz mode)__SteelSeriesAerox5Wireless__1038-185C__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 5 Wireless Destiny 2 Edition (2.4 GHz mode)__SteelSeriesAerox5Wireless__1038-185C__0.1.1.hhub",
       "sha256": "3a9ebc990e00b0289955bc41a7426d22632b39be265d4a7e0d32e1f675960495",
       "tags": [
         "鼠标",
@@ -11223,7 +11223,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 5 Wireless Destiny 2 Edition (wired mode)__SteelSeriesAerox5Wireless__1038-185E__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 5 Wireless Destiny 2 Edition (wired mode)__SteelSeriesAerox5Wireless__1038-185E__0.1.1.hhub",
       "sha256": "ff6562aa6a934d947443f285996ad14774c2d8bf04990d093ff47ea13282a67f",
       "tags": [
         "鼠标",
@@ -11261,7 +11261,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 5 Wireless Diablo IV Edition (2.4 GHz mode)__SteelSeriesAerox5Wireless__1038-1860__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 5 Wireless Diablo IV Edition (2.4 GHz mode)__SteelSeriesAerox5Wireless__1038-1860__0.1.1.hhub",
       "sha256": "a3c107cc1d9aaf13dd8caa1973abf3f4478ddd3daaad43ea53b4372f033a88d2",
       "tags": [
         "鼠标",
@@ -11299,7 +11299,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 5 Wireless Diablo IV Edition (wired mode)__SteelSeriesAerox5Wireless__1038-1862__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 5 Wireless Diablo IV Edition (wired mode)__SteelSeriesAerox5Wireless__1038-1862__0.1.1.hhub",
       "sha256": "7dbe34b5e10c8416685ef351229e958fa0827e51c25bf642850805edecb4a1ea",
       "tags": [
         "鼠标",
@@ -11337,7 +11337,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 5__SteelSeriesAerox5__1038-1850__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 5__SteelSeriesAerox5__1038-1850__0.1.1.hhub",
       "sha256": "fdcf348d3f828607fb58c74bacb0863c32b6dca28051b1b2b0f096583ec89397",
       "tags": [
         "鼠标",
@@ -11375,7 +11375,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 9 Wireless (2.4 GHz mode)__SteelSeriesAerox9Wireless__1038-1858__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 9 Wireless (2.4 GHz mode)__SteelSeriesAerox9Wireless__1038-1858__0.1.1.hhub",
       "sha256": "f9c627622b619c788843e3d8037e13a4e79fcba0f3367530f055bd9cc2d7862a",
       "tags": [
         "鼠标",
@@ -11413,7 +11413,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 9 Wireless (wired mode)__SteelSeriesAerox9Wireless__1038-185A__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 9 Wireless (wired mode)__SteelSeriesAerox9Wireless__1038-185A__0.1.1.hhub",
       "sha256": "6b6cbdff45b6e1d7453e3c9be372126ba1ddf52012f703d3568cd8e0b671cd8b",
       "tags": [
         "鼠标",
@@ -11451,7 +11451,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 9 Wireless WOW Edition (2.4 GHz mode)__SteelSeriesAerox9Wireless__1038-1874__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 9 Wireless WOW Edition (2.4 GHz mode)__SteelSeriesAerox9Wireless__1038-1874__0.1.1.hhub",
       "sha256": "008e97eaf6805a1b16799d4b264f920b66837623266bfd5ece207d53b32269af",
       "tags": [
         "鼠标",
@@ -11489,7 +11489,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Aerox 9 Wireless WOW Edition (wired mode)__SteelSeriesAerox9Wireless__1038-1876__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Aerox 9 Wireless WOW Edition (wired mode)__SteelSeriesAerox9Wireless__1038-1876__0.1.1.hhub",
       "sha256": "0e8f4793bbd185461137c626e6afd3d88ffd0821e822cde988b325a87c3838cc",
       "tags": [
         "鼠标",
@@ -11527,7 +11527,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Prime Mini Wireless (2.4 GHz mode)__SteelSeriesPrimeMiniWireless__1038-1848__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Prime Mini Wireless (2.4 GHz mode)__SteelSeriesPrimeMiniWireless__1038-1848__0.1.1.hhub",
       "sha256": "ec1c8ae0ef1659049c3312802f524d592cc15c3e79808b57a3d9e035dd34614c",
       "tags": [
         "鼠标",
@@ -11565,7 +11565,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Prime Mini Wireless (wired mode)__SteelSeriesPrimeMiniWireless__1038-184A__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Prime Mini Wireless (wired mode)__SteelSeriesPrimeMiniWireless__1038-184A__0.1.1.hhub",
       "sha256": "74e5d83aa6f006e55f4e7de52663e0fdc31c397130272c6f9db22a807077a166",
       "tags": [
         "鼠标",
@@ -11603,7 +11603,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Prime+__SteelSeriesPrimePlus__1038-182C__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Prime+__SteelSeriesPrimePlus__1038-182C__0.1.1.hhub",
       "sha256": "73390f363f2b8e3065b714fe5a8e3e00eb63e3c30583770b63dbb4b79c6da922",
       "tags": [
         "鼠标",
@@ -11641,7 +11641,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Rival 3 Wireless__SteelSeriesRival3Wireless__1038-1830__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Rival 3 Wireless__SteelSeriesRival3Wireless__1038-1830__0.1.1.hhub",
       "sha256": "fe95eae66634a81edd0967985f9ea736050ae2ef12e7cca898c14638df37e414",
       "tags": [
         "鼠标",
@@ -11679,7 +11679,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Rival 310 CS-GO Howl Edition__SteelSeriesRival310__1038-171E__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Rival 310 CS-GO Howl Edition__SteelSeriesRival310__1038-171E__0.1.1.hhub",
       "sha256": "38b3152d74b77f964b7d13d31db0b228417a426423757846495cba7959bffc84",
       "tags": [
         "鼠标",
@@ -11717,7 +11717,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Rival 310 PUBG Edition__SteelSeriesRival310__1038-1736__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Rival 310 PUBG Edition__SteelSeriesRival310__1038-1736__0.1.1.hhub",
       "sha256": "89d678f080cb899ee41f7c0094dc5481ceddfeb288c623bc039bc6543acac3b7",
       "tags": [
         "鼠标",
@@ -11755,7 +11755,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Rival 310__SteelSeriesRival310__1038-1720__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Rival 310__SteelSeriesRival310__1038-1720__0.1.1.hhub",
       "sha256": "83688ec16a63fffc7a5ee47b29bff6fcc92a67291b26d7741012212cfdc26ef0",
       "tags": [
         "鼠标",
@@ -11793,7 +11793,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Rival 3__SteelSeriesRival3__1038-1824__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Rival 3__SteelSeriesRival3__1038-1824__0.1.1.hhub",
       "sha256": "82831a5129c9114b239c53f088eb4bc506490573afa72bccc7eea77c7d7bd6e0",
       "tags": [
         "鼠标",
@@ -11831,7 +11831,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Rival 3__SteelSeriesRival3__1038-184C__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Rival 3__SteelSeriesRival3__1038-184C__0.1.1.hhub",
       "sha256": "d99448390ea5275a1fc0491c5e5662b0da2d3a1c2976a02d901296d0b45b88f8",
       "tags": [
         "鼠标",
@@ -11869,7 +11869,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Rival 650 Wireless (2.4 GHz wireless mode)__SteelSeriesRival650__1038-1726__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Rival 650 Wireless (2.4 GHz wireless mode)__SteelSeriesRival650__1038-1726__0.1.1.hhub",
       "sha256": "13c66e4a36588df4861543911377b6df6780df7b2b6fa8dfd70d0af928c8424b",
       "tags": [
         "鼠标",
@@ -11907,7 +11907,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Rival 650 Wireless (wired mode)__SteelSeriesRival650__1038-172B__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Rival 650 Wireless (wired mode)__SteelSeriesRival650__1038-172B__0.1.1.hhub",
       "sha256": "1b9b6e408327ae5dd5b9a9b597467835f09215cef2e090b76e88326762d0f7ed",
       "tags": [
         "鼠标",
@@ -11945,7 +11945,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Sensei TEN CS-GO Neon Rider Edition__SteelSeriesSenseiTen__1038-1834__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Sensei TEN CS-GO Neon Rider Edition__SteelSeriesSenseiTen__1038-1834__0.1.1.hhub",
       "sha256": "c8dd98704215547e5fa6f40b579282afccfd85decb725ddbb2ef2ce90075a5c7",
       "tags": [
         "鼠标",
@@ -11983,7 +11983,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/SteelSeries/SteelSeries Sensei TEN__SteelSeriesSenseiTen__1038-1832__0.1.1.hhub",
+      "packageUrl": "鼠标/SteelSeries/SteelSeries Sensei TEN__SteelSeriesSenseiTen__1038-1832__0.1.1.hhub",
       "sha256": "6d3559d1c785cde71335e4b7fb7456735fbd6f3c9041ddb666499be26be6c045",
       "tags": [
         "鼠标",
@@ -12021,7 +12021,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE AX Wireless__Vaxee__3057-1005__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE AX Wireless__Vaxee__3057-1005__0.1.1.hhub",
       "sha256": "d26785bb7900a1f78faa171e11633d813837e721ad773b74d6a012cde0b6ba27",
       "tags": [
         "鼠标",
@@ -12059,7 +12059,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE E1 Wireless__Vaxee__3057-1010__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE E1 Wireless__Vaxee__3057-1010__0.1.1.hhub",
       "sha256": "5f0cdb3003bbd0f52a266688706d4cdc3fda586388d33b2b8d22fddf46da88c4",
       "tags": [
         "鼠标",
@@ -12097,7 +12097,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE NP-01 Ergo Wireless__Vaxee__3057-1015__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE NP-01 Ergo Wireless__Vaxee__3057-1015__0.1.1.hhub",
       "sha256": "59128eb007c12806ed5ffaf9dd62adf226bbe30dfbebab6318f0b305d42c2933",
       "tags": [
         "鼠标",
@@ -12135,7 +12135,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE NP-01 Wireless__Vaxee__3057-1006__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE NP-01 Wireless__Vaxee__3057-1006__0.1.1.hhub",
       "sha256": "52a376c41840cb6cf62fcb1376743849dedba4b44e95738eceb0de84c5b6be05",
       "tags": [
         "鼠标",
@@ -12173,7 +12173,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE NP-01S Ergo Wireless__Vaxee__3057-1013__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE NP-01S Ergo Wireless__Vaxee__3057-1013__0.1.1.hhub",
       "sha256": "13c5e2dedc1ccce2b193a28d2f706fe4362b8f3465b81f1eb336612db8606c53",
       "tags": [
         "鼠标",
@@ -12211,7 +12211,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE NP-01S V2 Wireless__Vaxee__3057-1011__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE NP-01S V2 Wireless__Vaxee__3057-1011__0.1.1.hhub",
       "sha256": "9a34e3981d40c6f6b6aaebe58e007a91598b820d9e78cd4f0a6b56027c1daeda",
       "tags": [
         "鼠标",
@@ -12249,7 +12249,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE NP-01S V3 Wireless__Vaxee__3057-1014__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE NP-01S V3 Wireless__Vaxee__3057-1014__0.1.1.hhub",
       "sha256": "71517449bbcfc1578467950349295bb2dc955663872ce7d6d65b95e2edc62233",
       "tags": [
         "鼠标",
@@ -12287,7 +12287,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE NP-01S Wireless__Vaxee__3057-1004__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE NP-01S Wireless__Vaxee__3057-1004__0.1.1.hhub",
       "sha256": "daff579d9c359a4975dd80971b56be63fdeed7a519331c8a3e88e2e3dcfd9f4e",
       "tags": [
         "鼠标",
@@ -12325,7 +12325,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE x Ninjutso Sora__Vaxee__3057-1009__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE x Ninjutso Sora__Vaxee__3057-1009__0.1.1.hhub",
       "sha256": "aa4d58beec5be476bd4dbdec3d735c2cc2995dce3471fbc5aa46f0681f0589fe",
       "tags": [
         "鼠标",
@@ -12363,7 +12363,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE XE V2 Wireless__Vaxee__3057-1012__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE XE V2 Wireless__Vaxee__3057-1012__0.1.1.hhub",
       "sha256": "f98b386f4b8ae91364387e028ee5154e0c50b0e6a59248bed1bd6d81f761b754",
       "tags": [
         "鼠标",
@@ -12401,7 +12401,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE XE Wireless__Vaxee__3057-1003__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE XE Wireless__Vaxee__3057-1003__0.1.1.hhub",
       "sha256": "692ac05abb1cb3d2d20ece15aa24c6cef190ffd38b08af337995db05cdbf83cc",
       "tags": [
         "鼠标",
@@ -12439,7 +12439,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE XE-S Wireless__Vaxee__3057-1007__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE XE-S Wireless__Vaxee__3057-1007__0.1.1.hhub",
       "sha256": "5413fd172501eae8a9f825951fae38cb351e73668520ef2449125dd37e48ebce",
       "tags": [
         "鼠标",
@@ -12477,7 +12477,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/VAXEE/VAXEE XE-S-L Wireless__Vaxee__3057-1008__0.1.1.hhub",
+      "packageUrl": "鼠标/VAXEE/VAXEE XE-S-L Wireless__Vaxee__3057-1008__0.1.1.hhub",
       "sha256": "3016d0b23bcc58a80c8eae684f1441de0384f183bdd3f325b4475d481d49f85f",
       "tags": [
         "鼠标",
@@ -12515,7 +12515,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Zaunkoenig/Zaunkoenig M2K__Zaunkoenig__0483-A3CF__0.1.1.hhub",
+      "packageUrl": "鼠标/Zaunkoenig/Zaunkoenig M2K__Zaunkoenig__0483-A3CF__0.1.1.hhub",
       "sha256": "47d7b9b28457a4dd72d163236186390d04c728a2b8591372811b9e461771a56e",
       "tags": [
         "鼠标",
@@ -12553,7 +12553,7 @@
         "status": "未实机验证",
         "upstreamRecognitionOnly": true
       },
-      "packageUrl": "外设插件/鼠标/Zaunkoenig/Zaunkoenig M3K__Zaunkoenig__0483-A462__0.1.1.hhub",
+      "packageUrl": "鼠标/Zaunkoenig/Zaunkoenig M3K__Zaunkoenig__0483-A462__0.1.1.hhub",
       "sha256": "15c3c1b09dda5d388b8fce657d2ebb3da73448e67582f38bc4ad33adf1fa6042",
       "tags": [
         "鼠标",
@@ -12565,32 +12565,6 @@
       "identityCode": "HHUB1-c48973d2d2a6f2d2269d94d3075f6c2e9e222d2f7900c11e61dca76de4f13104",
       "brand": "Zaunkoenig",
       "protocol": "Zaunkoenig"
-    },
-    {
-      "packageUrl": "应用插件/测试型/Hhub-Developer-Tools-0.5.2.hhub",
-      "kind": "developer-tools",
-      "description": "鼠标、键盘、音频及手柄插件开发工作台，独立安装。",
-      "sha256": "a1ccaaf73511186cbfe78803f898c02423ffab628af141d25212165e95b04cb0",
-      "tags": [
-        "开发者",
-        "插件开发",
-        "外设"
-      ],
-      "group": "application",
-      "category": "testing",
-      "id": "hhub.developer-tools",
-      "name": "H hub 开发者工具",
-      "author": "H hub",
-      "version": "0.5.2",
-      "compatibility": {
-        "version": 1,
-        "scope": "tool",
-        "deviceName": "",
-        "hardwareId": "",
-        "firmwareVersions": [],
-        "mobileUi": false
-      },
-      "identityCode": "HHUB1-6899352a7ca5ea62a476f351a8fbc1b740d00814f8f8e2a5bf5d860223f07562"
     }
   ],
   "verificationRecords": [],
